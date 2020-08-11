@@ -1,0 +1,12 @@
+name: 1_baseflow_vs_stormflow
+title: 1_baseflow_vs_stormflow
+username:
+account: cuahsi
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 2658012
+bundleId: 3499285
+url: https://cuahsi.shinyapps.io/1_baseflow_vs_stormflow/
+when: 1597100124.43386
+asMultiple: FALSE
+asStatic: FALSE
