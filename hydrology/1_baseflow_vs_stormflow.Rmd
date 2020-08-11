@@ -1,0 +1,354 @@
+---
+title: "Baseflow vs Stormflow Homework"
+author: "Matthew Ross"
+date: "8/4/2020"
+output: learnr::tutorial
+runtime: shiny_prerendered
+---
+
+# Goals for this homework
+
+1) Deepen your understanding of baseflow vs. stormflow in rivers.
+
+2) Compare baseflow/stormflow metrics for two adjacent rivers. 
+
+
+# Setup
+
+To conduct these analyses we will need to:
+
+1) Load a bunch of R libraries to aid with the analysis
+
+2) Download data for two USGS gauges with contrasting flow regimes
+
+3) Compare baseflow and stormflow at these sites. 
+
+
+
+## Downloading the data
+
+
+
+### Installing and using packages
+
+In order to download river flow and height data we will first need to load a 
+package called `dataRetrieval` this is a package run by the United States 
+Geological Survey (USGS) and it provides access to data from over 8000 
+river monitoring
+stations in the United States and millions of water quantity and quality 
+records. You can learn more about the data from the USGS [here](https://waterdata.usgs.gov/nwis){target="_blank"}. To use packages we first have 
+to install them using the command `install.packages` and then load them
+using the command `library`. 
+
+```{r setup, warning = F, message = F, comment = F}
+
+## Install the package if it's not already installed by uncommenting the line 
+#below
+
+#install.packages('dataRetrieval')
+
+
+#Load this package and a few others
+library(dataRetrieval) # Gets usgs data
+library(tidyverse) #For tidying data
+library(magrittr) #for pipes
+library(dygraphs) # For mapping
+library(learnr) #Makes all this interactive
+library(ggthemes) #prettier plots
+library(xts) #Time series plots
+library(dygraphs) # interactive plots
+library(EcoHydRology) #A bunch of hydrologic tools including baseflow analysis
+library(sf) #Spatial package
+library(mapview) # maps!
+
+## Setting up output controls
+knitr::opts_chunk$set(message = F, warning = F, comment = F)
+```
+
+
+### Using packages
+
+Once we have loaded the package we can use
+the special functions that it brings to the table. In this case `dataRetrival` 
+provides a function called `readNWISdv` which can download daily data 
+(or daily values, hence readNWIS*dv*) for specific
+monitoring locations. But how do we use this function? 
+Try `?readNWISdv` to get more details.
+
+So the `readNWISdv` command requires a few key arguments. First
+`siteNumbers`, these are simply the site identifiers that the USGS uses 
+to track different monitoring stations and in our case that number for our two 
+rivers in Oregon are: West Fork and East Fork Ashland Creeks and Elk Creek with
+USGS Site Numbers of: `14353500` and `14308500`, which you can find [here](https://nwis.waterdata.usgs.gov/usa/nwis/uv/?cb_00060=on&cb_00065=on&format=gif_default&site_no=14353000&period=&begin_date=2018-08-06&end_date=2020-08-10){target="_blank"}.
+The second argument is the `parameterCd` which
+is a cryptic code that indicates what kind of data you want to download. In 
+this case we want to download river flow data. River 
+flow tells us how much water is moving past a given point and is correlated
+with the height of the river water. This code is `00060` for discharge which means
+river flow. 
+Lastly we need to tell the `readNWISdv` command the time period for which we want
+data which is `startDate` which we will set to 2010,
+and `endDate` which we will set to the current day using the command 
+`Sys.Date()`. These arguments should be in the 
+YYYY-MM-DD format. With all this knowledge of how the command works, we can
+finally download some data, directly into R!
+
+```{r}
+
+o_q <- readNWISdv(siteNumbers = c('14353500','14353000','14308500'),
+                     parameterCd = c('00060'),
+                     startDate = '2015-10-01',
+                     endDate = Sys.Date())
+```
+
+## Explore the data
+
+### Look at data structure
+
+
+Now that we have our dataframe called `o_q`, we can explore the properties
+of this data frame using commands you should already know. First let's 
+see what the structure of the data is using the `head` command, which 
+will print the first 6 rows of data. 
+
+```{r}
+head(o_q)
+```
+
+It looks like we have a dataframe that is 5 columns wide with columns `agency_cd` which is just the USGS, `site_no` which is just the site ids we already told it. A `Date`
+column which tells us... the date! There are two more columns that are kind of weird which
+are labeled `X_00060_00003` which is the column that actually has values of 
+river flow in Cubic Feet Per Second (cfs), or the amount of water that is flowing
+by a location per second in Cubic Feet volume units (1 cubic foot ~ 7.5 gallons).
+Finally `X_00060_00003_cd` tells us something about the quality of the data. For now
+we will ignore this final column, but if you were doing an analysis of this data
+for a project, you would want to investigate what codes are acceptable for 
+high quality analyses. To make working with this data a little easier let's
+rename and remove some of our columns in a new, simpler data.frame. 
+
+```{r}
+#Remove the first two columns and fifth columns
+clean_q <- o_q[,-c(1,5)]
+
+
+#Rename the remaining columns
+names(clean_q) <- c('site_no','Date','q_cfs')
+
+```
+
+### Explore the data.
+
+Now that we have cleaned up our data.frame a little, let's explore the data.
+First we can use a summary command to just quickly look at the variables we have.
+
+```{r}
+summary(clean_q)
+```
+
+It looks like we have data from 2015 to `r Sys.Date()` and a large range in 
+flow conditions. If you're a hydrologist,
+hopefully these flow numbers look right, but another way to check to make sure
+is to simply plot the data as we do below. 
+
+```{r}
+ggplot(clean_q, aes(x=Date, y = q_cfs, color = site_no)) + 
+  geom_line() + 
+  theme_few() + 
+  scale_color_few()
+
+```
+
+
+
+
+
+#### Question 1)
+
+Make a similar plot to the one above, but change the y-axis to a log10 axis.
+
+Hint: `scale_y_log10()` is a command you might want to investigate with `?scale_y_log10()` 
+
+
+```{r log-plot,exercise=TRUE, exercise.lines=10}
+
+#Start here
+
+
+
+```
+
+What does the log plot show that the unlogged data can't? 
+
+### Where are these rivers and what size are they? 
+
+Before understanding why there might be large variations in how water moves
+through these different creeks, we might want to know where they are. We can
+use `dataRetrieval` data again here, which has a function `readNWISsite` that
+reads in metadata about each site including location information and drainage
+area information. 
+
+```{r}
+site_info <- readNWISsite(c('14353500','14353000','14308500')) %>%
+  #Convert to spatial object 4326 is the spatial projection
+  st_as_sf(.,coords = c('dec_long_va','dec_lat_va'),crs = 4326)
+
+site_info %>%
+  select(site_no,station_nm,drain_area_va) %>%
+  knitr::kable(.)
+```
+
+
+#### Map of watersheds
+
+
+```{r}
+mapview(site_info,
+        zcol = 'site_no')
+```
+
+#### Question 2)
+
+What might be some factors controlling discharge dynamics 
+that varies between these sites based on the map?
+
+Look at the terrain and satellite imagery to make some informed guesses. 
+
+
+
+## Analyze the data
+
+Now we have three time series to compare. But first we need to do some
+work to convert the discharge values, which are in daily mean cfs
+into area-adjusted discharge which will be in mm/day. These conversions
+make it easier to compare discharge dynamics across watersheds even though
+they are different sizes. 
+
+```{r}
+q_mm <- clean_q %>%
+  #Join the data together to get the drainage are (in sqmi)
+  inner_join(site_info %>%
+               select(site_no,station_nm,drain_area_va)) %>%
+  #Convert drainage area into m2
+  mutate(area_m2 = 2.59E6*drain_area_va,
+         #Convert cfs into cms
+         q_cms = q_cfs*0.0283168,
+         #Divide cms by area
+         q_ms = q_cms/area_m2,
+         #Multiply q_ms by 60 seconds per minute * 60 minutes per hour * 24 hours)
+         q_md = q_ms*24*60*60,
+         #Multiply meters per day by 1000 to get mm/day!
+         q_mm_day = q_md*1000) %>%
+  #remove all those extra columns we made 
+  select(-q_ms,-q_md)
+
+```
+
+
+#### Question 3
+
+Using the plotting code above as a template. Plot the area adjusted discharge below.
+
+
+```{r area-q, exercise=TRUE, exercise.lines=10}
+
+
+
+```
+
+By just visually looking at the plots which sites are more baseflow dominated?
+
+Why might this be? What about if you plot with log10  y axis? without?
+
+### Events versus seasonality
+
+Using the above plot to compare sites allows us to look at long term
+dynamics between the sites, but we can't see specific events. To do that
+we can use a different plotting package that allows us to zoom in pretty
+easily. This package is called `dygraphs` and requires a small amount of adjusting
+to plot the data correctly. 
+
+
+```{r}
+
+#Reshape the data so that it is in a wide format
+q_wide <- q_mm %>%
+  select(site_no,q_mm_day,Date) %>%
+  pivot_wider(names_from = site_no,
+              values_from = q_mm_day)
+
+#convert to xts object and plot
+xts(q_wide %>%
+      select(-Date),
+    order.by = q_wide$Date) %>%
+  dygraph(.) %>%
+  dyAxis('y', label = 'Q mm/day')
+  
+
+```
+
+### Question 4)
+
+When is discharge most different between sites? Do the sites vary mostly between
+seasons or during specific rain events? 
+
+### Baseflow separation
+
+Here we will use the `EcoHydRology` package, which comes with a baseflow 
+separation algorithm based on [Lyne and Hollick, 1979](https://d1wqtxts1xzle7.cloudfront.net/39814986/Stochastic_Time-Variable_Rainfall-Runoff20151108-5238-xrczh.pdf?1447046845=&response-content-disposition=inline%3B+filename%3DStochastic_Time_Variable_Rainfall_Runoff.pdf&Expires=1597091520&Signature=gSFzI1vR9hLgSkkIVRjLZAUaCydIWas2P67dPyWbcC8wkfpescqARsJTCbDuQHrhezn94VnVAuY9uc6-exSf7NJ3x~yc6awMUw221iFmseOc7f2PhMFnCz0v34Yod8prIaheVSiDJYmt8nYaSMDR~DwygzREUsMX-xKDQpdwI499dgnDzXbYupUQtS7L4TEJFQ5vxVwXNf0WAwqUWA5sA69BB7NlWYgwA8~cKZWAb3ukoZlSq6Wjuqwlg3eTlIdq8-Evgu6~C2OQjI5yvHEzjj51~Iyfyjy9c~3Zbe3EnDzMwE~NWjhAWjorNgjolKH04i-ledZ1sBAOu54VDnXODQ__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA){target="_blank"} and
+[Nathan and McMahon, 1990](https://doi.org/10.1029/WR026i007p01465){target="_blank"}. 
+
+
+The function is simply called `BaseflowSeparation` and we will use it here. 
+The algorithm relies on a smoothing filter that passes over the data between 
+1-3 times and a smoothing parameter between 0.9-0.95. 
+
+```{r}
+
+q_mm_base <- q_mm %>%
+  #group by site
+  group_by(site_no) %>%
+  #apply the baseflow separation algorithm and return only baseflow
+  mutate(bf_mm_day = BaseflowSeparation(q_mm_day,
+                                        filter_parameter = 0.925,
+                                        passes = 2)[,1])
+
+```
+
+### Question 5
+
+Use the same plotting code above to plot the baseflow (the ggplot code will do fine).
+
+
+```{r baseflow-plot, exercise=TRUE, exercise.lines=10}
+
+```
+
+
+Visually which site has the highest baseflow? 
+
+### Question 6
+
+Using the `mutate` command as seen in the above code, add a column of the %
+of Q that is baseflow (100*base/total). Then use `group_by` and `summarize` commands to 
+quantiatively show which site has the highest discharge as baseflow. 
+
+Why might this site have such high baseflow? 
+
+
+```{r baseflow-p, exercise=TRUE, exercise.lines=15}
+
+
+```
+
+### Question 7
+
+Recalculate the baseflow and alter the number of passes or the filter parameter.
+Then plot that here and compare the plots, how does increasing the number of 
+passes change the output? Increasing filter_parameter size? 
+
+
+
+```{r filter-p, exercise=TRUE, exercise.lines=10}
+
+```
+
