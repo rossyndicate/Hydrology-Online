@@ -1,0 +1,208 @@
+---
+title: "Linking public datasets to examine changing water quality"
+author: "Matthew Ross"
+date: "3/15/2017"
+output: 
+  html_document:
+    toc: true
+    toc_depth: 3
+---
+
+
+In this lesson, we will use publically available data to look at changes in water quality
+and make some informed hypotheses about what might be driving differences between two high-mountain 
+watersheds. 
+
+Here I'm showing how I read in, processed, and displayed the data. This is not a key part of the lesson, but you may find it useful to understand how we go from raw data to interactive data visualization. There is also some data in here that could be used for Copper Mountain (if you know how to find it!)
+
+#Data Prep
+```{r,echo=F,include=F}
+#Read in key libraries 
+library(rgdal) #Geospatial library for open source spatial analyses
+library(rgeos) #Database of projeciton transformations
+library(raster) #Library for importing and analyzing rasters
+library(tidyverse) #Metalibrary that pulls in key data manipulation libraries
+library(reshape2) #Data manipulation library
+library(leaflet) #Data visualization of spatial data
+library(lubridate) #Easy way to assign time stamps
+library(dataRetrieval) #Package that direclty taps into the USGS water database
+library(xts) #Time series analysis package
+```
+
+##Read in raw data 
+
+Data comes from several sources
+
+* Q data comes from USGS for stations: 
+    + 09046600, Blue River above Dillon Reservoir
+    + 09047500, Snake River near Montezuma
+* Water Quality is downloaded from STORET  [database](https://ofmpub.epa.gov/apex/STORETSummary/f?p=WATERSHEDUI:1:::::P1_ORG_CHAR,P1_HUC:1,14010002) from several sources:
+    + RiverWatch Network
+    + Colorado Department of Publich Health and Environment
+* Spatial data comes from [NHD Plus](http://www.horizon-systems.com/nhdplus/)
+* Mine outlet data comes from the USGS
+
+
+```{r,eval=F}
+#Read in watershed boundary dataset and subset to blue river watershed station data
+catch <- readOGR('data/NHDPlusCO-1/NHDPlus14/WBDSnapshot/WBD','WBD_Subwatershed') %>%
+  .[.$HUC_8 == 14010002,]
+
+#Reading KML is tricky, dsn is the kml file itself, layer is the name of the layer inside the kml
+mines <- readOGR(dsn='data/mines/water_mines.kml',layer='Features') %>% 
+  spTransform(.,CRS=projection(catch)) 
+
+#Subset data to watershed outlines
+min.mine <- mines[catch,]
+
+
+#Read in and subset STORET data  from the 3 different sources
+riverwatch <- read.delim('data/riverwatch/Data_rvm_20170315_122429_RegResults.txt',sep='\t',stringsAsFactors = F)  
+
+cdphe.new <- read.delim('data/cdphe.new/Data_vrm_20170315_122407_RegResults.txt',sep='\t',stringsAsFactors = F) 
+#  filter(Station.ID %in% c('12336','12337'))
+
+cdphe.old <- read.delim('data/cdphe.old/chem.txt',sep='\t',stringsAsFactors = F) 
+#  filter(Station.ID %in% c('12336','12337'))
+
+#Bind all 3 of those watershed data sources
+dat.full <- rbind(cdphe.new,cdphe.old,riverwatch)
+
+#Identify Snake River and Blue River monitoring stations
+keepers <- c('000115','000140','51')
+stat.names <- c('Blue River', 'Snake River','Snake River')
+
+#Cast and filter data by number of observations to > 100
+dat.cast <- dat.full %>%
+  group_by(Station.ID, Station.Longitude,Station.Latitude) %>%
+  summarise(unq = length((unique(Activity.Start)))) %>%
+  filter(unq>100) %>% 
+  arrange(desc(unq)) %>%
+  filter(Station.ID %in% keepers)
+
+
+#Convert cast data into a spatial data frame
+sp.dat <- dat.cast %>% as.data.frame(.)
+station.sp <-  SpatialPointsDataFrame(coords = sp.dat[,c('Station.Longitude','Station.Latitude')], data = sp.dat, proj4string = CRS("+proj=longlat +datum=WGS84 +ellps=WGS84 +towgs84=0,0,0")) %>%
+  spTransform(.,CRS=projection(catch))
+
+
+#Subset spatial data to only the huc10 watersheds of interest
+csub <- catch[catch$HU_10_NAME %in% c('Snake River','Upper Blue River'),]
+
+
+
+#Subset full chemistry dataset to only Upper Blue River and Snake River
+chem.dat <- dat.full %>% 
+  filter(Station.ID%in%keepers) %>%
+  mutate(Site=ifelse(Station.ID==keepers[1],'Upper Blue River','Snake River'))
+
+#Read in Q data. 
+q.dat <- readNWISdata(service='dv',sites=c('09046600','09047500'),
+                        parameterCd='00060',
+                        startDate='1970-05-01',endDate='2016-10-10')
+
+#Add in sensible site names
+q.dat$Site = ifelse(q.dat$site_no=='09046600','Upper Blue River','Snake River')
+
+
+
+
+#Save full unmerged datasets
+#save(q.dat,chem.dat,csub,file='data/UnmergedDat.RData')
+```
+
+
+
+##Clean data
+
+Manipulate and reshape data to extract yearly means of concentration data for key constituents. 
+```{r, eval=F}
+
+load('data/UnmergedDat.RData')
+
+
+#List of analytes of interest
+key.params <- c('Arsenic','Aluminum','Chloride','Cadmium','Copper','Calcium','Inorganic nitrogen (nitrate and nitrite) as N','Phosphate-phosphorus as P',
+                'Iron','Lead','Manganese','Magnesium','pH','Selenium','Sodium','Zinc','Specific conductance','Sulfur, sulfate (SO4) as SO4')
+
+
+#Subset data by a few key characteristics and convert all data to mg/l 
+#Note that pH has no units and SC is in uS/cm
+sub.full <- chem.dat %>%
+  filter(Characteristic.Name %in% key.params) %>%
+  mutate(Units=ifelse(grepl('mg/l',Units),'mg/l',Units)) %>%
+  mutate(Units=ifelse(grepl('ug/l',Units),'ug/l',Units)) %>%
+  mutate(Result.Value.as.Number=ifelse(Units=='ug/l',Result.Value.as.Number/1000,Result.Value.as.Number)) %>%
+  mutate(Units=gsub('ug/l','mg/l',Units)) %>%
+  mutate(Units=ifelse(grepl('None',Units),'None',Units)) %>% 
+  mutate(Analyte = Characteristic.Name) %>%
+  mutate(date=ymd_hms(Activity.Start)) %>%
+  filter(date> ymd_hms('1970-01-01 00:00:00')) %>%
+  mutate(dateTime=as.Date(date))
+
+
+#Reshape data to make it easier for analysis
+chem.cast <- dcast(sub.full,dateTime+Site ~ Analyte, value.var='Result.Value.as.Number',mean)
+#Melt data back into long format
+chem.melt <- melt(chem.cast,id.vars=c('dateTime','Site'),measure.vars=key.params) %>% filter(!is.na(value))
+
+#Join chem data to full q datasets
+#First have to convert posix to date object
+q.dat$dateTime <- as.Date(q.dat$dateTime)
+q.chem <- left_join(q.dat,chem.melt, by=c('Site','dateTime'))
+
+
+#Save this q.chem dataset with spatial data for shiny app
+csub$color=c('blue')
+csub$color[csub$HU_10_NAME == 'Snake River'] <- 'red'
+
+#Name discharge column by untis (cubic feet per second)
+names(q.chem)[4] <- 'cfs'
+#Convert to lps and m3s
+q.chem$Lps <- q.chem$cfs*28.3168
+q.chem$m3s <- q.chem$Lps/1000
+q.chem$variable <- as.character(q.chem$variable)
+#Cast by site
+q.cast <- dcast(q.chem,dateTime~Site,value.var='m3s',mean)
+#Convert to time series object
+q.xts <- xts(q.cast[,-1],order.by=q.cast$dateTime)
+
+
+#save(q.chem,min.mine,q.xts,q.cast,csub,station.sp,file='data/ShinyFullDataset.RData')
+
+```
+
+#Data Visualization
+
+## Shiny Application
+All of this data is available to explore online at:
+[https://mudriver.shinyapps.io/wr440_lesson/](https://mudriver.shinyapps.io/wr440_lesson/)
+
+##Download the data
+Alternatively you can download the raw data yourself and look at changes in other watersheds!
+
+Download the data and code from my [Github](https://github.com/matthewross07/WR440.Lesson)
+
+#Drivers of WQ change
+
+One of the dominant drivers of water quality change is land use change. While remote sensing cannot detect all forms of landuse change, like historic mine shafts, it can be a useful tool to look at what might cause water quality degredation in a watershed. Landsat is a series of satellite that have been observing the entire earth for the past 40 years with imagery. One product that can be derived from Landsat is the Normalized Difference Vegetation Index (NDVI), which is a measure of greeness of land and can be used to look at deforestation, vegetation change and other aspects of landuse change. Historically analyzing and visualizing Landsat data has been a data intensive and time-consuming process. Recently, however, google has ingested all Landsat data into an analyzing engine called Google Earth Engine, with this tool users can rapidly analyze terabytes of data using Google's servers. However using Google Earth Engine directly requires knowing how to program in JavaScript. But! Researchers at the University of Idaho and the Desert Research Institute, working with Google have created a tool that allows users to easily look at land use change over a 30 year record of Landsat data using google earth engine. This product is called Cliamate engine.
+
+##Climate engine
+
+Climate engine can access many different public repositories of remote sensing data, but here is an example using NDVI. Here we set a reference period from 1984-1990 and take the median annual summer NDVI for that period. We then can compare the percent NDVI change from this reference period to 2016 summer data. This map then shows us exactly where parts of the landscape have become greener, vegetation regrowth or species change, and where parts of the landscape have become less green, beetle kill or development. Red shows areas that are less green and green shows areas that are more green. You can then download the raster of change at the zoom level of the map.
+
+[Map Example](http://clim-engine.appspot.com/climateEngineExpert?toolAction=getMap&productType=RS&product=L_SR&variable=NDVI&statistic=Mean&calculation=anompercentchange&units=metric&varUnits=%&dateStart=2016-06-16&dateEnd=2016-09-16&yearStart=1982&yearEnd=1990&yearStartClim=1984&yearEndClim=1990&opacity=0.7&mapCenterLongLat=-105.8968,39.5483&mapzoom=13&timeperiod=custom&minColorbar=-30&maxColorbar=30&colorbarmap=RdYlGn&colorbarsize=8&colorbarType=continuous&layer=custommaplayer&palette=d73027,f46d43,fdae61,fee08b,d9ef8b,a6d96a,66bd63,1a9850&basemap=hybrid)
+
+
+You can also take watershed averages using climate engine, but that would be for another lesson! If you are interested the watersheds can be uploaded using a google fusion table with ID:
+
+Fusion table ID = 12sV8yVPaWm9BipuXrikKNweB297mi4SQAPrCUxms
+
+[Time Series Example](http://clim-engine.appspot.com/climateEngineExpert?toolAction=getTimeSeriesOverDateRange&timeSeriesCalc=interannual&subDomainTypeTS=customShapes&variable2display=none&productTypeTS=RS&productTS=L_SR&variableTS=NDVI&statisticTS=Mean&varUnitsTS=&timeperiodTS=last60days&minYear=1982&minDate=1982-01-01&maxYear=2017&maxDate=2017-03-09&dateStart=2017-01-09&dateEnd=2017-03-09&dateStartTS=2017-01-09&dateEndTS=2017-03-09&yearTargetData=2014&yearTargetForm=2016&yearTargetFigure=2016&yearStart=1982&yearEnd=2017&monthStart=7&monthEnd=9&dayStart=1&dayEnd=1&season=custom&seasonStart=Jul%2001&seasonEnd=Sep%2001&mapCenterLongLat=-106.0045,39.5447&mapzoom=11&chartType=column&runningMeanYears=5&runningMeanDays=9&yearStartClim=1984&yearEndClim=2017&scaleTS=30&ft1=12sV8yVPaWm9BipuXrikKNweB297mi4SQAPrCUxms&ft1check=checked&ft1display=block&ft1altname=French%20Gulch-Blue%20River&ftChoice1=custom&ftSubChoice1=French%20Gulch-Blue%20River&ft1columnName=name)
+
+#Fin
+
+
+
+

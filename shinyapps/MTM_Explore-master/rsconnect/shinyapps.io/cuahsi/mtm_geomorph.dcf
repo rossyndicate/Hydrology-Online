@@ -1,0 +1,12 @@
+name: mtm_geomorph
+title: mtm_geomorph
+username:
+account: cuahsi
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 2669213
+bundleId: 3513878
+url: https://cuahsi.shinyapps.io/mtm_geomorph/
+when: 1597367679.10125
+asMultiple: FALSE
+asStatic: FALSE

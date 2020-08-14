@@ -1,0 +1,12 @@
+name: mtm_baseflow
+title: mtm_baseflow
+username:
+account: cuahsi
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 2668573
+bundleId: 3513330
+url: https://cuahsi.shinyapps.io/mtm_baseflow/
+when: 1597358716.50931
+asMultiple: FALSE
+asStatic: FALSE

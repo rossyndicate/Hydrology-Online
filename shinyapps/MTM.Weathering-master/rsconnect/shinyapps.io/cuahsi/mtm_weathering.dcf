@@ -1,0 +1,12 @@
+name: mtm_weathering
+title: mtm_weathering
+username:
+account: cuahsi
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 2669167
+bundleId: 3513851
+url: https://cuahsi.shinyapps.io/mtm_weathering/
+when: 1597367175.30745
+asMultiple: FALSE
+asStatic: FALSE

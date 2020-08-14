@@ -1,0 +1,8 @@
+---
+title: "Shiny Splash Page"
+author: "Matthew Ross"
+date: "August 25, 2016"
+output: html_document
+---
+
+This is an intro page to see how stevedore handles a index.html page. [link]("/srv/shiny-server/MTM.hydro")

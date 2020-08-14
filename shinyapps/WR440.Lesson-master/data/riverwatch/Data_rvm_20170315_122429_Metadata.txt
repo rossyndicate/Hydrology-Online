@@ -1,0 +1,2168 @@
+         
+                                 STORET Results Metadata Report
+         
+         
+Result Report Name:SDR20170315_122547.txt
+Date:03/15/2017
+_________________________________________________________________________________________________________________ 
+         
+                                 Organization Summary
+                                 ____________________
+         
+         
+Organization:CORIVWCH_WQX        The Rivers of Colorado Water Watch Network (RiverWatch)
+Type: State/US Government
+         
+Description: Water Quality Monitoring
+         
+Parent Organization: COLORADO,KANSAS,NEW MEXICO,OKLAHOMA,TEXAS
+ 
+Mailing      Lisa Cook
+             6060 Broadway
+             US
+             01-JAN-01
+Mailing   Barb Horn/Ashley Rust
+             Colorado Dep Nat Res/Div of Wildlife
+             US
+             15-MAY-02
+ 
+Electronic Addresses:
+Phone (970) 472-4406 ¶emailann.seiler@state.co.us (WEB page)¶http//wildlife.state.co.us/riverwatch/¶
+                    STORET Created Date: 15-MAY-02
+Internet http://wildlife.state.co.us/LandWater/Riverwatch/Pages/Riverwatch.aspx
+                    
+Email barb.horn@state.co.us
+                    
+Office 970-382-6667
+                    
+                                   --------
+         
+----------------------------End of Organization Summary----------------------------
+         
+         
+                       Cooperating Organization Summary
+                       ________________________________
+         
+         
+Organization:CORIVWCH_WQX        The Rivers of Colorado Water Watch Network (RiverWatch)
+         
+                                   --------
+         
+---------------------End of Cooperating Organization Summary---------------------
+         
+         
+                       Project Summary
+                       _______________
+         
+         
+Organization:CORIVWCH_WQX        The Rivers of Colorado Water Watch Network (RiverWatch)
+   
+Project:  1        River Watch
+Description:  Colorado River Watch
+Start Date:          Planned Duration:Unknown
+Purpose: 
+Study Area: 
+Project Design: 
+Obtain Plan: 
+Quality Assurance: 
+Quality Objectives: 
+Project Binary Object files
+FileTypeCode         FileName         URL
+doc            497416-CORIVERWATCHSUMMARYPAGE.DOC         https://ofmpub.epa.gov/storpubl/DW_PAGES.blob_download?v_blob_id=1000297-1052360
+Assigned Stations
+Station ID         Station Name
+524    Hwy 66
+525    Gauging Station
+526    Bike Path Br
+529    White
+530    CR Rd 65
+531    5th Street Bridge
+532    Mesa Street Pk
+533    At Hermosa
+534    Below Hermosa
+535    Redlands Dam
+536    Williams Fk
+537    River Bottom Park
+538    Rotary Pk
+539    In Town
+540    SAVE
+541    Church St
+542    Below WWTP
+547    Elk Br
+543    Windy Gap
+544    Granby
+546    Boat Ramp
+548    RMS
+550    Rifle Br
+551    Rulison Br
+552    Cameo
+553    PHS
+554    38 Rd
+555    Hwy 6
+556    Corn Lake
+557    BMS
+558    Knights
+559    Parachute Br
+254    Footbridge @ Library
+255    Colburn
+256    Hwy 270
+257    Dartmouth Br
+258    Escalante Canyon
+259    Deer Cr
+260    Gauging Station
+261    Austin Br
+262    Gauging Station
+263    Hwy 65 Br
+264    Pinto
+265    Dodd Br
+326    Severy
+327    Abv Ridgeway Res
+328    At Guage Station
+330    West 270-Sewer
+333    Lions Restoration
+334    Blw Conf Carlton Tunnel
+335    Above Carlton
+337    At Chapman's Ranch
+338    Below Res
+339    Teller CR 1
+340    Above Mueller State Pk
+341    Abv Long Hollow Cr
+343    Blw Power Plant Intake (SMR2a)
+344    Blw Power Plant Discharge (SMR3a)
+345    Abv Conf Naturita Cr (SMR3)
+358    E Side of Iowa Waterfall
+359    Hwy 14
+360    Secondary Silver Lake Inlet
+361    Center Lower Basin 3F
+362    Center Lower Basin 11F
+363    Center Lower Basin 19F
+367    S Royal Tiger Base Inlet
+364    NE Iowa Mill 28F
+365    NE Iowa Mill 119F
+366    S Side of Dump Inlet
+369    N Royal Tiger Base Inlet
+370    NE Side Stream Inlet
+371    Between Iowa B Royal Tiger 23F
+372    Between Iowa B Royal Tiger 11F
+380    Marshall
+373    Between Iowa B Royal Tiger 3F
+374    100 Yards from Royal Tiger 26F
+375    100yrds from Royal Tiger
+376    100 Yards from Royal Tiger 11F
+377    Unnamed Inlet
+378    First Beaver Pond
+379    Second Beaver Pond
+381    Blw Conf S Fk
+385    TRN (TR237)
+386    Blw Birdseye G
+392    Potters Ranch
+650    NF-5
+652    East Cr
+653    Hwy 149
+654    Above Breckenridge
+655    N Pk Ave Br
+656    Rec Center
+657    Hwy 9 Above Swan Rd
+658    Fortification N
+659    Fortification S
+661    Blw Cherry Cr Dam
+672    Homeland
+666    Grape Cr
+668    Abv Dam Blw WWTP
+669    Blw Dam Blw WWTP04
+670    Above Porphyry
+671    Upstream Burlington
+675    East Br
+676    Blw Dam Abv WWTP
+677    Abv Dam Abv WWTP
+678    Above Left Hand
+682    Conf Pk below Cherry Cr
+683    Below WWTP
+684    Apex
+685    Hwy 119
+686    Hwy 6 Br
+687    Treatment Plant
+688    Leyden@Ralston
+689    Leyden@Indiana
+692    Hwy 160
+693    Hanna Ranch
+694    McGrew Ranch
+696    Science Pk
+266    E Alamosa Br
+267    Below WWTP
+268    Gomez Br
+269    At Hwy 92  Br
+270    West 270
+271    Ophir Cr CG
+272    Off Campbell Rd (NF-3B)
+273    Lefty
+274    Above Lefthand Creek
+275    Johnstown N
+400    Balzac
+393    Below Ridgeway Res
+394    West Arm Ditch
+395    CR 24
+401    @HWY 52 Site 8 At Ft. Lupto
+403    Dolores Riverside Pk
+404    Greer Br
+405    School Br
+406    CR 29 Br in Ovid
+407    At 142 Br
+408    Below WWTP
+409    Golf Course
+410    South Beach
+413    Hatchery Inlet
+414    Airport Rd
+415    BW Cty Line
+416    Bobolink Trail
+418    Lyons HS Br
+419    Wilson
+422    Hwy 287
+423    75th St Br
+560    Watson
+562    Whitewater Br
+563    Grand Br
+566    Tip Top Mine
+567    Post Osborn
+568    Pre Osborn
+570    Hover
+575    Mouth
+571    Scott Rods
+572    JJ Road
+574    1st Br
+576    CG
+577    Below Yellow Girl
+578    Above Yellow Girl
+579    Roosevelt Tunnel
+580    Carlton Tunnel
+581    Carlton T-after ponds
+582    Post Office
+583    Town Intake
+584    Cushman Bark
+585    John Jay
+586    Peak to Peak Hwy
+587    Buckingham Pk
+588    Nimbus Rd
+589    TTM Cell 1
+590    TTM Cell 2
+276    Above Capulin
+277    Below Capulin
+278    Abv Castleman G
+279    S of Plaza Dr
+280    Below Bear Cr
+281    Blw Conf N Tenmile Cr
+282    Silver Lakes Br
+283    Hwy 24
+284    Abv Conf E Fk Ark R
+285    Stray Horse G
+286    USFS
+287    I-70 Exit 240
+288    East of Kipling
+289    9th St Br
+424    Lodgepole Cr
+426    100th and Wads
+427    CR79
+428    Rec Center
+431    McCabe's Lane
+432    Unclear
+433    Norwood Hill
+434    Laird
+435    Bonny Outflow
+436    Hwy 385 Br N
+438    Hwy 109
+439    Road 24.5
+440    Road CC
+441    Ryan's Pond
+442    Hwy 71
+444    Timpas 71
+445    Santa Fe Br
+446    Hwy 167
+447    Fountain Cr at Mall
+448    Fountain Cr at Conf
+449    Nature Center
+450    Trujillo
+451    N Gate of AFA
+452    Air Force Acad
+453    Uintah Br
+591    TTM Cell 3
+592    TTM Cell 4
+594    OS Baseline
+595    Abv Long Hollow Res
+596    Bethune Rd
+597    Gelvin Ranch
+598    Self Ranch Lower
+599    Lee Martinez Pk
+600    Big Five Tunnel Drainage
+601    Shields
+602    Prospect
+603    36th Lane Br
+605    Bear Cr Br
+606    I-25 Br
+607    5th St Br
+609    Ranch at Headwaters
+610    Canon Sch
+611    Cherry Cr Mall
+612    Hwy 89
+616    J Rd
+617    Baptist Rd
+618    Hay Cr Rd
+621    Glade Rd Pk
+622    John Martin Res Outlet
+290    Hwy 141 Br
+291    Hwy 119 Br
+292    Castle Cr
+293    La Jara 285
+294    Dry Cedar Cr
+297    Above Hwy 92 Br
+298    Jackson Inlet
+299    Jackson Outlet
+300    Billy Cr SWA
+301    Blw Sanderson G
+302    Halfmoon Cr 1
+303    E Fk Arkansas 1
+304    E Fk Arkansas 2
+305    Empire G 2
+306    Empire G 3
+307    Empire G 4
+308    Iowa G 1
+309    Arkansas 4
+454    Tejon Br
+455    Higbee Br
+456    Nine Mile Dam
+457    Hwy 50
+458    La Veta Pk
+460    Gagliardi
+462    Mincic
+463    Hwy 12 Br
+464    E Pump Sta
+465    Cox
+468    Stonewall
+469    Primero
+470    Green River
+471    Little Snake
+472    Swallows
+474    County Rd Br
+475    @ Gauge
+476    Hwy 207
+477    Hwy 50
+478    Nepesta
+480    Below La Junta WWTP
+481    Hwy 50 at Lamar
+484    Golden Prop. BLW Airport Rd
+485    Longmont
+487    Above Ruby
+488    Below Ruby
+489    Campsite
+623    Prowers Br
+624    Hwy 141
+625    Morgan Smith Tr
+626    Bannock Br
+627    Above Cherry Cr
+628    Horca
+629    Above James Cr
+630    Haldi Intake
+631    96th St
+632    Self Ranch Upper
+633    Above Arequa
+634    Below Arequa
+635    Little Dry above Spruce
+636    Below Orchard Ave
+637    Above Berry Ave
+640    Above Belleview Ave
+643    Cty Rd 3
+644    EM-1
+645    AN-1
+646    NF-1
+647    Above Beaver Pond
+311    Blw Empire G
+648    75th St
+649    NF-2
+310    Arkansas 1
+312    Tennessee Cr 1
+313    Lake Fork Cr 1
+317    Monitoring Well 1
+318    Chalk Cliffs Hatchery
+319    Monitoring Well 2
+320    Blw Sewer Effluent
+321    Abv Conf Rio Grande
+322    Abv Conf S Fk Rio Grande
+323    Cement Cr
+324    Harmon State Wildlife Area
+325    Bear Canyon
+492    @124th Ave (Henderson)
+493    James Pond
+494    Oxbow
+495    Hwy 50 Bypass
+496    Overton Rd
+497    Fish Cr
+499    Parker Station
+500    Eldorado Canyon
+502    Clear Cr
+503    Town Pk
+506    Willow Spgs Rd
+508    Chipeta
+509    First St
+510    Nature Center
+511    Lemay
+512    Lions Park
+513    Rolland Moore Pk
+516    Abv Conf Fourmile Cr
+517    Runway Tunnels
+518    Peoria Br
+519    Kannah Cr
+520    Powderhorn
+521    Red Cr
+522    Harvard G
+523    Gateway
+3291    USGS Boneyard
+3292    Below Minturn (5)
+3293    Arrowhead (6)
+3294    Above Edwards WWTP
+3295    Below Edwards WWTP
+3296    Wolcott
+3298    Gypsum
+3299    Above S Fk Conf
+3300    At Campground
+3301    Abv Conf Animas
+3302    Clear Lk Turnoff
+3303    2nd Canyon Rd to Left
+3304    Ophir Br
+3305    Chatanooga
+3306    Top of Pass
+3307    Arrastra G
+3309    Maggie G
+3312    Animas Forks Br
+3313    Placer G
+3314    MC1
+3315    MC2
+3316    MC3
+3317    MC4
+3318    MC5
+3319    SMC1
+3320    SMC3
+3321    SMC4
+3322    SMC5
+3323    MG-14
+3324    MC4A
+3325    MF5
+3326    MF6
+3327    MF9
+3330    Dotsero
+3333    Below Roaring Fk Conf
+3334    Grand Junction
+3335    Grand Junction
+3346    S Fk Wightman headwaters
+3348    Abv Conf Alamosa
+3358    Below Iron Cr
+3359    Above Wightman Fk
+3360    Below Wightman Fk
+3361    Stunner Br
+3362    Big Thunder Ranch
+3363    285 Crossing
+3364    Above Mary Murphy
+3368    7 Ton Br
+3365    Below May Murphy
+3366    Before Confl
+3367    Above Alpine Lk
+3369    Hancock Lane
+3373    PMDTS Discharge
+3375    Below Conf
+3376    W5 Above Ridge Mine
+3377    W6
+3378    W9 Above Conf
+3379    W16 Below Mine
+3380    Cal G Conf
+3381    A-V Smelter
+3382    LV Inn Culvert
+3383    Below Oregon G
+3384    Dump Rd
+3385    Outlet Apache Pipe
+3386    Outlet Apache Flume
+3387    Terry's Liquor
+3388    Julesburg
+3391    AA Rd Near Yuma
+3392    Sandsage SWA
+3393    Beecher's Island
+3394    N of Carlton on McMillian
+3395    N of Granada Hwy 385
+3397    E of Granada Hwy 50
+3398    E of Granada Hwy 50
+3403    Hwy 50 W of Pueblo
+3404    N Punkin Center
+3405    Mtn Village Blvd
+3406    At Conf
+3407    Below Ariqua G
+3408    Above Cripple Cr
+3409    Above Ariqua G
+3410    New Chapman
+3411    Below Waste Pile
+3412    Top of Canyon
+3413    Above Ditch Inlet
+3414    Below Ditch T
+3415    Ditch T
+3416    Above Ditch T
+3417    Jassi Inlet
+3418    Jassi Outlet
+3419    Below Jassi Outlet
+3425    Above La Junta WWTP
+3427    At Twin Bridges
+3428    Bondad
+3430    Purple Cliffs
+3431    Below Lightner Cr
+3432    Above Lightner Cr
+3435    Above Hermosa Cr
+3437    Below Cascade Cr
+3438    Above Cascade Cr
+3439    Below Needle Cr
+3440    Above Needle Cr
+3441    Below Elk Cr
+3442    Above Elk Cr
+3443    Below Molas Cr
+3444    Above Molas Cr
+3445    Below Deer Park Cr
+3446    Above Deer Park Cr
+3447    Above Kendall Cr
+4017    West Mamm
+4018    Middle Mamm
+4019    East Mamm
+4020    Frontage Road
+4021    Abv Scott Gomer
+4022    Abv CR11 Br
+4023    Below Diversion
+4025    At Mine
+4026    Abv Conf San Miguel
+4027    HF below trib #1
+697    GR Br
+698    Sunnyside
+699    Cucharas Intake
+700    Walsenberg Intake
+701    Stunner CG
+703    Cherry Cr
+705    FCNC
+706    Canyon Pk Gauge
+707    Hoskinson Pk
+711    Bridge
+712    Conf
+713    Ditch
+716    Above Morrison Gauge
+717    Below Bear Cr Lk
+718    Montview Blvd
+721    Running Brk Rd
+723    Thompson Cr
+726    Coppa
+727    11th & Speer
+729    20th St Gauge
+732    Below Seven Castles
+733    Baetis Br
+735    Genter Mine Br
+736    Below Redstone
+737    Eagle St Br
+738    Ambulance
+739    BLM
+740    Fairgrounds
+741    13th St Br
+743    Parker
+744    Red Cliff
+748    Redlands Pkwy
+749    25 Rd
+750    West Cr
+751    Grant Frontier Pk
+881    Equalizer Lake Ctr 1m
+882    Equalizer Lake Inlet
+883    Equalizer Lake Outlet
+884    Cemetery Lake SLC 1m
+885    Cemetery Lake SLC Bottom +1
+886    Cemetery Lake SL Inlet
+887    Abv Roundabout
+888    Clubhouse Drive Br
+889    Snowmass Chapel
+890    State Line
+891    Sherman St Br
+892    Hubbard Cr
+893    Leroux Cr
+894    Shooks Run @ Uintah
+896    Watson Lk
+898    Hwy 160
+899    Above WWTP
+900    Hwy 550
+901    Below WWTP
+902    Hwy 140
+905    4th St Br
+906    HS
+907    Stapleton Br
+908    Robinson
+909    Hovezak
+910    Upper Silver Cr
+911    Rico Hwy 145 Br
+912    West Fk
+913    Lower Silver Cr
+3448    Below Mineral Cr
+3449    Above Cement Cr
+3450    Below Boulder G
+3451    Above Boulder G
+3452    Below Cunningham Cr
+3453    Above Cunningham Cr
+3454    Below Eureka G
+3455    Above Eureka G
+3456    Below S Fk Conf
+3457    Above N Fk Conf
+3458    Below Middle Fk
+3460    Below S Fk Conf
+3464    Abv Conf Animas
+3466    Abv Conf Animas
+3467    Abv Conf Animas
+3468    Abv Conf Animas
+3469    Abv Conf Animas
+3471    Abv Conf Animas
+3472    Abv Conf Animas
+3473    Abv Conf Animas
+3474    Abv Conf S Fk Animas
+3476    N of Stagecoach
+3477    Headwater
+3478    Above Vallecito
+4029    HF Below trib #2
+4030    HF trib #2 @ mouth
+4033    Below Waterfall Cr
+4034    Abv Conf San Miguel
+4035    Below Carbanero Tails
+4036    HF Blw Trib #4
+4037    Below Swamp Cr
+4038    Above Confluence
+4039    Above Swamp Canyon
+4040    Abv Conf Red Mtn Cr
+4041    Above Mineral Cr
+4042    Below Mineral Cr
+4043    Above Navajo R
+4044    Abv Conf Navajo R
+4045    Hwy 160
+4046    Fossett Gulch
+4047    Below Mine
+4048    Abv Conf Tomichi
+4051    Tunnel Discharge
+4052    Abv Conf San Miguel
+4053    Above Confluence
+4054    Above Marshall Cr
+4055    Below WWTP
+4056    Above Unamed cr
+4057    Below Unamed Cr
+4058    Below Mining Complex
+4059    @ CDOW Hatchery
+4061    Abv Conf Colorado R
+4062    At Hwy 6/50 Br
+4066    At Bob Wilsons
+4067    Blw Highline Lk
+4068    Blw Discharge WWTP
+4069    Abv Discharge WWTP
+4077    BBarnhard Prop
+4078    At Conf White R
+4079    Above Mine
+4081    Abv Dry Fork
+4082    Blw Dry Fork
+4088    Little Hills SWA
+4089    Little Sprg SWA At Upper Pond
+4090    Spring @ old fish hatchery
+4091    Below Monroe
+4092    Picnic Rock
+4093    I-25 above bridge
+4094    Below Br Miliken
+914    Stoner Cr
+915    Koenig
+916    CR 19
+917    County Line
+922    Lone Rock CG
+933    JPII Trail Head
+934    East Hwy 7
+945    Hwy 385 Br
+946    WCR5
+947    Below WWTP
+948    Whitewater Park
+949    Abv Krauser Property
+950    Tigiwon Gauge
+951    Near Ice Lake
+955    At School
+956    Whipple Trail
+960    At CR2 Br
+966    Riverwalk Br
+967    Kinicknick Br (6)
+968    Ford Pk (5)
+969    E Vail Exit (4)
+970    Bighorn Pk (7)
+972    Blw CR33 Br
+973    Abv Marguerite Cr
+974    Above Silver Cr
+975    Blw Hwy 145
+976    Blw conf Silver Cr
+977    Abv Deadwood G
+3484    At Snowmobile Parking Lot
+3485    At Fourmile Pk
+3486    Mid Thomson Cr Pk
+3495    3 Rd
+3498    Pool
+3500    Durango Pumphouse
+3501    Durango Freeflow
+3507    Mule Cr
+3539    Finger Rock Spring Inlet
+3540    Thompson Cr BLM
+3541    Above Mineral Cr
+3542    SM-1
+3543    Abv Conf Animas
+3544    SM-3
+3545    SM-4
+3546    SM-5
+3547    SM-6
+3548    SM-7
+3549    SM-8
+3550    SM-9
+3551    SM-10
+3552    Source
+3553    Alma
+3554    Fariplay
+3555    Hartsel
+3556    Lake George
+3557    Deckers
+3558    Conf N and S Forks
+3559    Littleton
+3560    Confluence Park
+3561    Henderson
+3563    Kersey
+3564    Ft Morgan
+3567    Marshall Pk
+3568    Gustafson Ranch
+3569    E Willow Pk Spg
+3571    EW-Trib 3
+3576    Hatchery
+3577    32nd St
+3579    Above A72
+752    Chipeta Pk
+757    Centennial Pk
+759    Bear Cr Pk
+760    Leyden@Quaker
+762    Vermillion Falls
+763    Hwy 64
+764    Prospect Pk
+766    Pierce St
+767    Peru Cr blw FR 214
+768    Before Kelly Dam
+769    Difficult CG
+770    Mill St Br
+771    Hwy 82 Bridge
+773    Capitol Cr
+978    ABBAS
+980    At Independence G
+981    Blw Cheesman Dam
+983    CR 67 Br
+984    Twin Cedars Pking Lot
+987    Bear Cr Road
+988    Hwy 285
+989    Blw Repository
+990    Blw Brewery Cr
+1001    Control
+1002    Site 1
+1003    Site 2
+1500    Lower Blue Lake Outlet
+2401    Abv Compost Pile
+2402    At Compost Pile
+2403    At Russell Property
+4095    Above Headgate
+4096    Below Stalker Lake
+4097    Below Settling Pond
+4098    At E Spring
+4099    At W Spring
+4100    Black Sulphur Cr
+4101    At Dry 13 Mi Cr
+4102    At CR 29
+4103    Blw Spring At CR 29
+4104    Abv W Fk Steward G
+4105    Cutoff G
+4106    Abv Black Sulphur Cr
+4107    Exxon Property
+4108    Abv W Fk Steward G
+4109    Blw Black Sulphur Cr
+4110    @Drill Pond
+4111    Abv Encana
+4112    Abv Pond
+4113    Abv Bull Fk
+4114    Abv Drill Pad
+4115    Blw Barcus Cr
+4116    Abv Sprague G
+4117    Violet Pond Little Hills SWA
+4118    Blw Sprague G
+4119    Rex Robinson Prop
+4120    Abv Willow Cr
+4121    Abv Hwy 13
+4122    At Barnes Sprg
+4123    Abv Canyon Cr
+4124    83rd St Br
+4125    Abv CR 24
+4126    Abv Conf Coral G
+4127    Below Carribeau Tails
+4129    Abv Conf Mancos
+4130    Below Mid Mancos
+4131    CR 43
+4132    J Road
+4133    Below Mud Cr
+4134    Campbird Rd (FS 853)
+4135    Abv Hydro Dam
+4136    Flora Vista
+4137    Above Coal Creek
+4138    Below S. Boulder Creek
+4139    Below Culver Ditch
+4140    Gateway Park
+4141    Kruzen Spring 1
+4142    Blw Durango Pump Plant
+4143    Lower Cottonwood Cr Intake
+774    Snowmass Cr
+775    Below RF Club
+776    Meredith
+777    Midland Ave Br
+778    Sopris Cr
+779    Emma
+780    Ranch at R Fk
+781    Cattle Cr
+782    Redstone Park @ Confluence
+783    Coryell Ranch
+784    Westbank Bridge
+785    Bershenyi Ranch
+3580    Idarado Compliance
+3581    Abv Canyon Cr
+3582    Abv Red Mtn Conf
+3583    KOA CR 23
+3584    Below Oak Cr
+3585    Abv Conf Uncompahgre
+3586    USGS Gauge
+3587    Abv Uncompahgre Conf
+3590    High Br
+3592    Above WWTP
+3593    SM Sheriff's Sta
+3594    Above Bear Cr
+3595    Bear Cr
+3596    Below Bear Cr
+3597    Cornet Cr
+3598    Below WWTP
+3600    Below Placerville
+3601    South Fork
+3602    Silver Pick Rd
+3603    Silver Lake Inlet
+3604    Below Silver Lake Outlet
+3605    Arrastra at Conf
+3606    Arrastra Below Flume
+3607    Arrastra Below Quonset
+3608    Arrastra Above Quonset
+3609    Rock Flume
+3610    Arrastra Above Fall
+3611    A72
+5004    Below Bonny Res
+5005    Shalberg Pond
+5006    Hugo SWA Spg Darter Pond #1
+5007    Hwy 196
+5008    CR LL
+5009    At BB Rd
+5010    Blw Ramah Res Dam
+5011    AFA North
+5012    AFA South
+5013    Vista Del Rio Drainage
+2404    Hwy 160
+2501    Bell Mine Rd Adit
+2502    East of Montezuma
+2503    Blanche Mine Adit
+2504    Snake Iron Bog
+2505    Superior Mine Wastepile
+2506    Snake Trib Adit
+2507    Hunki Dori Mine
+2508    Marlin Mine
+2600    Blw Conf Rock Cr
+2601    Bobolink Trailhead
+2602    CR 20.5
+2800    Abv Trail Crossing
+2801    West Fk Trib
+2802    Abv Butler G about 1/2 mile
+2803    Butler G
+2804    At Thermograph sta
+2805    Kearney G
+2806    Abv Conf Kearney G
+2807    Herman G
+2808    Watrous Gulch
+2809    Bard Cr
+2810    Dry G
+2811    Abv Stevens G Conf
+2820    Upper Como Cr
+2821    Lower Como Cr
+2990    Wightman Fk Trib C
+2991    Blw S Mtn Cr
+2992    Cropsy Cr A
+2993    S Mtn Cr
+2994    At Summitville
+2995    Cropsy Cr B
+2996    Above Summitville
+2997    Bitter Cr Trib 4
+2998    Bitter Cr Trib 3
+3000    NC-A
+3001    NC-B
+3002    NC-C
+3612    Below Idaho Springs
+3613    At Idaho Springs
+3614    West Fk At Mouth
+3617    Blw Idaho Sp @ Dump
+3618    Blw Idaho Sp @ Gravel Pit
+3619    Above N Fk
+3620    N Fk At Mouth
+3621    Below N Fk
+3622    Below Georgetown
+3623    Above Tunnel 1
+3624    Below Henderson Mine
+3625    Below Woods Cr @ Cabin
+3626    Above Picnic
+3627    Below Hwy 40
+3628    Lawson Gauge
+3629    Mine Seep at Dumont
+3630    Below Spring G
+3631    Above Idaho Springs
+3632    Above Idaho Sp @ Mine
+3633    Argo Effluent
+3635    Inlet Apache Flume
+3636    LaGarita Br
+3637    NC-F
+3638    RG-Seep
+3639    Abv Conf Cement Cr
+3640    Kost Pond
+3641    West Garber Pond
+3642    Old Wadsworth
+3643    At I-25
+3644    At 120
+3645    At OVID
+3646    Below Osborne WWTP
+3647    Efluent Osborne WWTP
+3648    North Lagoon
+3649    At Sheridan
+3650    Arrastra Anglo Saxon CC37
+3651    Porcupine CC38B
+3652    At Road
+786    Park East
+788    270 Ped Br
+789    Below Sunlight
+790    Ward Rd
+792    BLM #5745
+793    Above Lincoln
+794    YMCA @ Glacier Cr
+795    YMCA@Big Thompson Valley
+796    Hidden Valley US
+797    Hidden Valley DS
+798    Livery abv horse trail
+799    Livery abv Boulder Cr
+800    Abv Conf Swan
+801    Abrams
+802    Battlement Cr
+803    Beaver Cr
+804    End of Road
+805    East Fork
+806    Fraser @ CR 83
+808    Off CR 8006
+3003    NC-D
+3004    NC-E
+3005    W-J
+3006    W-I
+3007    W-H
+3008    W-G East
+3009    W-G Middle
+3010    W-G West
+3012    W-E
+3013    W-D
+3015    W-B
+3016    W-A
+3017    W085W2
+3021    WWB
+3022    WWC
+3023    WWD
+3024    WW-E
+3025    WW-F
+3026    WW-G
+3027    WW-H
+3028    WW-HH
+3029    WWI
+3030    WWJ
+3032    WW-L
+3033    WW-M
+3034    WWSEEP1
+3036    Commodore Tunnel
+3037    EW-A
+3038    EWB
+3039    EW-C
+3040    EW-D
+3041    EW-E
+3042    EW-F
+3043    EW-G
+3044    EW-H
+3045    EW-I
+3046    EW-J
+3047    EW-K
+3048    EWL
+3049    EW-M
+3050    EW-N
+3051    EW-SP
+3052    MA
+3053    SWI
+3054    SWD
+3055    Solomon Adit
+3056    Paynes Culvert
+3057    TR-S
+3058    TR-N
+3059    PMA
+3060    GMA
+3062    WNG-A
+3063    WNG-B
+3074    RG4
+3085    RG1
+3086    RG2
+3091    SWI Spring
+3093    Fence Well
+3094    Headgate Well
+3095    Lagoon Well
+3100    Abv Conf Treasure Cr
+3101    Abv Conf Treasure Cr
+3103    Abv Conf Alamosa
+3104    Below Trib 2
+3105    Iron Cr Trib 2
+3106    Iron Cr Trib 3
+3107    Above Trib 4
+3108    Iron Cr Trib 4
+3109    Above Trib 5
+3110    Iron Cr Trib 5
+3111    Above Trib 6
+3112    Iron Cr Trib 6
+3113    Above Trib 7
+3114    Iron Cr Trib 7
+3115    Above Trib 8
+3116    Iron Cr Trib 8
+3117    Above Trib 9
+3118    Pass-Me-By Mine
+3119    Below Pass-Me-By
+3120    Iron Cr Trib 12
+3121    Below Trib 9
+3653    Above Reservoir
+3654    At Dam
+3655    At Inlet
+3657    SM-2
+3678    Georgetown Loop
+3679    Above Bakerville
+3680    Blue Heron Pk
+3700    At Twin Spruce Rd
+3701    Blw Plainview
+3800    Abv Conf Northwater Cr
+3801    Blw Third Water G
+3802    Blw Conf Baldy Cr
+3803    Abv Conf Baldy Cr
+3804    At Twin Cr Ranch Upper
+4144    Cottonwood Spring #2
+4145    Upper Palisade Res 3
+4146    Mid Palisade Res 1
+4147    Granat Res
+4148    Rock Springs
+4149    Cabin Res Outlet
+4150    Mad Creek Lower
+4151    Palisade Spg 1
+4154    Upper Rapid Cr Intake
+4157    Big Spring
+4158    Rapid Cr Res 1
+4159    Rapid Cr Res Outlet 2
+4160    Mad Cr Upper Site
+4161    Hwy 6 at Mayhem Gulch
+4162    Oak Spring 4
+4163    Lower Rapid Cr Intake
+4164    Draw Spring
+4165    Abv Carbonero Tailings
+4166    Abv Carribeau Tails
+4167    Hwy 141
+4168    Mesa
+4169    W CR 38
+4170    Coller SWA
+4171    Hwy 142
+4172    Lookout Spring
+4173    RC-3
+4174    Rapid Cr
+4175    Palisade Point Pond
+4176    Upper Rapid Cr Spring
+4177    RC 2
+4178    Mike's Spring
+4179    Iris Spring
+4180    Lower Oak Spring 3
+4186    ROCK (Regional Outdoor Center for Knowledge)
+4187    Abv Development
+4188    Blw Devolpment
+4190    Mary Murphy Drain
+4191    At Mary Murphy Mine
+4192    Abv Conf Chalk Cr
+4193    St Elmo
+4194    Below Alpine Lake
+4195    Chalk Lake CG
+4196    CR 290
+4197    Below Hatchery
+4198    Blw Guage
+4199    Abv Wightman Fk
+4200    BG-18
+4201    Abv Conf N Fk Republican
+4203    Grizzly Cr
+4204    S Fk Slater Cr
+4205    Moeller Cr
+4206    Fawn Cr
+4207    Below Res
+4208    580 Rd
+4210    Middle Rifle Cr
+4211    Abv Wray Ditch
+4212    Abv Conf Chief Cr
+4214    Gamebird Adit
+4215    Werner Spring
+4216    Ismay Trading Post
+4217    Bradfield Bridge
+4218    Below Falls
+4219    Yellowjacket Cr
+4220    Need Name
+4221    At Lower Exclosure
+4222    Abv conf Trapper Cr
+4223    Blw conf Trapper Cr
+4224    Carribeau Adit
+4225    Abv Stalker Lk
+4230    Hell Cr Ranch
+4231    Abv Discharge
+4232    Blw Discharge
+4260    Waterfall Intake
+5000    Crown Ranch #1
+5001    Holly Flood SWA
+5002    Timpas Cr SWA
+5003    Deadmans SWA
+809    Trapper
+820    Battlement Cr
+825    Boyd's Crossing
+830    Abv Conf East
+831    Spillway
+832    Sunset St Br
+833    N Fk Clear Cr
+834    Hwy 52 @ Ft Lupton
+835    Greenhorn Cr Trailhead
+836    Lena G
+838    Plateau Cr near Cameo
+839    Pike Rd
+840    Confluence
+841    Below Lincoln
+842    New York Cr
+843    Below dam
+844    Before reservoir
+845    At Road Crossing
+846    Adit #1
+847    Above Ruby Flow
+848    Above Ruby Mine
+849    Hecla Jct
+851    PM Adit Above Tailings
+3122    Iron Cr Trib 10
+3123    Below Trib 10
+3124    Iron Cr Trib 11
+3125    Road Crossing
+3126    Alum Cr Trib 1
+3127    Alum Cr Trib 2
+3128    Above Trib 3
+3129    Alum Cr Trib 3
+3130    Above Trib 6
+3131    Above Trib 4
+3132    Below Trib 6
+3133    Alum Cr Rock Spring 1
+3134    Alum Cr Rock Spring 2
+3135    Above Trib 7
+3136    Alum Cr Trib 7
+3137    Below Trib 4
+3138    Alum Cr Trib 5
+3139    Alum Cr Trib 4
+3140    Abv Conf Alamosa
+3141    Above Trib 3
+3142    Above Trib 4
+3143    Above Trib 2
+3144    Abv Conf Alamosa
+3146    Above Cropsy Cr
+3147    At Guage
+3148    Wightman Fk Spring 1
+3149    Above Sawmill Cr
+3150    Wightman Fk Spring 2
+3151    Spring 3 on Wightman Fk
+3152    Spring 4 on Wightman Fk
+3153    Spring 5 on road
+3154    Abv Conf Wightman Fk
+3155    Mine Adit Below Sawmill G
+3156    Abv Conf Wightman Fk
+3157    Below Big Hollow Cr
+3158    Above Palmer G
+3159    Palmer G
+3160    Above Witney G
+3161    Abv Conf Wightman Fk
+3162    Abv Conf Wightman Fk
+3805    At Conf Twin Cr Lower
+3806    0.7 Mi Abv CR 312
+3807    Abv Conf W Divide Cr
+3808    Abv CR 324
+3809    Puckett Prop
+3810    Town of Parachute Prop
+3812    Blw Cinnamon G Conf
+3813    Abv Conf Snake
+3814    Abv Conf Peru Cr
+3815    Blw Conf Peru Cr
+3817    Abv CR 315
+3821    Abv Light G
+3822    Abv Falls
+3823    Blw Red G
+3824    Abv Government Cr
+3825    At 5th St Park
+3826    At Conf Colorado R
+3827    Abv Rifle Cr
+3900    N Fk @ N Fork Ranch
+3901    Double R Ranch
+3902    Owl Cr
+3903    Stateline
+3904    Brinker Ranch
+3905    CR10 Br
+3906    Hwy 14 Br
+3907    CR 7 Br
+3908    CR 32 Br
+3909    Walden Br
+3910    At Spicer Ranch
+3911    At Spring G Conf
+3912    Off CR 241
+3913    Abv Fossil Cr Parkway
+3914    Abv Poudre Pk
+3915    Triple R Ranch Pond
+3916    Ken Brownlee Pond
+3917    Hayward Pond
+3918    Blw Hwy 287
+3945    Cottonwood G
+4001    Rock Creek Open Space
+4002    Rock Cr Farm
+4004    Timbers Br
+4005    Independence Ave
+4006    Below Hwy 86
+4008    Las Animas
+4009    CR 101
+4010    @ Arlington
+5014    Wiley Drainage Ethel Property
+5015    May Valley Ditch Upper
+5016    Enstrom's Wetland
+5017    Chesterman
+5018    Lamar Greenbelt
+5019    Blw conf Black Squirrel Cr
+5020    Chico Cr N
+5021    Blw Diversion
+5022    Abv Conf W Monument Cr
+5023    Arnold Rd
+5024    Calhan Hwy Br
+5025    At Palmer Lk
+5026    Jimmy Camp Cr
+5027    Near Fountain
+5028    Bijou St
+5029    At Colorado Springs
+5030    At 31st St
+5031    At 8th St
+5032    At Security
+5033    LL Rd
+5034    Vista Del Rio E
+852    PM Adit Below Tailings
+853    Abv Conf Slate
+854    Peanut Lk W Side
+855    MSM Adit
+860    Bromley Lane
+861    Wetland Inlet
+862    Wetland Outlet
+865    Garfield SWA
+866    Blw Game Cr
+870    Haystack Mt Golf Course
+875    NF-3A
+876    NF-4A
+880    Houts Reservoir Ctr 1m
+3163    Wightman Fk No Name Trib
+3164    Abv Conf Alamosa
+3165    Abv Conf Alamosa
+3166    Blw Burnt Cr
+3167    Abv Conf Alamosa R
+3168    Abv Conf Alamosa
+3169    Abv Conf Alamosa
+3170    Lieutenant Cr
+3173    Above Iron Cr
+3177    Above Terrace
+3178    Below Terrace Res
+3179    Brewster Pk
+3180    Wagon Wheel Gap
+3182    Monte Vista Guage
+3183    Alamosa
+3185    Alamosa No Name Trib
+3187    Above Trib 5
+3188    Abv Uncompahgre Conf on Red Mtn Cr
+3189    Above Trib 8
+3190    Alum Cr Trib 8
+3191    Cropsy Cr
+3192    Above Trib 1
+3193    Iron Cr Trib 9
+3194    Above Trib 10
+3196    Above Trib 11
+3197    Iron Cr Trib 13
+3198    Above Trib 1
+3199    Bitter Cr Trib 1
+3200    S Canyon
+3201    G1
+3202    G2
+3203    G3
+3204    G4
+3205    G5
+3206    G6
+3207    G7
+3208    G8
+3209    G9
+3210    G10
+3211    G11
+3212    G12
+3213    G13
+3214    G14
+3215    G15
+3216    G16
+3217    G17
+3218    G18
+3219    G19
+3220    B1
+3221    B2
+3222    B3
+3223    B4
+3224    B5
+3225    B6
+3226    B7
+3227    B8
+3228    B9
+3229    B10
+3230    B11
+3231    N1
+3232    N2
+3233    N3
+3234    N4
+3235    N5
+3236    N6
+3237    N7
+3238    N8
+3239    N9
+3240    N10
+3241    N11
+3242    N12
+3243    N13
+3244    N14
+3245    N15
+3246    N16
+3247    N18
+3248    N19
+3249    N20
+3250    N21
+3251    N23
+3252    Open Pipe of Mine
+3253    Below Turbine
+3254    Below Mine
+3255    N17
+3256    Finger Rock Spring Outlet
+3257    Lost Lake
+3258    Above Battle Mtn
+3260    Hunt Creek
+3261    Above Salt Wash 1
+3262    Salt Wash 1
+3263    Salt Wash 2
+3264    Above Salt Wash 2
+3265    Spring
+3266    Spg @ Buena Vista Airport
+3269    Inlet to Dillon
+3270    DOW Pond Ditch
+3271    James Ranch
+3272    Below Spring Cr
+3273    Sink
+3274    Abv Vallecito Res
+3275    Vallecito Res Inlet
+3276    Vallecito Res Outlet
+3277    Lost Cr
+3278    Below Argo
+3279    Below Batch Plant
+3282    Little Dolores Potholes
+3284    Below Redcliff (1)
+3285    Above Belden (1.9)
+3286    At Belden (2)
+3287    Bishop G (2.9)
+3288    Below Cross Cr
+3289    AboveTwo Elk
+3290    Above Minturn (4)
+4011    CR 194
+4012    Abv Conf Geneva Cr
+4013    Abv Bruno G
+4014    Picnic Ground
+4015    Flag Cr
+4016    Abv CR 352
+5035    Smith Gooddale Slew
+5036    Red Dog SWA
+5037    Cheyenne Cr
+5038    At Las Animas
+5039    Sante Fe Dr
+5040    SE of Avondale
+5041    Crown Ranch
+5042    Hwy 94 Br
+5043    CR11 Br
+5044    Redner
+5045    Redner Downstream
+5046    SWA 1
+5047    Near Confluence
+5048    Cedar Edge Ranch
+5049    N of Hwy 285
+5050    Chambers Ranch
+5051    Duvall Ranch
+5052    XY Ranch
+5053    Maniford Ranch
+5054    OSU Geology Camp
+5055    Fritz Ranch off Hwy 50
+5056    Double J Ranch
+5057    N of CR 12 Sandoval Ranch
+5058    Comanche NH Grasslands
+5059    W of John Martin Res
+5060    By Las Animas WWTP
+5061    By Moffat Street
+5062    Gray Ranch
+5063    Downstream CO-96 E
+5064    Abv CO 109
+5065    Monument at Woodman
+5066    N of Hwy 196
+5067    S of Ft Lyon Canal
+5071    Pueblo Depot Br
+5068    JE Canyon Ranch
+5069    Cimarron Br
+5070    Florence WWTP
+5072    I-25 Br
+5073    S of Hanover Rd
+5074    Pinon Gallery
+5075    Cullen Property
+5076    Rocky Ford SWA
+5077    Abv Conf Huerfano
+5078    Hass Property
+5079    Abv Conf Chico Cr
+5080    Hugo SWA N CG Pond
+5081    Roper Ranch
+5083    Hwy 385
+5084    Engstrom Marsh
+5085    0.5 Mi E of CR39
+5086    S Neilson Ave
+5087    Hwy 94
+3066    Blw Bear Cabin G 0.25 Mi
+3067    Blw Bear Cabin G 0.5 Mi
+3068    Abv Conf M Fk Parachute
+7775    Above Diversion
+3102    Abv Prospect Cr
+3353    Abv Conf Wightman Fk
+3014    W-C
+3020    WW-A
+3035    NT
+3031    WW-K
+4185    N Crestone Cr CG
+4084    5th St Ditch
+4085    At Pump Sta
+4083    Palmer St Ditch
+4086    Confluence Lk
+5088    Venetucci Farms
+5089    Clover Ditch
+5100    Environ Learning Center
+5101    King Fisher Pt Nat Area
+5102    Golden Ponds (site 107)
+5103    Above Dam @ Golden Ponds
+5104    Open Space
+5105    St Vrain #86
+5106    Main St Br
+5107    At McMurry
+5109    Spring Cr @ DOW FC
+5110    East of College Ave
+5111    Taft Hill & Drake St
+680    Jenkins MS
+4060    Adobe Cr on Private Prop
+350    At FR 818
+982    Lone Rock CG
+388    Blw Rainbow Lake
+5112    Columbine Pk
+5113    Blw Conf Poudre
+5114    Frank SWA
+5115    Blw 37th St Br
+5116    Messex SWA
+5117    #225 Upper
+5118    At Timberline
+5119    Brush SWA
+5120    Tamarack Ranch
+5121    Tamarack #646
+5122    Hwy 55 Br
+5123    Hwy 63 Br
+5124    Atwood SWA #607
+5125    Pasquel's Cabin
+5126    Bliss SWA
+5127    Indian Meadows
+5128    Black Hollow
+5129    Kelly Flats
+5130    Taft Br
+5131    Red Tail Grove
+5132    Red Tail Grove #2
+5133    Sandstone Ranch
+5134    Smith Ranch
+5135    E of Nakagawa SWA
+5136    Abv Conf N Fk Poudre
+5137    Abv Conf with Poudre
+5139    Kirchner Property
+5140    Klein Property
+5141    Pony Express SWA
+5142    Windsor Poudre Pk
+5143    E of CR 49
+5144    Abv CR 32
+5145    Blw Button Rock Res
+5146    Button Rock Preserve Upper
+6002    Summer Well (690)
+811    Blw SMV WWTP
+6252    Spicer
+6238    NASRF Well 2
+6239    NASRF Well 3
+3940    Upstream Brandon Ditch
+3941    Upstream Laurent Ditch
+3942    Upstream Gunnison Conf
+3943    Downstream N Fk
+3944    City of GJ Intake
+6241    East Well
+6242    West Well
+6245    South Moist Soil Impoundment
+6246    Well #5
+507    CR39
+730    Blw Pittsburg
+734    2.5 mi from FS Rd 742
+5147    Whitney Property
+5148    Douglas Res SWA Dock
+5149    Off CR 11 W Bank
+5150    W Bank
+5151    Frank SWA Ponds
+5152    Off CR 11 W Bank
+5153    At CR 134 End
+5154    Off USFS 116
+5155    Ackerman near CR21
+5156    At Wilson Property
+5157    Downstream CR 61 Br
+5158    Downstream of Pump House
+5159    Abv Hwy 52 Br at Reid
+5160    Wachorne Property
+5162    Abv Hwy 55 Br
+5163    Tamarack SWA Spot #22
+5164    Big Thompson Ranch
+5165    At Eagle Nest
+5166    Blw S Kipling St
+5167    Abv Ethel St Br
+5168    Irrig Canal on Knudson SWA
+5169    At Hudson Gardens
+5170    At Wildcat Ranch
+5175    At Grover
+5176    At Pinecliff Ranch
+5177    At CR 68
+5178    At WCR 44
+5179    Blw Hwy 287 Br
+5180    At Woodhouse Property
+5181    Downstream CR 3
+5182    Blw Fossil Cr Conf
+5183    Rainbow Pk Br
+5184    At Simmons SWA
+5185    CR DD
+5186    Julesburg SWA
+5187    Mitani SWA
+5188    Abv Diversion
+5189    Prospect & Timberline
+5190    Hwy 59 Br
+5192    E of Hover St
+5193    Bravo SWA
+5194    Red Lion SWA
+5195    Centennial SWA
+5196    Boyd Ponds SWA
+6000    GH 85 Well (331)
+6001    GH 45, GH 85 & Office Well (919)
+6003    Backup/Winter Well (691)
+6006    Roaring July #9
+6009    Gate Well
+6016    BLV Well #1
+6021    Hopper North
+6025    Well  #2
+6027    Well #1
+6059    The Big Well
+6064    Well #4
+6074    Well east of Big well
+6075    Moist soil impoundment #1
+6084    FRH #1(new)
+6145    Boden Well
+6151    Sandhill Well
+6156    Foster Grove
+6184    Well #1
+6187    Well #6
+6191    South Well
+6195    East moist soil impoundment well
+6197    North well
+4087    Sweizter Lk
+709    Cardinal Way
+6198    The Big Well
+6199    Well # 1
+6200    Roaring Judy #1
+6202    Roaring Judy #4
+6203    Roaring Judy #5
+6204    Roaring Judy #6
+6219    Well #3
+6221    FRH #2
+6222    Pueblo Hatchery
+6223    South Well
+6224    MV SFU North Well
+6225    Pueblo Hatchery Well 3
+6229    The Deep Well
+6230    North Well House
+6231    South well house
+6235    Roaring Judy #8
+7712    Blw Snowmass Village Br
+7812    At CR112
+7813    At CR 122 Br
+7888    Hwy 82 Culvert
+7889    Catherine Store Road Junction
+7890    Abv Sunlight
+7892    At Second Br
+7893    Abv conf Big Bear Cr
+7894    At conf San Miguel
+7895    Abv CO Conf 3.7 mi
+7896    Abv CO conf 5.5 mi
+7897    Abv Conf Uncomp
+7898    Blw Conf Uncomp
+3844    Baylor Park
+3845    Below Park Cr
+3946    East Divide Cr und June Cr
+3947    Trapper Cr @ Upper exclosure
+3948    W Divide upstream Little Muddy G
+3949    W Divide Cr downstream of Reno Creek
+3950    Northwater Cr upstream Raspberry Cr
+3951    Abv Garfield Cr conf and barrier
+3952    E Fork Parachute Trail G
+4300    Trib A
+4301    Trib B
+9000    Biochar Experiment AFB
+9001    Biochar Exp BON
+9002    Biochar Exp BRK
+9003    Biochar Exp JJ
+9004    Biochar Exp RC
+918    Junction Cr
+564    Lefthand Cr at Peak to Peak
+565    Lefthand Cr at California G
+6040    Tamarack #1
+6051    Tamarack #4
+6052    Tamarack #2
+6053    Tamarack #3
+6062    Tamarack #5
+6065    Tamarack #6
+6066    Tamarack #7
+6068    Tamarack # 9
+6069    Tamarack #10
+3064    Blw Falls 0.25 Miles
+3065    Abv Bear Cabin G
+127    Almont
+128    Above Almont
+129    Deep Cr Br
+130    Willow Cr
+131    Hinshaw
+132    S Fk
+133    State Br
+134    112 Br
+135    Seven Mile Plaza
+136    3 West
+137    Gun
+138    3 East
+139    Cty Line
+140    N Alamosa
+141    Stadium Dr
+142    S Alamosa
+143    Closed Basin Project
+144    La Sauses
+145    N of Hwy 50 Br
+146    @ Prospect
+147    At Headwaters
+148    At Gauge
+149    Above BMG
+150    3R Br
+151    Eagle-Vail Bus Stop
+152    Bobolink
+153    Above Marshall Landfill
+154    Pre-med
+155    Hermit Rd
+160    LCR 17
+161    WCR 1
+162    Johnstown E
+163    Milliken E
+164    Dam Br
+19    Above Lake
+20    WWTP
+21    Kittredge
+22    Ward CR 23
+23    128th Ave
+24    Above California G
+25    Below California G
+26    Clark's Br
+27    Otero Pump Sta
+28    Johnsons Village
+29    Marquard Nature Area
+30    Stockyard Br
+31    Shavano USGS
+32    Cotopaxi
+33    9th St Br
+34    Parkdale
+35    MacKenzie Br
+36    Portland USGS
+37    Union Hill Mill
+38    Above Redcliff
+39    County Br
+40    4 mile
+41    Avon
+42    Below Gypsum
+43    Above Canon Heights
+98    Maloit Pk
+99    Pinon Br
+100    Power Plant Br
+101    Naturita Br
+102    W Uravan Br
+103    13th St Br
+104    Abv Conf Animas
+105    Bohn Pk Br
+106    Lyons Town Hall
+107    HS Br
+108    Bayfield Br
+109    Bayfield WWTP
+110    5 Branches
+111    Vallecito Cr
+112    Columbus Br
+113    BIA
+156    Blw Battle Mtn Gold
+157    Taft
+158    Alicia Mine Drainage
+159    La Salle Rd
+166    Below Conf
+167    Pratt Pkwy
+168    Ted's Place
+169    Shield's Br
+165    Blw Conf Squirrel Cr
+170    Hwy 60
+171    La Salle
+172    Platteville
+48    Granite
+44    Abv Conf Animas
+45    7th St Br
+46    Ped Br
+47    Dev Br
+50    Keystone G USGS
+51    Snake Conf
+52    KSS Br
+53    At PVHS
+54    Job Corps Br
+55    Buzzard Cr Br
+56    Collbran
+57    Griffith Center
+58    Perry Pk
+59    Oakland Ranch
+60    Sutton's Ranch
+61    Above Castle Rock
+62    Below Castle Rock
+63    Elbert
+66    Hwy 82 Br
+67    Herron Park Br
+68    Slaughterhouse
+69    Highlands
+70    Woody Cr Br
+71    Gerbaz Br
+114    Lunt
+115    Ignacio Br
+116    La Boca
+117    Twin Br
+118    Dos Rios
+119    Boomerang
+120    Below Greeley
+121    Boulder HS
+122    Jct 4 Mile Cr
+123    Gamble G
+124    Hwy 72 Br
+72    7-11 Br
+73    Upper Basalt Br
+74    Gray Ranch
+75    Hatchery
+76    Catherine Br
+77    Penny Hot Spgs
+78    CRMS Crystal Br
+79    Henke Br
+80    Decker Pk
+81    Below Stagecoach
+82    Above Marcy G
+83    Below Marcy G
+85    Abv Conf La Plata
+86    Coonskin
+87    Society Turn
+125    Cemetary
+126    Below Almont
+6    Miller
+7    Willow Cabin Br
+8    At Stagecoach Res
+9    Habro Br
+10    SWA Br
+12    Library
+13    East Br
+14    West Br
+15    At Broncos Pkwy
+17    Below Gravel Pit
+18    Above Gravel Pit
+88    Baker's Br
+89    Trimble Lane Br
+90    DHS Footbridge
+91    ANIDURCO
+92    Bodo
+93    Weaselskin
+94    At Last Br
+95    Resort Br
+96    Town Pk
+97    160 Piedra Br
+190    Globeville Landing Pk
+191    USGS FL
+192    Above WWTP
+193    Below WWTP
+194    SP @ Chatfield State Park
+195    @ Confluence
+196    Straight Cr
+197    Gregory Pk
+198    Before Conf
+199    Above Conejos
+200    School Br
+201    Iliff St Br
+202    Gregory Park
+176    Confluence Park
+173    Michigan Br
+174    Illinois Br
+175    Bar Ni Ranch
+178    Bushee Cr
+179    French G
+180    USGS Julesburg
+181    Atwood Br
+182    Saddleback Ranch
+183    Bridge
+187    Riverside Pk
+184    Kautz Area
+185    At Cascade St
+186    Snyder Br
+188    Narrows
+189    Near Kersey
+206    River Rd
+207    Windsor Br
+210    Adams Cty Fairgrounds
+203    Hot Sulphur Springs
+204    Evans Br
+205    Pioneer Park
+208    WCR 25 Br
+209    Bridge St
+211    124th Ave Br
+212    72nd Bike Path
+213    88th and Colo
+214    Old Colfax Br
+215    Dry Gulch Cr
+216    Bowles Ave Br
+217    112th Ave
+218    136th Ave
+219    Namaqua
+220    Lincoln Ave
+221    Below Hwy 6 Br
+222    Below Church Ditch
+223    Proctor
+224    Iliff
+225    Sterling Br
+226    Bravo Ditch
+227    74th Ave
+228    19th St Br
+229    Logan Br
+230    Old Berthoud School
+231    Dutch Cr
+232    Below Dutch Cr
+233    Riverfront
+234    Below Big Dry Cr
+235    Chatfield Inlet
+239    GI Rock
+236    Waterton Canyon
+237    Carson NC
+238    Grand Avenue Br
+240    Farmers Union Br
+241    Below PC
+242    Cty Rd 14
+243    Ranch
+244    Fitz
+245    School Br
+246    San Juan Dr Br
+247    Mulberry St Br
+248    Pool/channel
+249    Lost Souls
+250    Hwy 50 Br
+251    Knorr
+252    Trough
+253    Tunnel #1
+329    At FS Boundary
+331    Abv Conf Colorado
+332    At Cedaredge HS
+346    Abv Trujillo Meadow Res
+351    Abv Conf W Mamm
+357    At Miguel Rd N
+389    Silver Cr Trailhead
+390    Library Br
+391    Abv Winfield
+396    At La Boca
+467    Howardsville
+397    At Hwy 160
+402    Ridgeway Town
+437    Abv Conf N Fk Gunnison
+461    At HS
+466    Abv Coal G
+573    Keys
+638    Abv CR 44
+639    Blw CR 55
+702    @ CR 51 near Axial
+710    Hwy 40
+714    @ Temple Canyon Pk
+715    By Westcliffe
+722    Abv 8th St
+724    Blw Catherdral CG
+725    Abv Roc Cr
+728    Abv Mouth Bear Cr
+731    1/4 mi up from Hwy
+742    Blw Salt Cr At Z6 Rd
+747    Blw G.5 Rd
+753    Abv Whitewater
+754    Below Rangely
+756    Hwy 318
+812    Ralston Cr Upstream
+814    Ralston Cr Downstream
+873    Beaver Creek
+7899    Applebaugh Pond
+356    Bridge at Lesher MS
+382    CMC Breckenridge
+420    Scott Carpenter Pk
+473    At  Runyan Lk
+479    Frisbee Footbridge
+482    S Crestone Cr
+490    McConnel Br
+501    Abv Bear Cr Conf
+504    Carpenter Ranch
+514    E of Federal Blvd
+2825    W Fk Clear Cr Abv Rd
+342    CR19
+823    Cottonwood Creek
+871    Buck Creek #1
+872    Buck Creek #2
+895    Buckskin Cr
+2826    Mine Tailings
+3011    Blw Pomerory G 1500 feet
+3690    Above Gravel Pit at I-70 & 6
+3691    Below Mayhem Gulch
+992    Trout Creek
+2211    TM OPP
+2212    TMS-BAM
+2209    Below Campground
+2210    Blw Tomichi Mine
+2213    TMS - UWP
+2604    Mapleton
+3390    Upstream Golf Tunnel Adit
+4003    Below Iron Bog
+4049    Below Swamp Canyon
+4050    BG-14
+4240    MG-13
+4600    Iron Creek
+4601    Alum Creek
+4602    Bitter Creek
+4603    Wightman Fork
+4604    Jasper Creek
+4801    LA-PR11
+4802    LA-PR10
+4803    LA-PR03
+4804    LA-PL03
+4805    LA-PL04
+4806    LA-PL07
+4807    LA-PR07
+4808    LA-PL06
+4809    LA-OX01
+4810    LA-MAR04
+4811    LA-MAR-03
+4812    LA-MAR01
+4813    LA-PR04
+4814    LA-PR15
+4821    LA-S314
+4822    LA-S310
+4823    LA-F015
+4824    LA-N165
+4825    LA-F048
+4826    LA-S338
+4841    LA-F003
+4842    LA-N164
+4843    LA-S309
+4844    LA-N176
+4845    LA-F028
+4846    LA-S329
+4847    LA-N161
+4848    LA-N160
+6102    Bailey's Br
+6104    Wakara
+6106    Bel Aire
+6107    Bel Aire
+6108    Westlands
+6110    Blw CR 14
+498    West Divide
+6300    PKN-RW20
+459    Upper Abrams Cr
+6301    PKN-RW13
+6302    PKN-RW4
+412    Abv Hwy 550
+425    Mid Abrams Cr
+429    Lower Abrams Cr
+491    104th Ave Br
+545    Tri Br
+604    Abv Long Hollow Res
+761    Abv Henson Cr
+765    At Conf Lk Fk Gunn
+923    At Centennial 1
+924    In Rifle
+925    At Centennial 2
+927    Blw Govt Cr
+929    Blw Rifle Gap Res
+930    At Rifle Gap Res
+931    Abv BLM Diversion
+932    W Rifle Cr SWA
+935    At Rifle Gap
+936    Rifle Falls St Pk
+937    Abv Rifle Mtn Pk
+962    North Pond
+991    Box Elder
+2200    IG-1 Skating Rink
+2201    IG-4 Brookside Lane
+2202    IG-5 Boreas Rd
+2203    IG-3.1 Robbers Nest
+2204    BR1 Broken Lance Br
+2205    GG-04A
+2206    GG01-A
+2207    Trib 03
+2208    GG-05
+                                   --------
+         
+-------------------------------End of Project Summary-------------------------------
+         
+         
+                                 Program Summary
+                                 _______________
+         
+         
+Organization:CORIVWCH_WQX        The Rivers of Colorado Water Watch Network (RiverWatch)
+         
+                                   --------
+         
+-------------------------------End of Program Summary-------------------------------
+         
+         
+                      Sample Collection/Creation Procedure Summary
+                      ____________________________________________
+         
+         
+Organization:CORIVWCH_WQX        The Rivers of Colorado Water Watch Network (RiverWatch)
+ProcedureID:Modified RBA3
+Procedure Name:Modified RBA3
+Gear Group Name:Miscellaneous/Other
+Description:
+Citation:
+   
+ProcedureID:SCM-123
+Procedure Name:SCM-123
+Gear Group Name:Net/Non-Tow
+Description:
+Citation:
+   
+ProcedureID:SM 1060B
+Procedure Name:SM 1060B
+Gear Group Name:Water Sampler
+Description:
+Citation:
+   
+                                   --------
+         
+----------------------End of Sample Collection/Creation Summary----------------------
+         
+         
+                Sample Gear And Equipment Configuration Summary
+                ________________________________________________
+         
+         
+Organization:CORIVWCH_WQX        The Rivers of Colorado Water Watch Network (RiverWatch)
+Gear Group Name: Water Sampler
+Field Gear ID: 
+Gear Name: Water Bottle
+Config ID: 
+Config Name: 
+Specification: 
+   
+Gear Group Name: Miscellaneous/Other
+Field Gear ID: 
+Gear Name: Visual Sighting
+Config ID: 
+Config Name: 
+Specification: 
+   
+Gear Group Name: Net/Non-Tow
+Field Gear ID: 
+Gear Name: D-Frame Net
+Config ID: 
+Config Name: 
+Specification: 
+   
+         
+                                   --------
+         
+------------------End of Sample Gear And Equipment Configuration Summary------------------
+         
+         
+                Sample Preservation And Handling Profile Summary
+                ________________________________________________
+         
+Organization:CORIVWCH_WQX        The Rivers of Colorado Water Watch Network (RiverWatch)
+         
+                                   --------
+         
+-----------------------------End of Sample Preservation Summary--------------------------------
+         
+         
+                Laboratory Summary
+                __________________
+         
+         
+Organization:CORIVWCH_WQX        The Rivers of Colorado Water Watch Network (RiverWatch)
+ 
+       
+                                   --------
+       
+-----------------------------------End of Laboratory Summary-----------------------------------
+         
+         
+                Analytical Procedure And Equipment Detail Summary
+                _________________________________________________
+         
+         
+Organization:CORIVWCH_WQX        The Rivers of Colorado Water Watch Network (RiverWatch)
+       
+                                   --------
+       
+-----------------------------End of Analytical Procedure Summary-----------------------------
+         
+         
+                Lab Sample Preparation Procedure Summary
+                ________________________________________
+         
+Organization:CORIVWCH_WQX        The Rivers of Colorado Water Watch Network (RiverWatch)
+       
+                                   --------
+       
+------------------------End of Lab Sample Preparation Procedure Summary------------------------
+         
+         
+                               Bibliographic Citation Summary
+                               ______________________________
+         
+         
+Organization:CORIVWCH_WQX        The Rivers of Colorado Water Watch Network (RiverWatch)
+       
+                                   --------
+       
+------------------------End of Bibliographic Citation Summary------------------------
