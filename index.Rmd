@@ -36,7 +36,7 @@ which helped inspire our approach.
   
   - Analysis assessment [here](https://cuahsi.shinyapps.io/1_baseflow_vs_stormflow/)
   
-  - Interactive web app on [mining] impacts to streamflow [here](https://cuahsi.shinyapps.io/mtm_baseflow/)
+  - Interactive web app on mountaintop mining impacts to streamflow [here](https://cuahsi.shinyapps.io/mtm_baseflow/)
 
 
 
