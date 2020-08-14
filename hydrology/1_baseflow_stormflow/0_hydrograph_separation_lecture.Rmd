@@ -54,7 +54,7 @@ It is impossible to know the amount of water moving as overland, subsurface, and
 ![](images/simple_baseflow_separation.jpg)
 
 
-#  1.4: 
+#  1.4: Baseflow separation methods
 
 One of the most basic methods for calculating base flow vs. storm flow is the straight line method. First, find the value of discharge at the point that streamflow begins to rise due to a storm. A straight line is drawn at that value until it intersects with the hydrograph (i.e. streamflow recedes back to the discharge it was at before the rainfall event started. Anything below this line is base flow and anything above it is storm flow. 
 
@@ -76,7 +76,7 @@ You can see from this equation that a filter parameter, a, must be chosen. This 
 
 ![](images/Screen Shot 2020-08-12 at 2.19.41 PM.png)
 
-#  1.5: 
+#  1.5: Watershed controls on baseflow and stormflow
 
 The way a watershed is structured has a strong control on how water is partitioned into baseflow and stormflow. Below is a list of key structural properties: 
 Land Use and Land Cover: If a watershed is developed or natural can dictate how much water infiltrates the land surface and how quickly. For example, a watershed with lots of pavement means that much more water will be overland flow with fewer opportunities to recharge baseflow. Furthermore, how a watershed is developed will affect partitioning. For example a residential area with houses on large, grassy lots will allow for more infiltration than a shopping center with large parking lots. Land cover in natural areas will also affect partitioning. Consider a dense forest vs. a recently harvested hillside. 
