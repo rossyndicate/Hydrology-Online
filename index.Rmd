@@ -5,10 +5,31 @@ date: "8/11/2020"
 output: html_document
 ---
 
-A bunch of lessons will go here
+
+# Hydrology Online
+
+This project is funded by the NSF RAPID Hydrologic Sciences program (Award 2028778). It's meant to make teaching courses online easier and better (sensu [Sal Khan of Khan Academy](https://www.nytimes.com/2020/08/13/opinion/coronavirus-school-digital.html).
+The team includes:
+
+- Anna Bergstrom
+- Tim Covino
+- Karin Emanuelson
+- Bryce Pulver
+- Matt Ross
+- [The much larger RAPID team](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2028737&HistoricalAwards=false)
+- CUAHSI
+
+This landing page is under construction. But we wanted to share our first
+complete sets of lectures/homework/applications. Eventually we hope a bunch
+of people will contribute to this page and [hydrolearn](https://www.hydrolearn.org/),
+which helped inspire our approach. 
 
 - [Baseflow and Stormflow](hydrology/1_baseflow_stormflow/0_hydrograph_separation_lecture.html)
 
-  - Homework here
+  - [Rubric here](hydrology/1_baseflow_stormflow/Hydrolearn_OUtline_Baseflow.pdf)
   
-  - Shiny app here
+  - Analysis assessment [here](https://cuahsi.shinyapps.io/1_baseflow_vs_stormflow/)
+  
+  - Interactive web app on [mining] impacts to streamflow [here](https://cuahsi.shinyapps.io/mtm_baseflow/)
+  
+  
