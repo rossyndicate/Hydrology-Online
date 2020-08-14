@@ -2,13 +2,17 @@
 title: "Interaactive Hydrology Lessons"
 author: "Matthew Ross"
 date: "8/11/2020"
-output: html_document
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    toc_depth: 2
 ---
 
 
 # Hydrology Online
 
-This project is funded by the NSF RAPID Hydrologic Sciences program (Award 2028778). It's meant to make teaching courses online easier and better (sensu [Sal Khan of Khan Academy](https://www.nytimes.com/2020/08/13/opinion/coronavirus-school-digital.html).
+This project is funded by the NSF RAPID Hydrologic Sciences program (Award 2028778). It's meant to make teaching courses online easier and better (sensu [Sal Khan of Khan Academy)](https://www.nytimes.com/2020/08/13/opinion/coronavirus-school-digital.html).
 The team includes:
 
 - Anna Bergstrom
@@ -24,12 +28,16 @@ complete sets of lectures/homework/applications. Eventually we hope a bunch
 of people will contribute to this page and [hydrolearn](https://www.hydrolearn.org/),
 which helped inspire our approach. 
 
-- [Baseflow and Stormflow](hydrology/1_baseflow_stormflow/0_hydrograph_separation_lecture.html)
+## Hydrograph separation
+
+  - [Baseflow and Stormflow lecture and text](hydrology/1_baseflow_stormflow/0_hydrograph_separation_lecture.html)
 
   - [Rubric here](hydrology/1_baseflow_stormflow/Hydrolearn_OUtline_Baseflow.pdf)
   
   - Analysis assessment [here](https://cuahsi.shinyapps.io/1_baseflow_vs_stormflow/)
   
   - Interactive web app on [mining] impacts to streamflow [here](https://cuahsi.shinyapps.io/mtm_baseflow/)
-  
+
+
+
   

@@ -1,5 +1,7 @@
 # Hydrology Online
 
+Main landing page for this project is [here](https://openecodatalab.github.io/Hydrology-Online/)
+
 This project is funded by the NSF RAPID Hydrologic Sciences program (Award 2028778). It's meant to make teaching courses online easier and better. The team includes:
 
 - Anna Bergstrom
