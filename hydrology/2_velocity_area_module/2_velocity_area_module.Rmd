@@ -1,6 +1,6 @@
 ---
 title: "Velocity Area Module"
-author: "Bryce Pulver"
+author: "Tim Covino, Karin Emanuelson"
 date: "8/19/2020"
 output: 
   html_document:
@@ -17,9 +17,6 @@ In this module, we describe the approach, equations, and variables needed to det
 
 At the end of this module, students should be able to accurately use the velocity-area method in the field to collect data and calculate discharge of a stream.
 
-## Supporting Videos
-
-<iframe width="560" height="315" src="https://youtu.be/0ohVXAGI9lk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Reading
 
@@ -27,7 +24,7 @@ https://www.dropbox.com/s/lnsrr32039k02p2/Dingman_2002_Appendix_F.pdf?dl=0
 
 # Lecture
 
-<iframe width="560" height="315" src="https://youtu.be/hgPoorCAAGg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hgPoorCAAGg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## 1.1: Variability in stream velocity
 

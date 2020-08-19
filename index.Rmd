@@ -1,5 +1,5 @@
 ---
-title: "Interaactive Hydrology Lessons"
+title: "Interactive Hydrology Lessons"
 author: "Matthew Ross"
 date: "8/11/2020"
 output:
@@ -39,5 +39,5 @@ which helped inspire our approach.
   - Interactive web app on mountaintop mining impacts to streamflow [here](https://cuahsi.shinyapps.io/mtm_baseflow/)
 
 
-
+## Biogeochemistry online
   

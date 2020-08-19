@@ -1,16 +1,15 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
-<meta name="author" content="Bryce Pulver" />
+<meta name="author" content="Tim Covino, Karin Emanuelson" />
 
 
 <title>Velocity Area Module</title>
@@ -1405,6 +1404,7 @@ summary {
   border: none;
   display: inline-block;
   border-radius: 4px;
+  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -1433,6 +1433,12 @@ summary {
 }
 }
 
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
 
 .toc-content {
   padding-left: 30px;
@@ -1504,7 +1510,7 @@ div.tocify {
 
 
 <h1 class="title toc-ignore">Velocity Area Module</h1>
-<h4 class="author">Bryce Pulver</h4>
+<h4 class="author">Tim Covino, Karin Emanuelson</h4>
 <h4 class="date">8/19/2020</h4>
 
 </div>
@@ -1517,11 +1523,6 @@ div.tocify {
 <h2>Overall Learning Objectives:</h2>
 <p>At the end of this module, students should be able to accurately use the velocity-area method in the field to collect data and calculate discharge of a stream.</p>
 </div>
-<div id="supporting-videos" class="section level2">
-<h2>Supporting Videos</h2>
-<iframe width="560" height="315" src="https://youtu.be/0ohVXAGI9lk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-</iframe>
-</div>
 <div id="reading" class="section level2">
 <h2>Reading</h2>
 <p><a href="https://www.dropbox.com/s/lnsrr32039k02p2/Dingman_2002_Appendix_F.pdf?dl=0" class="uri">https://www.dropbox.com/s/lnsrr32039k02p2/Dingman_2002_Appendix_F.pdf?dl=0</a></p>
@@ -1529,7 +1530,7 @@ div.tocify {
 </div>
 <div id="lecture" class="section level1">
 <h1>Lecture</h1>
-<iframe width="560" height="315" src="https://youtu.be/hgPoorCAAGg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hgPoorCAAGg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 </iframe>
 <div id="variability-in-stream-velocity" class="section level2">
 <h2>1.1: Variability in stream velocity</h2>
@@ -1701,7 +1702,7 @@ $(document).ready(function ()  {
       theme: "bootstrap3",
       context: '.toc-content',
       hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
       },
       ignoreSelector: ".toc-ignore",
       scrollTo: 0
