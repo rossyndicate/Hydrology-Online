@@ -28,16 +28,32 @@ complete sets of lectures/homework/applications. Eventually we hope a bunch
 of people will contribute to this page and [hydrolearn](https://www.hydrolearn.org/),
 which helped inspire our approach. 
 
-## Hydrograph separation
+## Hydrograph Separation
 
   - [Baseflow and Stormflow lecture and text](hydrology/1_baseflow_stormflow/0_hydrograph_separation_lecture.html)
 
-  - [Rubric here](hydrology/1_baseflow_stormflow/Hydrolearn_OUtline_Baseflow.pdf)
+  - Rubric [here](hydrology/1_baseflow_stormflow/Hydrolearn_OUtline_Baseflow.pdf)
   
   - Analysis assessment [here](https://cuahsi.shinyapps.io/1_baseflow_vs_stormflow/)
   
   - Interactive web app on mountaintop mining impacts to streamflow [here](https://cuahsi.shinyapps.io/mtm_baseflow/)
+  
+## Velocity Area
+  
+  - [Velocity Area lecture and text](hydrology/2_velocity_area_module/2_velocity_area_module.html)
+  
+  - Rubric [here](hydrology/2_velocity_area_module/2_velocity_area_module_files/velocity_area_rubric.pdf)
+  
+  - Analysis assessment [here](https://www.dropbox.com/s/pp7spwyk9maa4ul/Velo_Area_Assessment.xlsx?dl=0)
+  
+## Dilution Guaging
+
+  - [Dilution Guaging lecture and text](hydrology/3_dilution_guaging/3_dilution_guaging.html)
+  
+  - Rubric [here](hydrology/3_dilution_guaging/3_dilution_guaging_files/dilution_guaging_rubric.pdf)
+  
+  - Analysis assessment [here](https://www.dropbox.com/s/hkpucfp1g7lhlj3/DG_Assessment.xlsx?dl=0)
 
 
-## Biogeochemistry online
+## Biogeochemistry Online
   

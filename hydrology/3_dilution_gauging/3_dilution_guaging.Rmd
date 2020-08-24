@@ -1,0 +1,237 @@
+---
+title: "Dilution Gauging"
+author: "Tim Covino, Karin Emanuelson"
+date: "8/21/2020"
+output: 
+  html_document:
+    toc: true
+    toc_depth: 3
+    toc_float: true
+---
+
+# Summary:
+
+In this lab we will be using injected tracers to quantify some measures of stream hydrodynamics. To do so we will be using a conservative tracer (NaCl). A conservative tracer is not affected by biological uptake and does not sorb (stick) to sediments. As such, conservative tracers move as water does and indicate the physical movement of water and solutes through the system. By injecting a known mass of NaCl and measuring the arrival of that tracer at a downstream location, many properties of the flow can be calculated. The arrival of injected tracer at a downstream location is referred to as the breakthrough curve (BTC). The shape of the BTC is controlled by the channel hydrodynamics, which are in turn a function of climate (flow state) and channel morphology. One of the useful parameters that can be calculated from a tracer injection is stream discharge (Q). This approach, called dilution gauging, is particularly useful for small streams where the velocity-area method for measuring stream discharge is less accurate. In general, dilution gauging is more accurate in small streams and the velocity-area method is more accurate in larger streams/rivers with less turbulent flow and more regular channels. In this lab you will be using injected NaCl to quantify: Q and four velocities (5% arrival, modal, median, and 95% departure velocities). With dilution gauging it is important that you recover all mass in order to correctly calculate Q. The 2 main assumptions involved in dilution gauging are: 1. No significant mass loss to the GW system; and 2. Complete mixing of the tracer vertically and laterally across the stream as the pulse reaches the logger. Because of this, when doing dilution gauging we keep the length from injection to logger station just long enough to get complete mixing, but short enough to minimize any loss to the GW system. 
+
+### Overall Learning Objectives: 
+
+At the end of this module, students will be able to accurately collect field data and calculate stream discharge and four velocities (5% arrival, modal, median, and 95% departure velocities) using the dilution gauging method.
+
+# Lecture
+
+### Required Reading:
+[Dilution Gauging](https://www.dropbox.com/s/125t99v76ho0hyf/Dilution_gauging.pdf?dl=0){target="_blank"} 
+
+### Lecture video: 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LP-xBgymsEU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### 1.1: Conservative tracers
+
+A conservative tracer, is a substance that is not taken up biologically, does not sorb (or stick) to sediments, is safe for the aquatic ecosystem and has low naturally occurring background concentrations. Conservative tracers are used in hydrology for calculating streamflow, determining velocities, quantifying transient storage, modeling solute transport and determining stream-groundwater exchange. Common conservative tracers include isotopes, salts and fluorescent dyes. In dilution gauging, the most common conservative tracer used is sodium chloride (NaCl), which is what we will use in this module.
+
+### 1.2: Well-mixed reach
+
+With dilution gauging, it is important that the stream reach is turbulent enough to provide complete mixing of the tracer throughout the water column and that the distance is short enough that tracer is not lost through hydrologic exchange with the subsurface. The best way to determine a well-mixed reach is to use a dye tracer, like Rhodamine, to visually observe the mixing in the stream 
+
+
+see supplemental video here:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/TRfGsxh3_-o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Add a small amount of Rhodamine to the upstream injection location, observe how the tracer, at first, is darkest in the center of flow (or thalweg) then mixes throughout the stream as advection, dispersion and turbulent mixing occurs in the reach. Choose a monitoring location where the stream appears the same color throughout and set up your conductivity probe mid-depth in the thalweg of the channel. If using a Campbell conductivity sensor refer to these videos:
+
+**for the field deployment instructions**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2SSo5F7EsMo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+**for the computer deployment instructions**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PJ5N_siWM8M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### 1.3: Dilution gauging
+
+Dilution gauging involves dissolving a known mass, TMA, of salt into a volume of water to create a salt tracer solution, and then injecting the tracer into the stream. 
+
+see supplemental video here:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/m5TmNtsT9b4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+As the salt slug moves downstream, it disperses and travels as a function of stream hydrodynamics. Because solutions with dissolved salts conduct electricity, we can use electrical conductivity sensors to monitor their transport. At a downstream observation point, the concentration of the salt through time can be observed with a conductivity sensor and plotted (called a breakthrough curve, Figure 1). 
+
+![](images/figure_1.jpg)
+
+### 1.4: Breakthrough curve analysis
+
+The breakthrough curve can be used to compute discharge by considering continuity equations for the volumetric flow rate of water (discharge) and the mass flow rate of the solute 
+
+![](images/equation_1.jpg)
+
+Additionally, the breakthrough curve can be used to determine stream velocities by dividing the reach distance (distance between the injection and monitoring location) by the time to key points in the breakthrough curve. The modal velocity is define by the time to peak concentration. Whereas the arrival, median and departure velocities are defined by the time to 5%, 50%, and 95% mass recovery.
+
+# Field work
+
+Now that you have an understanding of the dilution gauging method, work with your field team to take measurements at a field site of your choosing.
+
+Materials:
+
+1. Bucket 
+2. Pre-weighed salt (NaCl)
+3. Notebook
+4. Wrist watch
+5. Field tape
+6. Conductivity probe and Campbell datalogger
+7. Rebar
+8. Zipties
+9. Rhodamine dye
+10. Field book and pen
+
+## 2.1: NaCl slug
+
+1.	Use Rodamine dye to determine a well-mixed location within your reach. Remember to inject your dye in a convergent, turbulent area to promote mixing. Follow the dye downstream and determine a downstream observation point where the dye is well-mixed, meaning the entire water column is the same shade of pink/red.
+
+2.	Deploy the conductivity probe at your downstream observation point at a location where you have determined the tracer is fully mixed in the lateral and vertical planes across the stream. Begin taking background measurements. We generally place the sensor at mid-depth of the thalweg parallel to the stream (i.e. water should be flowing through the hole at the front and back of the sensor). Refer to the Campbell Scientific Data Logger Instructions below to connect to the datalogger and send the appropriate monitoring program to the data logger. Ensure the logger is taking readings before moving onto the next step! It is helpful to record the background (i.e. pre-injection) electrical conductivity in your notes. Also be sure to synchronize a wristwatch with the data logger time. The injection time needs to be correct, down to seconds, in order for this method to work. 
+
+3.	Measure from your injection location downstream to the conductivity probe. Remember to place the conductivity probe far enough downstream to ensure complete mixing. Record this distance in your notes.
+
+    + **Remember**: The 2 main assumptions involved in dilution gauging are: 1. No significant mass loss to groundwater; and 2. Complete mixing of the tracer vertically and laterally across the stream by the time the tracer reaches the data logger. Because of this, when doing dilution gauging we keep the length from injection to logger station just long enough to get complete mixing, but short enough to minimize any mass loss to groundwater.
+    
+\n
+    
+4.	Fill a bucket ½ full of water and dissolve your pre-weighed NaCl in the bucket.
+
+5.	Record the mass of NaCl in your notes.
+
+6.	Use a stick to completely mix/dissolve the NaCl in your bucket (≥2  min) and dump the bucket of dissolved salt & the mixing stick into the stream. Make sure you are communicating with the teammate who has the synchronized wrist watch to coordinate the injection time. Record injection time down to the seconds (hh:mm:ss). After dumping the bucket’s contents, quickly rinse the bucket 2-3 times in the stream making sure to rinse all sides of the bucket thoroughly.
+
+7.	You will need to record the mass of salt, time of injection, and distance of injection (i.e., distance from injection to the conductivity sensor). Discharge (Q) will be computed from the mass and velocity will be computed from the travel time and distance of injection. 
+
+8.	Allow the NaCl pulse to pass through the downstream observation point. The injection is done when the NaCl slug has completely passed by the sampling site and the electrical conductivity (μS/cm) has returned to background (i.e. pre-injection) levels. You can watch the Graph to see if the Conductivity is back to background.
+
+9.	Repeat Steps 4- 8 2 more times in order to have a variety of injection data.
+
+## 2.2: Campbell Scientific Data logger Instructions
+
+### Connecting to the datalogger
+
+1.	Check that the logger is connected to the battery. **Red to Red** and **Black to Black!!!! VERY IMPORTANT!!!**
+
+2.	Attach the USB end of the cord to the laptop and the 9-pin end of cord to RS-232 on the logger
+
+3.	Open LoggerNet Program
+
+4.	Click Connect (the chain icon) on the Main Screen
+
+5.	Select **CR1000 or CR800 with WR417 label** under Stations and click on the Connect icon.  If you receive an error message, connect the USB to a different port and try again.
+
+6.	Click Set under Clocks.  This will set the logger to the laptop time.
+
+7.	Next you will send a conductivity program to the logger.
+
+    +	Click the “Send…" button on the right-hand side of the screen.
+
+    +	A file open screen will pop up. Navigate to the **WR417 folder on the desktop** and select the applicable program file (file extension either .CR8 or .CR1). Click “Open” 
+    
+    
+The logger will ask if you really want to do this – because when you send the program it is going to wipe all of the data off the logger. You can say yes because we have made sure to take all of the data off the loggers previously. HOWEVER – in the field you should ALWAYS download the data first because you do not know if the previous person did so. We have seen many people loose months of data because they didn’t follow this simple piece of advice. Always download data first!!! 
+
+8.	The logger is now logging data at a 5 second interval.
+
+### Monitoring with the CS547A
+
+1.	Place the CS547A probe in water
+
+2.	To view the data in real-time, click Num Display on the Connect Screen and select Display1.  If the data are not listed, click Add.  Select Table1, highlight all fields, and click Paste. If the program was set correctly, the values should change every 5 seconds.
+
+3.	You can also view the data real time as a graph.  To do this, click Graphs on the Connect Screen and then select Graph 1. Select the green plus sign to add fields.  Select Table1, highlight all fields, and click Paste.  If you do not see a moving line, you may need to adjust your axes
+
+### Downloading from the Campbell data loggers
+
+1.	After collecting data from all of your salt injections, you will then download the data.
+
+2.	Click Custom on the Connect Screen.
+
+3.	A Custom Collection pop up window will open. Select **All the Data** for Collect Mode, Create New File for the File Mode, and SCII Table Data, Long Header for the File Format.  
+
+4.	Enter today’s date and the appropriate start and end times for your data
+
+5.	Under Table Collection, select Table1 and then Change File Name. Name it with standard naming conventions (it’s always good to name files with your name/project name, the data logger identifier, and the date at the very least), and save it to the desired folder. Ensure the file type is .csv.
+
+***ENSURE YOU HAVE CHANGED THE FILE NAME BEFORE YOU CONTINUE OR YOU WILL DELETE ANOTHER GROUPS DATA***
+
+6.	Make sure that Table 1 box is checked then select “Start Collection”
+
+7.	When the data has finished saving a Data Collection Results window will pop up. Click “OK”
+
+8.	Close the Custom Collection window.
+
+9.	Check your data. Open the file you just saved in excel. Briefly review your data to ensure the proper data downloaded and the dataset is complete.
+
+10.	Disconnect from the device by selecting **Disconnect** (the chain icon) on the Main Screen before disconnecting the USB.
+
+# Assessment
+
+Calculations using pre-collected data provided [here](https://www.dropbox.com/s/hkpucfp1g7lhlj3/DG_Assessment.xlsx?dl=0){target="_blank"}: 
+
+## Breakthrough Curve Analysis (10 pts)
+
+Use the provided conductivity breakthrough curve timeseries data to calculate discharge with the dilution gauging method. Note highlighted green rows and columns are data that have been collected in the field. Yellow highlighted rows and columns are what you will be filling in following the directions below:
+
+
+a.	It is useful to convert the timestamp to time since injection (in second) for calculations (column E). Subtract the Start Time from each Timestamp then convert from fractional days to seconds (hint: there are 86400 seconds/day).
+
+b.	When working with tracers you first need to correct for background (i.e. pre-injection) levels. To do this plot the conductivity data vs. time and determine the background conductivity. You want to capture the average pre-injection conductivity value. However, it takes some time for conductivity sensors to adapt to local stream conditions. Don’t include data that is rapidly increasing or decreasing pre-injection, rather pick a relatively stable pre-injection period. Once you have decided on the background value, subtract this number from all of the recorded conductivity values to provide background corrected values (Column G). 
+
+c.	Now that you have background corrected conductivity you will need to convert that to NaCl using a concentration factor of 2 (Column H). Keep in mind that the NaCl values prior to arrival of the tracer should be near zero (because this is background corrected). To do this use the following equation:
+
+![](images/equation_2.jpg)
+
+d.	Graph your NaCl (mg/L) breakthrough curve (i.e. time since injection (s), vs background corrected NaCl values).
+
+e.	To integrate the breakthrough curve (BTC), assign the first timestep a value of 0 and use the following equation to calculate the integrated NaCl for each cell. 
+
+![](images/equation_3.jpg)
+
+f.	Using your breakthrough curve (BTC) determine Q. If you do the unit analysis you will see this yields Q in L/s. Remember the BTC needs to be background corrected before you integrate it. Note that the denominator would be the maximum value in column I. 
+
+![](images/equation_4.jpg)
+
+g.	From your BTC calculate tracer velocities. First, determine the time of the BTC peak. Calculate the time (in seconds) from injection to the peak of the BTC. The distance of injection divided by time to peak is the modal velocity.
+
+h.	To determine the other 3 velocities integrate the BTC and normalize the integrated BTC to 1 by dividing each value by the maximum value of the integrated BTC.
+
+i.	Find the time (in seconds) from injection time to 5%, 50%, and 95% arrival times. To do so, plot time since injection against normalized integrated NaCl BTC. Use this graph to determine the time at 0.05, 0.5, and 0.95 recovery. The distance of injection divided by the time to 5, 50, and 95% are the 5, 50 (median), and 95% velocities.
+
+j.	Generate the table below to submit for your assessment (10 pts)
+
+![](images/table_1.jpg)
+
+## Field Data Analysis and Synthesis Questions: Using your field-collected data
+
+Use the data you collected in the field work section to answer the following questions
+
+**Dilution Gauging Questions (45 pts)**
+
+a.	Provide a table with the following information for each of the 3 dilution gauging replicates that you completed in the field (5 pts):
+
+    +	Discharge (L/s), 
+    +	modal velocity (m/s), 
+    +	5%, 50% (median), and 95% velocities (m/s)
+    
+![](images/table_2.jpg)
+
+b.	Explain what is responsible for these differences in velocities (i.e modal vs. 5% vs. 50% vs. 95%)? (10 pts)
+
+
+c.	Do the discharge values vary between the injections? Explain why these values may change? (5 pts)
+
+d.	How would mass loss affect your calculation of Q and why? (5 pts)
+
+e.	Provide a figure with one of your three slug injection BTC (5 pts)
+
+f.	Provide a figure with one of your three normalized integrated slug BTC with a y-scale that varies from 0-1 (5 pts)
+
+g.	Imagine 2 systems - a natural stream and a cement lined straight channel. Predict what the BTCs of a slug injection in each would look like. Can you draw an illustration to demonstrate? (10 pts)
+
+
+
