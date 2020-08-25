@@ -46,11 +46,11 @@ which helped inspire our approach.
   
   - Analysis assessment [here](https://www.dropbox.com/s/pp7spwyk9maa4ul/Velo_Area_Assessment.xlsx?dl=0)
   
-## Dilution Guaging
+## Dilution Gauging
 
-  - [Dilution Guaging lecture and text](hydrology/3_dilution_gauging/3_dilution_guaging.html)
+  - [Dilution Gauging lecture and text](hydrology/3_dilution_gauging/3_dilution_gauging.html)
   
-  - Rubric [here](hydrology/3_dilution_gauging/3_dilution_guaging_files/dilution_guaging_rubric.pdf)
+  - Rubric [here](hydrology/3_dilution_gauging/3_dilution_gauging_files/dilution_gauging_rubric.pdf)
   
   - Analysis assessment [here](https://www.dropbox.com/s/hkpucfp1g7lhlj3/DG_Assessment.xlsx?dl=0)
   
