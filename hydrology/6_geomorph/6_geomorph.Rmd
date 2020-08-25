@@ -1,0 +1,252 @@
+---
+title: "Fluvial Geomorphology"
+author: "Tim Covino"
+date: "8/24/2020"
+output: 
+  html_document:
+    toc: true
+    toc_depth: 3
+    toc_float: true
+---
+
+# Summary
+
+The term “fluvial” references running waters, “geo” refers to earth, and “morphology” refers to channel shape. Thus, fluvial geomorphology is the study of stream form and function as well as the interactions between streams and the surrounding landscape. Stream systems are dynamic meaning they physically respond to upstream inputs of streamflow, sediment, and debris. In this module, we will introduce how to measure a stream slope and cross section, determine a Manning’s roughness coefficient, classify a stream based on the Rosgen Classification system, quantify the grain size distribution of sediment with the Wolman pebble count, and calculate the relative bed stability (RBS).
+
+### Overall Learning Objectives:
+
+At the end of this module, students will understand the key principles of fluvial geomorphology including defining characteristics of a channel cross section, determining a Manning’s roughness coefficient, classifying a stream based on the Rosgen Classification system, quantifying the grain size distribution of sediment with the Wolman pebble count method, and using these measurements to determine the relative bed stability.
+
+# Lecture
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EvMyerRQ0So" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### 1.1: Stream Cross Section and Gradient
+
+![](images/fig_1.jpg)
+
+**Field Cross Section Methods:**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/H0mDawx9zpg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+A stream system is not defined by only the main, active channel but also how that channel interacts with the surrounding landscape. Because of this, we also take note of the bankfull location and the flood-prone area when assessing a stream cross section. The bankfull location is the water level at which the stream begins to spill out of the main channel into the active floodplain. Bankfull flow has a recurrence interval of ~1.5 years, although this varies and is debated. Bankfull flows tend to move most of the sediment over time and are largely responsible for shaping the stream channel. Bankfull locations can be visually observed in streams where there are changes in slope, vegetation and particle size. The flood prone area is defined by the width at two times the maximum bankfull depth. Frequency analysis of historic data suggests that the floodprone area is inundated at a 50 year recurrence interval. 
+
+Stream gradient is another important control on channel morphology. The gradient of a river is a measure of drop in elevation of a stream per unit horizontal distance (i.e. slope). Generally, steeper gradients are associated with faster flowing water and more erosive potential. Gradient can be measured using a clinometer and stadia rod over a short (e.g. 10 m) stretch of the river. 
+
+**See supplemental video here:**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LtASpnD6KPA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Overall, the observer with the clinometer first determines the point on the stadia rod that reads 0 slope while the stadia rod is held nearby with the bottom set on the channel bed. Then their teammate measures 10 meters downstream and holds the stadia rod against the channel bed. The observer, who has remained in the same location, looks at the zero point on the stadia rod with one eye and records the slope reading on the clinometer. Generally, 10 meters is about the limit of how far people can accurately read the stadia rod, so in order to get slopes along 100 m of stream reach the team would simply repeat this process 10 times. 
+
+To get the water level gradient, follow the same procedure but hold the stadia rod so the bottom is even with the water surface as opposed to holding it on the channel bed. 
+
+### 1.2: Wolman Pebble Count
+
+**Field Wolman Pebble Count Method:**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8Rr09ix4yVE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+The grain size distribution of a streambed and banks influences the channel form and hydraulics, erosion rates, sediment supply, and other parameters. For example, steep mountain streams with boulders and cobbles are different than low-gradient streams with beds of sand or silt. Land management activities can shift sediment delivery or change streamflow which can lead to cumulative impacts to the aquatic ecosystem. Whether aggradation (i.e. accumulation of sediment) or degradation (i.e. removal of sediment) occurs with this shift is a function of the balance between stream power and sediment supply as defined by Lane’s Balance. Lane’s balance diagram (Figure 4) demonstrates how the channel may respond to a change in various parameters, such as sediment load, channel geometry, channel slope, erosional resistance, and discharges (hydrologic load). For example, by increasing the amount of sediment load the left side of the balance will lower and the scale will tip toward aggradation (sediment deposition); to bring the scale back in balance a change in either the channel geometry, slope and/or hydrologic load would be needed. 
+
+![](images/fig_2.jpg)
+
+To quantify grain size distribution, in the field, we apply the Wolman pebble count method using a gravelometer. The observer walks from bankfull to bankfull, collecting material and recording the diameter of the channel material. The observer should remain unbiased during collection. The best way to achieve this is by averting your gaze and picking up the first particle touched by the tip of index finger as you bend over. Determine the smallest slot on the gravelometer that the particle fits through to determine the grain size and record that value. Measure embedded particles or those too large to be moved with the measurement increments on the side of the gravelometer or using a folding ruler. Continue this procedure until you have 100 or more measurements.
+
+### 1.3: Manning’s Roughness Coefficient
+
+Physical properties of a stream such as water depth, channel cross sectional area, stream gradient and channel material can also be applied to Manning’s equation to make estimates of discharge at a specific water depth. Manning’s equation (equation 1) calculates the average velocity, V, of uniform flow in an open channel based on channel properties: where R is the hydraulic radius (L), S is the channel slope (L/L), n is Manning’s roughness coefficient, and k is a unit conversion factor (k = 1 if R is in meters and V is m/s; k = 1.49 if R is in feet and V in ft/s). The hydraulic radius is computed as the cross-sectional area, divided by the wetted perimeter, P. In natural streams the hydraulic radius (R) and depth are nearly identical. Manning’s roughness, n, is a factor that characterizes the channel resistance. There are numerous methods to estimate n, but in this lesson we will focus on comparative (photos) and analytical (Cowan's) methods. 
+
+![](images/eq_1.jpg)
+
+
+Finally, discharge is calculated by multiplying V by the channel cross-sectional area, A (L^3^). This is particularly useful when estimating streamflow at bankfull depth or during a flood event when it isn’t safe to conduct direct measurements (i.e., wade across the stream to perform a velocity-area measurement).
+
+Manning’s roughness coefficient (n) is commonly determined in the field by the comparative and analytical methods.
+
+**See supplemental video here:**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tOk4H15WYUk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+To use the comparative method, photographs of channel segments for which n values have been verified can be used as a comparison standard to aid in assigning n values to similar channels. Refer to the USGS and USFS guides for selecting roughness coefficients:
+
+[USGS Guide](https://pubs.usgs.gov/wsp/wsp_1849/pdf/wsp_1849-test-2.pdf){target="_blank"}
+
+[USFS Guide](https://www.fs.fed.us/rm/pubs/rmrs_gtr323.pdf){target="_blank"}
+
+Alternatively, Cowan (1956) developed an analytical procedure for estimating the effects of factors affecting channel roughness (i.e. channel shape and material) to determine the value of n for a channel. The value of n may be computed by equation 2.
+
+![](images/eq_2.jpg)
+
+To apply this equation, refer to Tables 1 & 2 found in the USGS “Guide for selecting roughness coefficients” (link [here](https://www.dropbox.com/s/8dqyqgj5h4zmw2b/Guide%20for%20selecting%20roughness%20coefficients.pdf?dl=0){target="_blank"}:)
+
+### 1.4: Rosgen Stream Classification
+
+River scientists often use this framework to classify complex natural river systems into groups that share common physical characteristics. The use of this consistent language allows for effective communication of stream geomorphology between scientific fields. To classify a stream reach correctly, you must complete a hierarchical assessment of channel morphology that includes assessing single or multi-thread channel, entrenchment ratio, width to depth ratio, sinuosity, slope, and grain size (Figure 2). You will use your measurements from section 1 to classify your local field site. 
+
+**Sinuousity video:**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8a3r-cG8Wic" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+![](images/fig_3.jpg)
+
+![](images/fig_4.jpg)
+
++ Supplemental reading on the [Rosgen Classififcation System](https://directives.sc.egov.usda.gov/OpenNonWebContent.aspx?content=17833.wba){target="_blank"}
+
+### 1.5: Relative Bed Stability (RBS)
+
+Relative bed stability (RBS) is a measure of bed stability, or how frequently sediment is mobilized. In streams that have high stability, the sediment is rarely mobilized. In streams with low stability, the sediment is frequently mobilized even at low flows. In a natural stream that is not influenced by disturbance, the bed stability tends toward a moderate value where the bed isn’t too stable or too unstable. Human modification of the landscape (land use and land cover change), human modification of hydrologic regimes (e.g., damming), or natural disturbances like wildfire can alter the balance between flow and sediment supply and thus impact bed stability. For example, downstream of dams the river tends to be sediment starved and the bed often becomes “armored”, meaning that only extremely high flows will mobilize sediment. Conversely, wildfire can deliver large amounts of small sediment (e.g., sand) to the stream channel such that the stream bed becomes extremely mobile. As such, RBS can be used to help hydrologists and geomorphologists assess stream condition and can be used as an indicator of land use, land cover, and water resource management (i.e., damming) impacts on river ecosystems. 
+
+To calculate RBS, you will use the data collected in sections 1.1-1.4:
+
+![](images/eq_3.jpg)
+
+A LRBS (log of RBS) value of 0 indicates a stream where flow and sediment supply are balanced. As values become more negative, they indicate excess sediment. Conversely, positive values indicate a lack of sediment supply and bed armoring. 
+
+Reading on using [RBS to determine human impacts on streams](https://www.dropbox.com/s/5f9xu5rq65iljg5/Bed%20Stability%20and%20Sedimentation%20Associated%20With%20Human%20Disturbances%20in%20Pacific%20Northwest%20Streams1.pdf?dl=0){target="_blank"}
+
+# Field Work
+
+Now that you have an understanding of the various methods used in geomorphology, work with your field team to take measurements at a field site of your choosing. Note: you will collect your field data together with your group members, but each person will submit their own responses to the **Assessment** and **Field Data Analysis and Synthesis Questions** sections.
+
+Materials:
+
+1. Stadia Rod 
+
+2. Rebar
+
+3. Notebook
+
+4. String & line level
+
+5. Field tape
+
+6. Clinometer
+
+7. Gravelometer and folding ruler
+
+8. Manning’s Roughness References
+
+9. Field book and pen
+
+### 2.1: Cross Section and Gradient Measurements
+
+1.	Mark your cross section with rebar stakes beyond the bankfull width and extend 10 or 20 meeters into the flood-prone area (if possible), and tie a string between the stakes. Work with your team to make sure your string is level. Attach a field tape parallel to the level string and tie tightly to rebar. 
+
+2.	Survey your cross section using a stadia rod. You will want to record measurements at a consistent interval (~0.5 meters) as well as each key location (i.e. edges of flood-prone area, bankfull edges, wetted width edges, the thalweg and any other areas with a significant change in slope). At each location, you need to record 2-3 measurements. 1) record the distance of each measurement location on the field tape that is parallel to your level string; 2) record the height of the level string on your stadia rod for each location; 3) record the height of the water on your stadia rod for each location (*only applies to wetted channel). You may assign any arbitrary elevation value to the level string—it could be zero, or 10 feet, or 10 meters, or whatever.  
+
+3.	Estimate the maximum stage as indicated by mud or debris line and/or nearby high water marks in trees, shrubs, etc.
+
+4.	Measure the channel bed and water surface slopes 10m above and below your cross section using the clinometer.
+
+5.	Draw a plan view and cross-sectional field sketch of your local field site. Also be sure to take photos while you are out in the field.
+
+### 2.2: Manning’s Roughness Coefficient
+
+1.	Estimate a value for Manning's "n" for the area immediately around your cross section.  Guidance for this should come from the picture books provided during lab.
+
+### 2.3: Wolman Pebble Count
+
+1.	Briefly walk along the stream and record the dominant channel material (i.e. bedrock, boulders, cobble, gravel, sand, or silt/clay). 
+
+2.	Do a pebble count (~ 20 pebbles per team member; 100 pebbles per group) along your cross-section. You will need 3-4 transects across the stream in order to obtain the necessary sample size (each additional transect should be ~5-10 meters upstream/downstream of the previous count). Sampling transects should extend from bankfull to bankfull and sampling should be random.
+
+# Assessment: Calculations using pre-collected data
+
+### Manning’s Equation (10 pts)
+
+Pre-collected data provided [here](https://www.dropbox.com/s/x5ullpuu2lu33yd/Mannings_Assessment.xlsx?dl=0){target="_blank"}:
+
+Use the cross section data provided to answer the following questions. Note there are two tabs one with wetted width cross section data (same data as the Velocity Area Assessment) and the second with bankfull cross section data. Similarly to previous assignments, the highlighted green rows and columns are data that have been collected in the field. Yellow highlighted rows and columns are what you will be filling in following the directions below. Assume that you measured the slope to be 0.02 and remember that hydraulic radius (R) and depth are nearly identical in natural streams.
+
+**1.	Calculating stream discharge with Manning’s equation. (5 pts)**
+
+a.	In the field, you estimated Manning’s roughness coefficient to be n = 0.07. Use Manning’s equation to calculate Q with mean channel depth (m). 
+
+b.	From the USGS record you know that discharge on the day this cross section data was collected was 0.56 m^3^/s. Rearrange and solve Manning's equation for n using this known discharge (i.e., what value would Manning's n have to be for the calculated discharge to equal the measured discharge?).
+
+**2.	Calculating bankfull discharge with Manning’s equation. Using the bankfull tab for the following questions. (5 pts)**
+
+a.	The depth needs to be corrected such that it is 0 at the end points. We do this by making a linear interpolation from one side to the other and subtracting that from the bankfull depths.
+
+b.	Using the calibrated Manning’s roughness coefficient from part 1b, calculate the the bankfull discharge according to Manning’s equation.
+
+### Wolman Pebble Count (10 pts)
+
+Use the Excel Workbook “[Analyzing Pebble Count Data Collected By Size Classes](https://www.dropbox.com/s/fra4ccpkudrdjoc/Woolman%20Assessment_pebblecountanalyzer2007.xlsm?dl=0){target="_blank"}” developed by Rocky Mountain Research Station, Stream Systems Technology Center to complete the following activity:
+
+1.	Open and read through the introduction, data input and analysis tabs of the excel workbook. 
+
+2.	Work through the Case Studies set up in the excel workbook
+
+3.	Submit a document with the cumulative particle size distribution graph from each case study along with the answers to the following questions for EACH case study (10 pts)
+
+    a.	Are the contingency table p-values for each particle size criterion greater or less than 0.05? 
+    
+    b.	What does this indicate about the sediment between Sulphur Creek and its reference site? (Remember, a small p-value indicates the proportion of particles less than the criterion is statistically different between your reference and study reaches)
+    
+    c.	Does your cumulative particle size distribution support this claim? Why? 
+
+### Field Data Analysis and Synthesis Questions: Using your field-collected data
+
+Use the data you collected in the field work section to answer the following questions (60 pts)
+
+**1.	Cross Sectional and Longitudinal Data**
+
+a.	Provide a graph of your cross section showing the channel bed, water’s surface, and bankfull locations. Make sure to label right bank and left bank. (5 pts)
+
+b.	Submit a copy of your planform and cross-sectional field sketches (5 pts)
+
+**2.	Wolman Pebble Count Data (5 pts)**
+
+a.	Provide a plot of your particle-size distribution using the pebble count data. The pebble count should be plotted using a semi-log graph (i.e., cumulative percent finer on an arithmetic vertical axis and grain size in millimeters on a logarithmic horizontal axis). The graph should be properly labeled (names, cross-section number, axes, etc.) 
+
+b.	On the particle size plot, give the size of the D16, D50, and D84 particles to the nearest millimeter. 
+
+**3.	Manning’s Equation **
+
+a.	Include your Manning’s n in the table outlined below.
+
+b.	Using the cross section data that you collected, use Manning’s Equation to estimate the following and include results in the table outlined below 
+
+    i.	Q using the depth at the thalweg and channel area 
+    ii.	Q at bankfull stage 
+    iii.	Q at maximum stage as estimated from the elevation of the high water marks
+
+c.	Rearrange and solve Manning's equation for n using the discharge you measured with the Velocity-Area module (i.e., what value would Manning's n have to be for the calculated discharge to equal the measured discharge?) and include in the table outlined below.
+
+**4.	Rosgen Stream Classification: calculate the following and include in the table outlined below (10 pts)**
+
+a.	Calculate the entrenchment ratio as the width of the flood prone area divided by the width of the channel at bankfull stage. 
+
+b.	Calculate the width to depth ratio as the width of the channel at bankfull stage divided by the average depth of the channel at bankfull stage. 
+
+c.	Use aerial imagery to calculate stream sinuosity (i.e. the length of the stream reach divided by the straight line distance between the two end points). 
+
+d.	Use gradient measurements to determine the slope. 
+
+e.	Characterize the dominant channel material. 
+
+f.	Rosgen stream classification
+
+**5.	Relative Bed Stability (RBS): Calculate the RBS and include in the table outlined below**
+
+a.	Use the following equations to calculate the LRBS and include the table. 
+
+    •	$RBS = D_{50}/D^*_{cbf} = D_{50}/[(13.7 x R^*bf)(S)]$
+    
+    •	$LRBS = log(RBS)$
+
+Summary table (25 pts):
+
+![](images/table_1.jpg)
+
+**Synthesis questions:**
+
+6.	Provide an assessment of your LRBS value. Is the stream you studied stable? In equilibrium? Unstable? Also discuss what factors (land cover, land use, hydrologic regulation) may be impacting the stream condition and the associated LRBS value. (10 pts)
+
+
+
+7.	Using pictures and references to data (figures and tables) discuss the stream geomorphic condition. What is the stream classified as in the Rosgen system? What are the characteristics of this type of stream under the Rosgen classification system? (10 pts) 
+

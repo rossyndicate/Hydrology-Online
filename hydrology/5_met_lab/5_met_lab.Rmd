@@ -1,0 +1,323 @@
+---
+title: "Meteorological Measurements"
+author: "Tim Covino, Karin Emanuelson"
+date: "8/24/2020"
+output: 
+  html_document:
+    toc: true
+    toc_depth: 3
+    toc_float: true
+---
+
+# Summary
+
+In this module, you will gain familiarity and experience in: (1) operating a weather station; (2) downloading electronic data; and (3) interpreting, integrating, analyzing, and presenting weather station data. You will also compare data from 3 sources: (1) the WR417 weather station that you maintain; (2) the official Fort Collins weather station; and (3) historic Fort Collins meteorological data from NOAA. This will familiarize you with a variety of climate data sources and give you an idea of what range of values to expect for your monitoring period. 
+
+### Overall Learning Objectives: 
+
+At the end of this module, students should be able to accurately collect daily measurements and download data loggers from our weather station. They should also be able to download publically-available, historic data and critically compare multiple data sources. 
+
+### Required Reading:
+
+[Site and exposure](https://www.dropbox.com/s/id87fmp6q4wtmdt/Burt_a-site%26exposure.pdf?dl=0){target="_blank"}
+
+### Supplemental Reading:
+
+[Campbell weather station](https://www.dropbox.com/s/bnedbckg7n66al1/Campbell%20Scientific%20weather%20station%20siting%20web%20link.docx?dl=0){target="_blank"}
+
+[Shelters](https://www.dropbox.com/s/zjv9yc9i97sojmy/Instrement_shelters.pdf?dl=0){target="_blank"}
+
+
+# Lecture
+
+### 1.1: Meteorological stations and the water cycle
+
+Weather stations allow us to quantify the 2 primary processes of the hydrologic cycle – precipitation and evaporation. We can directly measure precipitation through standard rain gauges, tipping bucket gauges, and weighing gauges. The standard is the simplest and most commonly used method. As rain falls, it is collected in a measuring tube which can determine the amount of rain collected within a day. 
+
+**Standard Gauge video:**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/a-WgKFSEoPs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+A tipping bucket gauge consists of a funnel located above a pair of buckets that are balanced like a scale. When a certain amount of water has been collected, the bucket tips, and the second bucket begins to collect the rain. A datalogger records the time of each tip and can be used to estimate total precipitation within a given time. A weighing rain gauge consists of a collection bucket placed on top of a scale that is connected to a chart recorder that tracks rainfall over time. You will work with all 3 precipitation gauges at our weather station this semester. 
+
+*Evapotranspiration (ET)* is the sum of evaporation of water from terrestrial or aquatic surfaces to the atmosphere and the transpiration of water from vegetation to the atmosphere. Rates of ET increase when there is more solar energy available, higher temperatures, lower relative humidity, and higher wind speeds. We can measure evaporation both directly and indirectly. We will use 2 direct measurements of evaporation in our weather station. The first is an evaporation pan that is filled with water. Each day, a hook gauge is used to get an accurate reading of the free water surface within the evaporation pan. Pan evaporation generally represents an upper limit of evaporation in a system where water is not limiting. Evaporation in water limited systems is less than pan evaporation because the plants would close their stomates as they become water stressed. 
+
+**Evaporation pan:**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/efJHmCRcIhw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+An atmometer is a similar tool in that you measure the loss of water level each day to determine evaporation. However, the atmometer has a canvas cover that is supposed to more accurately mimic evapotranspiration from natural surfaces such as grass. 
+
+**Atmometer video:**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0b6lGVofY58" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+In addition to directly measuring precipitation and ET at our weather stations, we will also measure related parameters such as temperature, relative humidity, wind, radiation, and soil moisture. Air *temperature* is a measure of how quickly the air molecules are moving. We use both maximum and minimum thermometers as well as hygrothermograph chart recorders and Campbell data loggers to record air temperature. 
+
+**Min and Max Thermometer:**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0M7pIEhXrNk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+We also use HOBO water temperature sensors in the evaporation pond. *Relative humidity* (RH) is the ratio of partial pressure of water vapor to equilibrium vapor pressure of water at a given temperature (i.e. how much water is in the air relative to how much water could be in the air). We can take point measurements of RH with a sling psychrometer or we can get continuous RH measurements with a hygrothermograph chart recorder of Campbell cataloger. 
+
+**Sling psychrometer:**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ATVaFfKiRr0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+**Hygrothermograph:**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2NCwYD3W-BA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Total daily *wind* run can be measured with the totalizing anemometer which continuously records the number of anemometer rotations. Additionally, our Campbell dataloggers record *wind speed, net radiation*, and *soil moisture* every 10 minutes.
+
+# Field Work
+
+Now that you have an understanding of meteorological stations, work with your field team to take measurements at the weather station. Note: you will collect your field data together with your group members, but each person will submit their own responses to the Assessment and Field Data Analysis and Synthesis Questions sections.
+
+**Materials:**
+
+1. Notebook and pen
+
+2. Printed out lab directions and appendix
+
+3. Printed out data collection sheets  
+
+4. Field laptop
+
+### 2.1: Weather station measurements
+
+1.	You will be responsible for maintaining and collecting the data from the weather station for five consecutive days (Mon-Fri). 
+
+2.	Very Important – when you enter the weather station, please unlock shelter A and pull out the sanitization gear. Everyone should wear a face covering the entire time they are at the weather station, use hand sanitizer upon entry and exit (you can also wear disposable gloves), practice social distancing, and sanitize any equipment you touch with an alcohol wipe before the next pod member touches it.
+
+3.	There are two shelters (white boxes; A and B) with min and max thermometers, sling psychrometers, a hygrothermograph, sanitizer, and extra chart recorders. Two people from your group will be assigned to each shelter. You will share the other equipment (rain gauges, evaporation pan, Campbell automated weather station, atmometer). Again, please be sure to wipe anything you touch with alcohol wipes before the next person touches it. 
+
+4.	It is essential that your weather be performed at the same time every day (within reason). In general, observations are best made in the morning well after the early morning minimum temperature (e.g., at about 9 a.m.), or in the evening after the mid-day maximum temperature (e.g., between 6 and 7 pm). You should record qualitative observations about the weather, such as cloudiness, wind, rain, presence or absence of dew or frost, etc. These written field observations are remarkably helpful when checking and interpreting your data.  
+
+5.	Please do not attempt to recalibrate any of the instruments.  If you have any problems or questions, please see us. 
+
+6.	Safety and security: Be respectful of the space. Leave everything better & cleaner than you found it and keep the keys to the weather shelters in their designated spot
+
+**On each day, you must:**
+
+7.	Read and record both the maximum and the minimum thermometers. The minimum thermometer is the upper of the two stationed thermometers and will have a black bar and orange liquid. The right edge of the orange liquid will give you the current temp and the right edge of the little black bar will give you the minimum daily temperature. Keep this tilted slightly so the left side is lower than the right. The maximum thermometer is the lower of the two and is full of silver mercury and the right edge of the silver mercury marks the daily maximum temperature. Once everyone in your pod has recorded the daily max and min temp, reset both thermometers. The maximum thermometer should be returned to the current temperature by slinging it downwards. **Do not** *shake the minimum thermometer, as a simple tilt to the right is sufficient to move the index back to the current temperature.* 
+
+8.	Measure relative humidity using the sling psychrometer. You will moisten the fabric around the wet bulb with a spray bottle and sling the psychrometer from 1-2 minutes. Use the charts within each psychrometer case to determine the relative humidity. 
+
+9.	Read, verify, and record the time, temperature, and relative humidity readings on the hygrothermograph. The upper half of the chart recorder represents the temperature and the lower half represents relative humidity. 
+
+10.	Record the water level from the atmometer (remember to read the bottom of the meniscus and view the water level on a flat plane to avoid parallax), and calculate the daily ET (todays value minus yesterdays value). 
+
+11.	Measure the water level in the evaporation pan using the hook gage, and calculate the daily evaporation (todays value minus yesterdays value).
+
+12.	Record the total wind run on the totalizing anemometer, and calculate the daily wind run (todays value minus yesterdays value).
+
+13.	Measure the rainfall in the standard rain gage using the ruler in the attached pvc tubing. Calculate the daily precipitation (todays value minus yesterdays value).
+
+14.	Read and record current data from the Campbell CR10X handheld: temp, RH, wind speed, net radiation, and soil moisture.
+
+15.	Call the Fort Collins weather station at 970-491-6300. Listen to their recorded message and take note of the official daily minimum and maximum temperatures, precipitation (if any), evaporation, and any notes (i.e. any records they mention). You will compare this daily data from the Fort Collins weather station to the data you collect.  
+
+**At the end of your monitoring period:**
+
+16.	Download the data from the digital data loggers. You will collect continuous 10-min data from the Campbell CR10X (different that step 14 where you are taking 1 daily reading) and HOBO water temperature sensors and the tipping bucket rain gauge. *Detailed instructions for downloading from the electronic equipment are contained in the Appendix.* 
+
+17.	Remove your group’s chart from the hygrothermographs).The next group will load their own new charts. Be sure to take a picture and/or make a copy of your chart as it will need to be included in the write up. 
+
+18.	Return field laptop to instructor.
+
+**NOTES:**
+
+1.	**If ANY of the equipment is not working properly, or if something seems wrong to you, let us know ASAP so that we can help fix any problems.** 
+
+2.	ALWAYS record the time, date, and current weather conditions with your daily measurements
+
+# Assessment 
+
+### Calculations using pre-collected data provided here: (30 pts)  
+
+You will download some historical data (31 years, 1988 – 2019) from NOAA and evaluate some of the highs, lows, means, etc. You will also plot time series of the data to determine if there are noticeable trends. Historic weather data are readily available online from the National Oceanic and Atmospheric Administration (NOAA), but we will access these data using R.
+
+**Note:** Documentation for the data is listed below.
+
+**Stations:** FORT COLLINS, CO US (GHCND:USC00053005)
+
+**Units:** Standard
+
+**Data Types:**
+\n
+
+DAPR - Number of days included in the multiday precipitation total (MDPR)
+
+SNOW - Snowfall
+
+TMAX - Maximum temperature
+
+TMIN - Minimum temperature
+
+PRCP - Precipitation
+
+TOBS - Temperature at the time of observation
+
+MDPR - Multiday precipitation total (use with DAPR and DWPR, if available)
+
+SNWD - Snow depth
+
+\n
+
+Once you obtain data the first thing to do is simply plot the data and have a look. This is true whether the data have been downloaded from the Internet or from a data logger that you maintain. We will begin this exercise by exploring the data a bit and making time series figures of precipitation, max temp, min temp, etc. These initial plots are just for your own insight. They allow you to quickly see if there is something noticeably wrong or an overarching trend. 
+
+Next we will begin to cull the data. You want to thin the data to only contain the dates of your monitoring period. So if you monitor from 9/20 – 9/24; you will have 30 years of data with only the values for those days. From these data you will determine the highest precipitation, highest max temp, mean max temp, lowest max temp, highest min temp, mean min temp, and lowest min temp for each of the days you will be monitoring and use these data to fill in Table 1 below.
+
+Use a caption at the top of the table that includes the period of record, the station (location) and briefly what data the table provides. Note that table captions go above and figure captions go below (20 points).
+
+![](images/table_1.jpg)
+
+What condition were the data in when you received them? Was there any “cleaning” that you needed to do? What are your thoughts on cleaning the data – how do you justify this. (10pts).
+
+### Field Data Analysis and Synthesis Questions: Using your field-collected data (85 pts)
+
+Use the data you collected in the field work section to answer the following questions
+
+**1.	Air temperature: (20 pts)**
+
+a.	Make a table comparing your observed maximum temperatures for each day as measured on the maximum thermometer and the continuous 10-min Campbell CR10X temperature sensor to historic values for the Fort Collins weather station. For the historic values you should include: the mean, minimum, and record high maximum for each day. (5 pts)
+
+b.	Use the same format to make a table for the minimum temperatures. (5 pts)
+
+![](images/table_2.jpg)
+
+c.	Comment on your temperature data in relation to the historic data. Did you have any record highs? Lows? Were your data typically above or below the long-term average? Feel free to expand beyond these two questions, these are just two examples. (10 pts)
+
+**2.	Relative humidity: (10 pts)**
+
+a.	Plot the relative humidity and air temperature from the continuous 10-min Campbell CR10X RH/temp sensor on the same graph. (5 pts)
+
+b.	Make a table comparing the relative humidity values obtained from the sling psychrometers (A and B) with the simultaneous values obtained from the continuous 10-min Campbell CR10X relative humidity sensor and the hygrothermograph. (5 pts)  
+
+c.	Include a copy of your hygrothermograph chart. 
+
+**3.	Precipitation (5 pts)**
+
+a.	Make a table comparing the amounts of precipitation that you measured with the standard and tipping bucket rain gauges to the historic mean and maximum precipitation for each day (this will be similar to table 1 above but will not include the historic min). Note that from a hydrologic perspective, days with no rainfall are just as important as days with measured precipitation. (5 pts)
+
+**4.	Net radiation (10 pts)**
+
+a.	Plot the net radiation data from the continuous 10-min Campbell CR10X. (5 pts) 
+
+b.	Make a table that lists the total daily net radiation for each day of your monitoring period. (5 pts)
+
+**5.	Water and Air Temperature (10 pts)**
+
+a.	Plot the water temperature data (sensor A and B) from the evaporation pan and the air temperature data from the continuous 10-min Campbell CR10X weather station on the same graph. (5 pts)
+
+b.	Do these records (water and air temp) show the same patterns? Do they have the same max and min temps? Same timing? Why or why not? (5 pts)
+
+**6.	Evaporation (20 pts)**
+
+a.	Make a table comparing the daily and the total evaporation over your monitoring period as determined from the Class A evaporation pan, the atmometer, and the Fort Collins weather station. (5 pts)
+
+b.	Did the atmometer or evaporation pan give you higher estimates of evapotranspiration? What are some potential explanations? (5 pts)
+
+c.	Did you see any relationships between air temperature, net radiation, wind, or relative humidity and evapotranspiration throughout your observation period? (10 pts)
+
+**7.	Soil Moisture (5 pts)**
+
+a.	Plot the soil moisture and air temperature from the continuous 10-min Campbell CR10X weather station on the same graph. (5 pts)
+
+**8.	Reflection (5 pts)**
+
+a.	Comment on what you would do the same and what you would do differently in your next monitoring period. You should have at least 3 items. (5 pts)
+
+# Appendix
+
+## Campbell CR10X data logger:
+
+### Checking real-time data from the CR10X using the keypad (should be done every day):
+
+1.	Connect the keypad (in the plastic bag in CR10X cabinet) to the CR10X **‘CS I/O output’** port using the serial cable. The keypad will come on and will display something illegible.
+
+2.	To see the logger time Press **5**. Press **A** to advance the display to view the year and Julian day. As a note Julian day is often used in scientific applications. You should record the Julian day so that you can associate Julian day with the calendar date you are sampling. This is because when you download your data from the CR10X the dates will be in Julian day format and you will need to convert to calendar day format. 
+
+3.	Press **6** and then press **A** to toggle through the rest of the storage locations (you can press **B** to toggle backward):
+
+    01	Battery voltage
+    
+    02	a programming code (not useful)
+    
+    03	Wind speed, m s^-1^
+    
+    04	Air temperature, °C
+    
+    05	Relative humidity, %
+    
+    06	Not in use (shows -999; a common indicator for a missing or bad datum)
+    
+    07	Soil moisture (mL/mL)
+    
+    08	Not used (but still shows values)
+    
+    09	Net radiation (W m^-2^)
+
+\n
+
+4.	Record the wind speed, temperature, RH, soil moisture, and net radiation. Make a note and tell us ASAP if the battery voltage is below 10 Volts.
+
+5.	Disconnect the cable and keypad
+
+### Downloading the data from the CR10X at the end of your monitoring period: 
+
+1.	Connect the field laptop to the CR10X ‘CS I/O’ output using the SC232B adaptor (male 9-pin) and a USB converter. The cable and adaptor will be kept inside shelter A.
+
+2.	Log into the laptop (User: Field Laptop 2; Password: laptop) and select **LoggerNet**.
+
+3.	In the LoggerNet software click on the **Connect** icon on the main page. A second screen will appear. Make sure CR10X_WR417 is the selected device on the left side of the screen. Then click the **Connect** icon. You will know that successful communication has been established when the Connect icon turns to Disconnect and the panels in the right side of the console show the date and time for both the data logger and the PC. Press the “set” button so the Adjusted and Station time are the same. 
+
+
+***Note: the USB port on the left side of the laptop generally works best for establishing a connection.***
+
+4.	Click the **Custom** button towards the top of the screen (looks like a gear). You should collect “data since last collection”. At the *Collect Data* screen be sure that it is:
+
+    +	Saving as an ASCII, comma separated file,
+    +	“Append to end” has been selected
+    +	**Final Storage Area 1** is checked. This tells the computer which part of the data logger the data should be extracted from. 
+    +	Click on the box with three dots in it to name your file
+    +	This should take you to the WR417 folder on the desktop
+    +	In the file name box name the file with your name and the date 
+    +	As a note, the data will be stored as a .dat file. This file can only be opened from within Excel (i.e., you must open excel first and then navigate to the file)
+\n
+
+5.	After the download, click on the **Disconnect** icon, and disconnect the laptop.
+
+6.	Transfer the .dat file from the WR417 folder to your flash drive.
+
+## HOBO data loggers:
+
+You will download the HOBO temp sensors from the evaporation pan and the HOBO sensor from the tipping bucket rain gauge using the HOBO Optic USB Base Station.
+
+### Downloading Data from HOBO U22 temperature sensor
+
+1.	Remove the HOBO temperature logger from the water in the Class A evaporation pan. Remove excess water from the sensor.
+
+2.	Insert the Optic Base Station into one side of the Coupler and plug the end of the HOBO sensor with the window into the other end of the Coupler. Make sure the HOBO sensor is firmly seated into the Coupler; you should hear a click when it is secured.
+
+3.	Double-click on the HOBOware icon on the laptop desktop. The icon is a blue circle with an H inside of it. Disregard the update notice (click ‘no’).
+
+4.	Plug the USB connector from the Optic Base Station into a USB outlet on the left side of the laptop. The bottom right of the HOBOware window should update to say 1 device connected. If you have trouble getting the computer to recognize the device, try adjusting the HOBO sensor inside the Coupler or unplugging and reconnecting the USB.
+
+5.	In the HOBOware toolbar select the icon with the arrow pointing to the left (hover over the icons to see a written description). This is the **Readout** option. The device should be recognized; click OK, and it will read all the data. If you get a message indicating the logger is currently logging, select “Don’t stop”.
+
+6.	In the **Save** menu, update the file name to include your name and date, and then **Save**. Make sure it is saved to the WR417 folder on the desktop.
+
+7.	The Plot Setup window will appear and all the boxes (temp and battery) in the Series and Event windows should be selected. Check whether the Temperature units are Fahrenheit or Celsius (your choice), and click **Plot**. You should see a graph of the temperature data.
+
+8.	From the File menu select **Export Table Data**. Make sure all desired variables are selected, and click **Export**. In the Save window, add the date to the file name, navigate to your flash drive and save; note that the file should have a .csv extension so it can be read in excel.  
+
+9.	Before leaving the site it is a good idea to make sure your data file is there and contains data! When you open it, it should automatically open in Excel. Once you have confirmed that you have successfully downloaded the data, you should be good to go.
+
+### Downloading data from the tipping bucket rain gauge:
+
+1. 	Follow the above instructions for connecting, confirming logger status, and exporting data. Use the pendant data shuttle to connect
+ 
+2. When reading out, save the file as “Bucket_YOURNAME_DATE.hobo”. Export the data table as a .csv file just as above and transfer to your flashdrive for your future use.
+

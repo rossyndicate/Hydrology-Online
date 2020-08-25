@@ -48,12 +48,29 @@ which helped inspire our approach.
   
 ## Dilution Guaging
 
-  - [Dilution Guaging lecture and text](hydrology/3_dilution_guaging/3_dilution_guaging.html)
+  - [Dilution Guaging lecture and text](hydrology/3_dilution_gauging/3_dilution_guaging.html)
   
-  - Rubric [here](hydrology/3_dilution_guaging/3_dilution_guaging_files/dilution_guaging_rubric.pdf)
+  - Rubric [here](hydrology/3_dilution_gauging/3_dilution_guaging_files/dilution_guaging_rubric.pdf)
   
   - Analysis assessment [here](https://www.dropbox.com/s/hkpucfp1g7lhlj3/DG_Assessment.xlsx?dl=0)
+  
+## Stream Health
 
+  - [Stream Health lecture and text](hydrology/4_stream_health/4_stream_health.html)
+  
+  - Analysis assessment [here](https://www.dropbox.com/s/9cmi8a1w448q41e/Stream_Health_Assesment.pdf?dl=0)
 
-## Biogeochemistry Online
+## Meteorological Measurements
+
+  - [Meteorological Measurements lecture and text](hydrology/5_met_lab/5_met_lab.html)
+
+## Fluvial Geomorphology
+
+  - [Fluvial Geomorphology lecture and text](hydrology/6_geomorph/6_geomorph.html)
+  
+  - Rubric [here](hydrology/6_geomorph/6_geomorph_files/geomorph_rubric.pdf)
+  
+  - Analysis assessment [here](https://www.dropbox.com/s/x5ullpuu2lu33yd/Mannings_Assessment.xlsx?dl=0)
+
+  
   

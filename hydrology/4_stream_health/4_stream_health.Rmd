@@ -1,0 +1,146 @@
+---
+title: "Stream Health"
+author: "Tim Covino, Allison Rhea"
+date: "8/24/2020"
+output: 
+  html_document:
+    toc: true
+    toc_depth: 3
+    toc_float: true
+---
+
+#  Summary
+
+In this module, we provide background for the use of macroinvertebrates and rapid stream habitat assessments as stream health indicators. We demonstrate the field methods needed to sample and identify stream macroinvertebrates. We review calculations of the biotic index in order to assess stream health. Finally, we outline the background and related calculations for a rapid stream habitat assessment. Additionally, students will work in teams to collect data at a local field site and score stream health using the biotic index and the stream habitat assessment.
+
+### Overall Learning Objectives
+
+At the end of this module, students will be able to accurately sample and identify stream macroinvertebrates in the field as well as calculate and interpret the biotic index. They will also be able to reliably conduct a rapid stream habitat assessment in the field and interpret findings. 
+
+# Lecture
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OgL-O7XwYus" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### 1.1: Aquatic macroinvertebrates as indicators of water quality
+
+Aquatic macroinvertebrates are small animals without backbones (i.e., invertebrates) that live in water and are visible to the human eye. They are common, abundant, and diverse in natural stream systems. Certain macroinvertebrate species respond differently to stream health, pollution, sedimentation, etc (Figure 1). Most macroinvertebrates also have limited mobility meaning their health reflects the local environment. Thus, the presence or absence of certain species can reflect a stream’s general condition. Streams with primarily pollutant-tolerant species indicate an impaired water quality whereas streams with primarily pollutant-sensitive species indicate good water quality.
+
+see supplemental video here: 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_LrujuekFI0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+In the field, we will use kick net sampling techniques to collect and identify macroinvertebrate species.
+
+**Kick-Net Method**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RqY2Oh4ggLg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+**Identify your Benthic Macroinvertebrate Sample**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/TGnhN7t9PX4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+We can use this field data to calculate the biotic index, a semi-quantitative measure of stream health. While this metric is good at indicating problem areas, it does not provide information on the source of the problem (i.e. fertilizers, sewage, sediment, etc). Therefore, it is helpful to pair this with additional monitoring approaches.
+
+![](images/figure_1.jpg)
+
+### 1.2: Stream habitat assessment 
+
+The qualitative habitat assessment is derived from standard EPA methods for habitat assessment which are outlined in Kaufmann et al. (1999) “Quantifying physical habitat in wadable streams”. Within this framework, you use coarse measurements of the physical stream habitat (i.e. riparian buffer, bank erosion, pool area, width to depth ratio, riffle to riffle ratio, % fine sediments, and fish cover) to score the overall health of a stream reach. These assessments provide information about causes of physical habitat degradation and can help identify sites for rehabilitation or restoration. By combining biological indicators via macroinvertebrate sampling and physical indicators via stream habitat assessments, we will gain a more holistic understanding of stream health at our field site. 
+
+# Field Work
+
+Now that you have an understanding of macroinvertebrate sampling, work with your field team to take measurements at your local field site. Note: you will collect your field data together with your group members, but each person will submit their own responses to the **Assessment** and **Field Data Analysis and Synthesis Questions** sections.
+
+**Materials:**
+
+1. Kicknet
+    
+2. White tub (for macroinvertebrate collection)
+    
+3. Waders or water shoes
+    
+4. Ice Cube Tray
+    
+5. Plastic spoon, tweezer, paintbrush
+    
+6. Field tape
+    
+7. Macroinvertebrate identification guide
+    
+8. Fieldbook and pen
+
+### 2.1: Macroinvertebrate Sampling
+
+1.	Select a stream reach for your macroinvertebrate sampling that includes a variety of habitat types. Record site metadata in your field book. Include your names, the stream name and location, and the date and time of your sampling. 
+
+2.	You should sample 3 habitat types along your stream reach. Examples of habitat types include riffles, pools, undercut banks, and thalweg. Perform a kick sample at each of your selected habitat types with the same net (i.e. one sample).
+
+3.	To perform kick net sampling, you position the kick net flat against the streambed so the net is open to incoming flow. Stand just upstream of your open net and kick the streambed vigorously for 30 seconds. This will cause any attached macro-invertebrates to detach and float downstream into your net. 
+
+4.	Place all macroinvertebrates from your 3 kick net samples into one white tub by turning the net inside out and rinsing with water. Add water as necessary so your sample is suspended in thin layer of water. Remove any large debris (i.e. leaves, rocks, sticks) from your tub after removing all macroinvertebrates from those surfaces. 
+
+5.	Fill ice cube tray half-full with water
+
+6.	Use a plastic spoon, tweezers, or a paintbrush to move macroinvertebrates from the white tub to the ice cube tray. Try to place macroinvertebrates that look alike in the same compartment. This will help you with both identification and counting. 
+
+7.	Use the key to identify macroinvertebrates. On the worksheet, circle the animals that match those found in 
+your sample. You do not need to count the number of individual animals in your sample. Rather you will count the number of animals within each sensitivity group (i.e. sensitive, semi-sensitive, semi-tolerant, and tolerant) on the associated worksheet. For example, if you found a bunch of stonefly larva and 1 alderfly larva in your sample, your number of group 1 animals circled would only be 2 because you found 2 different sensitive species – the stonefly and alderfly larva. 
+
+### 2.2: Qualitative stream habitat assessment
+
+1.	Draw a field sketch of your stream reach. Be sure to take note of riparian buffers, dominant vegetation types, bank erosion, fish refuge, riffles, pools, etc. 
+
+2.	In a standard assessment, you would measure out a stream length that is 40 times the wetted width and divide it into 10 segments. Then you would do the physical assessment at each of the 10 segments. For this lab, you will only do assessments at THREE cross sections.
+
+3.	At each transect evaluate: riparian buffer, bank erosion, pool area, width/depth ratio, % fine sediments, and fish cover according to the associated worksheet. Select the rating that appears most commonly in each category.
+
+4.	Be sure to record site metadata include station name and location, collection date and time, stream width, stream length (≥35*length), water level, water clarity, and channel condition
+
+# Assessment
+
+### Activity using pre-collected data provided [here](https://www.dropbox.com/s/9cmi8a1w448q41e/Stream_Health_Assesment.pdf?dl=0){target="_blank"}: (10 pts)
+
+1.	Calculate the biotic index from this example field data. (5 pts)
+
+2.	Calculate the stream health score from this example field data. (5 pts)
+
+### Field Data Analysis and Synthesis Questions: Using your field-collected data (40 pts)
+
+Use the data you collected in the field work section to answer the following questions
+
+**1.	Macroinvertebrate Data**
+
+a.	Sum the number of animals circled in group 1 – sensitive and multiply that value by 4
+    
+b.	Sum the number of animals circled in group 2 – semi-sensitive and multiply that value by 3
+    
+c.	Sum the number of animals circled in group 3 – semi-tolerant and multiply that value by 2
+    
+d.	Sum the number of animals circled in group 4 – tolerant and multiply that value by 1
+    
+e.	Total the weighted values of each group that were calculated in steps a-d
+    
+f.	Divide the total weighted values by the total number of animal types found in all groups. This number is the “biotic index”. Stream health can be assessed as: poor 1.0-2.0, fair 2.1-2.5, or good 2.6-3.5.
+
+**2.	Stream Habitat Data**
+
+a.	Select the rating that appears most commonly in each category
+    
+b.	Calculate the overall stream health score and interpret the results: poor < 20, fair 20-60, good 60-80, and excellent > 80.
+    
+**3. Comparing biotic and physical assessments (40 pts)**
+
+a. Include a copy of your field sketch (5 pts)
+    
+b. Generate the table below with the following information. Interpretation refers to excellent, good, poor, etc health (5 pts)
+
+![](images/table_1.jpg)
+    
+c. How do your 2 stream health assessments, biotic and physical, compare to one another? What might account for any differences? (5 pts)
+    
+d. What are potential sources of contamination or habitat degradation in this area? (5 pts)
+    
+e. What do you see as a benefit of rapid/qualitative assessment? What negatives do you see in this type of approach? (10 pts)
+    
+f. Describe two stream environments – one healthy and one unhealthy – using the macroinvertebrate and stream habitat worksheets as a guide. It would be helpful to frame the unhealthy stream system through the lens of a certain disturbance such as agriculture, deforestation, fire, etc. (10 pts)
+    
