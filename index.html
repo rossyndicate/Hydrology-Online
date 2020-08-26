@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
@@ -1405,6 +1404,7 @@ summary {
   border: none;
   display: inline-block;
   border-radius: 4px;
+  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -1433,6 +1433,12 @@ summary {
 }
 }
 
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
 
 .toc-content {
   padding-left: 30px;
@@ -1523,8 +1529,11 @@ div.tocify {
 <li>CUAHSI</li>
 </ul>
 <p>This landing page is under construction. But we wanted to share our first complete sets of lectures/homework/applications. Eventually we hope a bunch of people will contribute to this page and <a href="https://www.hydrolearn.org/">hydrolearn</a>, which helped inspire our approach.</p>
-<div id="hydrograph-separation" class="section level2">
-<h2>Hydrograph Separation</h2>
+<div id="fully-developed-modules" class="section level2">
+<h2>Fully developed modules</h2>
+<p>These modules contain video lectures, assignments, grading rubric and overall module goals.</p>
+<div id="hydrograph-separation-anna-bergstrom" class="section level3">
+<h3>Hydrograph Separation (Anna Bergstrom)</h3>
 <ul>
 <li><p><a href="hydrology/1_baseflow_stormflow/0_hydrograph_separation_lecture.html">Baseflow and Stormflow lecture and text</a></p></li>
 <li><p>Rubric <a href="hydrology/1_baseflow_stormflow/Hydrolearn_OUtline_Baseflow.pdf">here</a></p></li>
@@ -1532,43 +1541,77 @@ div.tocify {
 <li><p>Interactive web app on mountaintop mining impacts to streamflow <a href="https://cuahsi.shinyapps.io/mtm_baseflow/">here</a></p></li>
 </ul>
 </div>
-<div id="velocity-area" class="section level2">
-<h2>Velocity Area</h2>
+<div id="velocity-area-covino-lab" class="section level3">
+<h3>Velocity Area (Covino lab)</h3>
 <ul>
 <li><p><a href="hydrology/2_velocity_area_module/2_velocity_area_module.html">Velocity Area lecture and text</a></p></li>
 <li><p>Rubric <a href="hydrology/2_velocity_area_module/2_velocity_area_module_files/velocity_area_rubric.pdf">here</a></p></li>
 <li><p>Analysis assessment <a href="https://www.dropbox.com/s/pp7spwyk9maa4ul/Velo_Area_Assessment.xlsx?dl=0">here</a></p></li>
 </ul>
 </div>
-<div id="dilution-gauging" class="section level2">
-<h2>Dilution Gauging</h2>
+<div id="dilution-gauging-covino-lab" class="section level3">
+<h3>Dilution Gauging (Covino lab)</h3>
 <ul>
 <li><p><a href="hydrology/3_dilution_gauging/3_dilution_gauging.html">Dilution Gauging lecture and text</a></p></li>
 <li><p>Rubric <a href="hydrology/3_dilution_gauging/3_dilution_gauging_files/dilution_gauging_rubric.pdf">here</a></p></li>
 <li><p>Analysis assessment <a href="https://www.dropbox.com/s/hkpucfp1g7lhlj3/DG_Assessment.xlsx?dl=0">here</a></p></li>
 </ul>
 </div>
-<div id="stream-health" class="section level2">
-<h2>Stream Health</h2>
+<div id="stream-health-covino-lab" class="section level3">
+<h3>Stream Health (Covino lab)</h3>
 <ul>
 <li><p><a href="hydrology/4_stream_health/4_stream_health.html">Stream Health lecture and text</a></p></li>
 <li><p>Analysis assessment <a href="https://www.dropbox.com/s/9cmi8a1w448q41e/Stream_Health_Assesment.pdf?dl=0">here</a></p></li>
 </ul>
 </div>
-<div id="meteorological-measurements" class="section level2">
-<h2>Meteorological Measurements</h2>
+<div id="meteorological-measurements-covino-lab" class="section level3">
+<h3>Meteorological Measurements (Covino lab)</h3>
 <ul>
 <li><a href="hydrology/5_met_lab/5_met_lab.html">Meteorological Measurements lecture and text</a></li>
 </ul>
 </div>
-<div id="fluvial-geomorphology" class="section level2">
-<h2>Fluvial Geomorphology</h2>
+<div id="fluvial-geomorphology-covino-lab" class="section level3">
+<h3>Fluvial Geomorphology (Covino lab)</h3>
 <ul>
 <li><p><a href="hydrology/6_geomorph/6_geomorph.html">Fluvial Geomorphology lecture and text</a></p></li>
 <li><p>Rubric <a href="hydrology/6_geomorph/6_geomorph_files/geomorph_rubric.pdf">here</a></p></li>
 <li><p>Analysis assessment <a href="https://www.dropbox.com/s/x5ullpuu2lu33yd/Mannings_Assessment.xlsx?dl=0">here</a></p></li>
 </ul>
 </div>
+</div>
+<div id="stand-alone-shiny-apps" class="section level2">
+<h2>Stand alone shiny apps</h2>
+<p>These applications have no teaching material associated with them, but could be easily included into class exercises or homeworks.</p>
+<ul>
+<li><p><a href="https://cuahsi.shinyapps.io/CO_streamflow/">Colorado Streamflow and Watershed Attributes (Stephanie Kampf)</a></p></li>
+<li><p><a href="https://cuahsi.shinyapps.io/HBEF_Discharge/">Hubbard Brook Experimental Forest Discharge by JP Gannon</a></p></li>
+<li><p><a href="https://lsteely.shinyapps.io/streamflow_joyplots/">Joyful Q by Lauren Steely</a></p></li>
+</ul>
+<p><br> <br></p>
+</div>
+</div>
+<div id="biogeochemistry-online" class="section level1">
+<h1>Biogeochemistry online</h1>
+<p>We have spent considerably more time developing the hydrology portion of this work, but plan on developing more biogeochemistry modules soon. In the meantime we have several shinyapps that could be used for interactive teaching.</p>
+<div id="stand-alone-shiny-applications" class="section level2">
+<h2>Stand Alone shiny applications</h2>
+<ul>
+<li><p><a href="https://cuahsi.shinyapps.io/blue_watershed/">Water quality change in blue river watershed, CO</a></p></li>
+<li><p><a href="https://cuahsi.shinyapps.io/mtm_weathering/">Weathering impacts from mountaintop mining</a></p></li>
+<li><p><a href="http://waterqualityexplorer.rc.duke.edu:3838/explorer/">National water quality inventories and data</a></p></li>
+</ul>
+</div>
+</div>
+<div id="acknowledgements" class="section level1">
+<h1>Acknowledgements</h1>
+<p>This work is a collaborative effort across many groups and is funded by an <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2028737&amp;HistoricalAwards=false">NSF RAPID #2028737</a>. We hope to keep expanding and are eager for community contributions through GitHub or directly contacting team members.</p>
+<p>The main contributors to the page so far are:</p>
+<ul>
+<li><p><a href="https://covinocsuwatershed.weebly.com/people.html">Tim Covino and his lab</a>, specifically Karin Emanuelson and Alison Rhea</p></li>
+<li><p><a href="https://anna-bergstrom.weebly.com/">Anna Bergstrom</a>, soon to be Asst. Prof at Boise State</p></li>
+<li><p>Bryce Pulver, graduate student in Stephanie Kampf’s lab</p></li>
+<li><p><a href="https://matthewrvross.com/">Matt Ross</a></p></li>
+</ul>
 </div>
 
 
@@ -1617,11 +1660,11 @@ $(document).ready(function ()  {
 
     // establish options
     var options = {
-      selectors: "h1,h2",
+      selectors: "h1,h2,h3",
       theme: "bootstrap3",
       context: '.toc-content',
       hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
       },
       ignoreSelector: ".toc-ignore",
       scrollTo: 0

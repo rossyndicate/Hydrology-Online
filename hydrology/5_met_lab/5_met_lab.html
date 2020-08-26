@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
@@ -1405,6 +1404,7 @@ summary {
   border: none;
   display: inline-block;
   border-radius: 4px;
+  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -1433,6 +1433,12 @@ summary {
 }
 }
 
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
 
 .toc-content {
   padding-left: 30px;
@@ -1536,7 +1542,7 @@ div.tocify {
 <iframe width="560" height="315" src="https://www.youtube.com/embed/a-WgKFSEoPs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 </iframe>
 <p>A tipping bucket gauge consists of a funnel located above a pair of buckets that are balanced like a scale. When a certain amount of water has been collected, the bucket tips, and the second bucket begins to collect the rain. A datalogger records the time of each tip and can be used to estimate total precipitation within a given time. A weighing rain gauge consists of a collection bucket placed on top of a scale that is connected to a chart recorder that tracks rainfall over time. You will work with all 3 precipitation gauges at our weather station this semester.</p>
-<p><em>Evapotranspiration (ET)</em> is the sum of evaporation of water from terrestrial or aquatic surfaces to the atmosphere and the transpiration of water from vegetation to the atmosphere. Rates of ET increase when there is more solar energy available, higher temperatures, lower relative humidity, and higher wind speeds. We can measure ET both directly and indirectly. We will use 2 direct measurements of ET in our weather station. The first is an evaporation pan that is filled with water. Each day, a hook gauge is used to get an accurate reading of the free water surface within the evaporation pan.</p>
+<p><em>Evapotranspiration (ET)</em> is the sum of evaporation of water from terrestrial or aquatic surfaces to the atmosphere and the transpiration of water from vegetation to the atmosphere. Rates of ET increase when there is more solar energy available, higher temperatures, lower relative humidity, and higher wind speeds. We can measure evaporation both directly and indirectly. We will use 2 direct measurements of evaporation in our weather station. The first is an evaporation pan that is filled with water. Each day, a hook gauge is used to get an accurate reading of the free water surface within the evaporation pan. Pan evaporation generally represents an upper limit of evaporation in a system where water is not limiting. Evaporation in water limited systems is less than pan evaporation because the plants would close their stomates as they become water stressed.</p>
 <p><strong>Evaporation pan:</strong></p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/efJHmCRcIhw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 </iframe>
@@ -1555,12 +1561,12 @@ div.tocify {
 <p><strong>Hygrothermograph:</strong></p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/2NCwYD3W-BA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 </iframe>
-<p>Average <em>wind speed</em> can be calculated from a totalizing anemometer which collects wind passage by recording the number of anemometer rotations. If you only read the totalizing anemometer once a day, you will only be able to calculate a daily average wind speed. Alternatively, our Campbell dataloggers record wind speed every 10 minutes. These data loggers also record <em>net radiation</em> and <em>soil moisture</em> every 10 minutes.</p>
+<p>Total daily <em>wind</em> run can be measured with the totalizing anemometer which continuously records the number of anemometer rotations. Additionally, our Campbell dataloggers record <em>wind speed, net radiation</em>, and <em>soil moisture</em> every 10 minutes.</p>
 </div>
 </div>
 <div id="field-work" class="section level1">
 <h1>Field Work</h1>
-<p>Now that you have an understanding of meteorological stations, work with your field team to take measurements at a field site of your choosing. Note: you will collect your field data together with your group members, but each person will submit their own responses to the Assessment and Field Data Analysis and Synthesis Questions sections.</p>
+<p>Now that you have an understanding of meteorological stations, work with your field team to take measurements at the weather station. Note: you will collect your field data together with your group members, but each person will submit their own responses to the Assessment and Field Data Analysis and Synthesis Questions sections.</p>
 <p><strong>Materials:</strong></p>
 <ol style="list-style-type: decimal">
 <li><p>Notebook and pen</p></li>
@@ -1802,7 +1808,7 @@ $(document).ready(function ()  {
       theme: "bootstrap3",
       context: '.toc-content',
       hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
       },
       ignoreSelector: ".toc-ignore",
       scrollTo: 0
