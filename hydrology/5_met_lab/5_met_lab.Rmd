@@ -25,7 +25,7 @@ At the end of this module, students should be able to accurately collect daily m
 
 [Campbell weather station](https://www.dropbox.com/s/bnedbckg7n66al1/Campbell%20Scientific%20weather%20station%20siting%20web%20link.docx?dl=0){target="_blank"}
 
-[Shelters](https://www.dropbox.com/s/zjv9yc9i97sojmy/Instrement_shelters.pdf?dl=0){target="_blank"}
+[Shelters](https://www.dropbox.com/s/r7vzh08yhsmu2t9/Instrument_shelters.pdf?dl=0){target="_blank"}
 
 
 # Lecture
@@ -134,9 +134,9 @@ Now that you have an understanding of meteorological stations, work with your fi
 
 # Assessment 
 
-### Calculations using pre-collected data provided here: (30 pts)  
+### Calculations using pre-collected data: (30 pts)  
 
-You will download some historical data (31 years, 1988 – 2019) from NOAA and evaluate some of the highs, lows, means, etc. You will also plot time series of the data to determine if there are noticeable trends. Historic weather data are readily available online from the National Oceanic and Atmospheric Administration (NOAA), but we will access these data using R.
+We will give you R code that will download some historical data (31 years, 1988 – 2019) from NOAA and evaluate some of the highs, lows, means, etc. You will also plot time series of the data to determine if there are noticeable trends. Historic weather data are readily available online from the National Oceanic and Atmospheric Administration (NOAA), but we will access these data using R.
 
 **Note:** Documentation for the data is listed below.
 
