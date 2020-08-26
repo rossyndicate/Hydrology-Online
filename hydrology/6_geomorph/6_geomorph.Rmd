@@ -45,7 +45,7 @@ To get the water level gradient, follow the same procedure but hold the stadia r
 
 **Field Wolman Pebble Count Method:**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/8Rr09ix4yVE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0sEM8p8lucs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 The grain size distribution of a streambed and banks influences the channel form and hydraulics, erosion rates, sediment supply, and other parameters. For example, steep mountain streams with boulders and cobbles are different than low-gradient streams with beds of sand or silt. Land management activities can shift sediment delivery or change streamflow which can lead to cumulative impacts to the aquatic ecosystem. Whether aggradation (i.e. accumulation of sediment) or degradation (i.e. removal of sediment) occurs with this shift is a function of the balance between stream power and sediment supply as defined by Lane’s Balance. Lane’s balance diagram (Figure 4) demonstrates how the channel may respond to a change in various parameters, such as sediment load, channel geometry, channel slope, erosional resistance, and discharges (hydrologic load). For example, by increasing the amount of sediment load the left side of the balance will lower and the scale will tip toward aggradation (sediment deposition); to bring the scale back in balance a change in either the channel geometry, slope and/or hydrologic load would be needed. 
 
