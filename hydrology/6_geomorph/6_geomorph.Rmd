@@ -152,7 +152,7 @@ Materials:
 
 2.	Do a pebble count (~ 20 pebbles per team member; 100 pebbles per group) along your cross-section. You will need 3-4 transects across the stream in order to obtain the necessary sample size (each additional transect should be ~5-10 meters upstream/downstream of the previous count). Sampling transects should extend from bankfull to bankfull and sampling should be random.
 
-# Assessment: Calculations using pre-collected data
+# Assessment: Calculations using pre-collected data (20 pts total)
 
 ### Manning’s Equation (10 pts)
 
@@ -188,11 +188,11 @@ Use the Excel Workbook “[Analyzing Pebble Count Data Collected By Size Classes
     
     c.	Does your cumulative particle size distribution support this claim? Why? 
 
-### Field Data Analysis and Synthesis Questions: Using your field-collected data
+### Field Data Analysis and Synthesis Questions: Using your field-collected data (60 pts total)
 
-Use the data you collected in the field work section to answer the following questions (60 pts)
+Use the data you collected in the field work section to answer the following questions
 
-**1.	Cross Sectional and Longitudinal Data**
+**1.	Cross Sectional and Longitudinal Data (10 pts)**
 
 a.	Provide a graph of your cross section showing the channel bed, water’s surface, and bankfull locations. Make sure to label right bank and left bank. (5 pts)
 
@@ -204,17 +204,16 @@ a.	Provide a plot of your particle-size distribution using the pebble count data
 
 b.	On the particle size plot, give the size of the D16, D50, and D84 particles to the nearest millimeter. 
 
-**3.	Manning’s Equation **
+**3.	Manning’s Equation: calculate the following and include in the table outlined below (10 pts)**
 
-a.	Include your Manning’s n in the table outlined below.
 
-b.	Using the cross section data that you collected, use Manning’s Equation to estimate the following and include results in the table outlined below 
+a.	Using the cross section data that you collected, use Manning’s Equation to estimate the following and include results in the table outlined below 
 
     i.	Q using the depth at the thalweg and channel area 
     ii.	Q at bankfull stage 
     iii.	Q at maximum stage as estimated from the elevation of the high water marks
 
-c.	Rearrange and solve Manning's equation for n using the discharge you measured with the Velocity-Area module (i.e., what value would Manning's n have to be for the calculated discharge to equal the measured discharge?) and include in the table outlined below.
+b.	Rearrange and solve Manning's equation for n using the discharge you measured with the Velocity-Area module (i.e., what value would Manning's n have to be for the calculated discharge to equal the measured discharge?) and include in the table outlined below.
 
 **4.	Rosgen Stream Classification: calculate the following and include in the table outlined below (10 pts)**
 
@@ -230,7 +229,7 @@ e.	Characterize the dominant channel material.
 
 f.	Rosgen stream classification
 
-**5.	Relative Bed Stability (RBS): Calculate the RBS and include in the table outlined below**
+**5.	Relative Bed Stability (RBS): Calculate the RBS and include in the table outlined below (5 pts)**
 
 a.	Use the following equations to calculate the LRBS and include the table. 
 
@@ -238,7 +237,7 @@ a.	Use the following equations to calculate the LRBS and include the table.
     
     •	$LRBS = log(RBS)$
 
-Summary table (25 pts):
+Summary table-for sections 2-5 above:
 
 ![](images/table_1.jpg)
 
