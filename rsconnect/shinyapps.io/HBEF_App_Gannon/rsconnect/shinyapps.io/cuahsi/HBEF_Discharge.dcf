@@ -1,0 +1,12 @@
+name: HBEF_Discharge
+title: HBEF_Discharge
+username:
+account: cuahsi
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 2710143
+bundleId: 3560100
+url: https://cuahsi.shinyapps.io/HBEF_Discharge/
+when: 1598450990.13633
+asMultiple: FALSE
+asStatic: FALSE

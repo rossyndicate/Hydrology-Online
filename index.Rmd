@@ -86,8 +86,12 @@ be easily included into class exercises or homeworks.
 
 - [Colorado Streamflow and Watershed Attributes (Stephanie Kampf)](https://cuahsi.shinyapps.io/CO_streamflow/)
 
+- [Hubbard Brook Experimental Forest Discharge by JP Gannon](https://cuahsi.shinyapps.io/HBEF_Discharge/)
 
+- [Joyful Q by Lauren Steely](https://lsteely.shinyapps.io/streamflow_joyplots/)
 
+<br> 
+<br> 
 
 # Biogeochemistry online
 
@@ -95,13 +99,15 @@ We have spent considerably more time developing the hydrology portion of this wo
 but plan on developing more biogeochemistry modules soon. In the meantime we have
 several shinyapps that could be used for interactive teaching. 
 
-## Stand Alone Shiny Applications
+## Stand Alone shiny applications
 
 - [Water quality change in blue river watershed, CO](https://cuahsi.shinyapps.io/blue_watershed/)
 
 - [Weathering impacts from mountaintop mining](https://cuahsi.shinyapps.io/mtm_weathering/)
 
-  
+- [National water quality inventories and data](http://waterqualityexplorer.rc.duke.edu:3838/explorer/)
+
+
 # Acknowledgements 
 
 This work is a collaborative effort across many groups and is funded by an 
