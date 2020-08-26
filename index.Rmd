@@ -28,7 +28,13 @@ complete sets of lectures/homework/applications. Eventually we hope a bunch
 of people will contribute to this page and [hydrolearn](https://www.hydrolearn.org/),
 which helped inspire our approach. 
 
-## Hydrograph Separation
+## Fully developed modules
+
+These modules contain video lectures, assignments, grading rubric and overall
+module goals. 
+
+
+### Hydrograph Separation (Anna Bergstrom)
 
   - [Baseflow and Stormflow lecture and text](hydrology/1_baseflow_stormflow/0_hydrograph_separation_lecture.html)
 
@@ -38,7 +44,7 @@ which helped inspire our approach.
   
   - Interactive web app on mountaintop mining impacts to streamflow [here](https://cuahsi.shinyapps.io/mtm_baseflow/)
   
-## Velocity Area
+### Velocity Area (Covino lab)
   
   - [Velocity Area lecture and text](hydrology/2_velocity_area_module/2_velocity_area_module.html)
   
@@ -46,7 +52,7 @@ which helped inspire our approach.
   
   - Analysis assessment [here](https://www.dropbox.com/s/pp7spwyk9maa4ul/Velo_Area_Assessment.xlsx?dl=0)
   
-## Dilution Gauging
+### Dilution Gauging (Covino lab)
 
   - [Dilution Gauging lecture and text](hydrology/3_dilution_gauging/3_dilution_gauging.html)
   
@@ -54,17 +60,17 @@ which helped inspire our approach.
   
   - Analysis assessment [here](https://www.dropbox.com/s/hkpucfp1g7lhlj3/DG_Assessment.xlsx?dl=0)
   
-## Stream Health
+###  Stream Health (Covino lab)
 
   - [Stream Health lecture and text](hydrology/4_stream_health/4_stream_health.html)
   
   - Analysis assessment [here](https://www.dropbox.com/s/9cmi8a1w448q41e/Stream_Health_Assesment.pdf?dl=0)
 
-## Meteorological Measurements
+### Meteorological Measurements (Covino lab)
 
   - [Meteorological Measurements lecture and text](hydrology/5_met_lab/5_met_lab.html)
 
-## Fluvial Geomorphology
+### Fluvial Geomorphology (Covino lab)
 
   - [Fluvial Geomorphology lecture and text](hydrology/6_geomorph/6_geomorph.html)
   
@@ -73,7 +79,41 @@ which helped inspire our approach.
   - Analysis assessment [here](https://www.dropbox.com/s/x5ullpuu2lu33yd/Mannings_Assessment.xlsx?dl=0)
 
 
+## Stand alone shiny apps
+
+These applications have no teaching material associated with them, but could
+be easily included into class exercises or homeworks. 
+
+- [Colorado Streamflow and Watershed Attributes (Stephanie Kampf)](https://cuahsi.shinyapps.io/CO_streamflow/)
+
+
+
+
 # Biogeochemistry online
 
+We have spent considerably more time developing the hydrology portion of this work,
+but plan on developing more biogeochemistry modules soon. In the meantime we have
+several shinyapps that could be used for interactive teaching. 
+
+## Stand Alone Shiny Applications
+
+- [Water quality change in blue river watershed, CO](https://cuahsi.shinyapps.io/blue_watershed/)
+
+- [Weathering impacts from mountaintop mining](https://cuahsi.shinyapps.io/mtm_weathering/)
 
   
+# Acknowledgements 
+
+This work is a collaborative effort across many groups and is funded by an 
+[NSF RAPID #2028737](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2028737&HistoricalAwards=false). We hope to keep expanding and are eager for community contributions through
+GitHub or directly contacting team members. 
+
+The main contributors to the page so far are: 
+
+- [Tim Covino and his lab](https://covinocsuwatershed.weebly.com/people.html), specifically Karin Emanuelson and Alison Rhea
+
+- [Anna Bergstrom](https://anna-bergstrom.weebly.com/), soon to be Asst. Prof at Boise State
+
+- Bryce Pulver, graduate student in Stephanie Kampf's lab
+
+- [Matt Ross](https://matthewrvross.com/)
