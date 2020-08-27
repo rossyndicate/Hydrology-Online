@@ -1,6 +1,6 @@
 ---
 title: "Stream Health"
-author: "Tim Covino, Allison Rhea"
+author: "Tim Covino, Karin Emanuelson, Allison Rhea"
 date: "8/24/2020"
 output: 
   html_document:

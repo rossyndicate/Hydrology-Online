@@ -1,6 +1,6 @@
 ---
 title: "Velocity Area Module"
-author: "Tim Covino, Karin Emanuelson"
+author: "Tim Covino, Karin Emanuelson, Allison Rhea"
 date: "8/19/2020"
 output: 
   html_document:
