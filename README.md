@@ -29,5 +29,3 @@ This repository is undergoing rapid development, but right now it includes:
  
  - [Variation in flow and ion/metals concentration in two colorado watersheds](https://cuahsi.shinyapps.io/blue_watershed/)
  
- - 
-

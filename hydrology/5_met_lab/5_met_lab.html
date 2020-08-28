@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
 
 <meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
-<meta name="author" content="Tim Covino, Karin Emanuelson" />
+<meta name="author" content="Tim Covino, Karin Emanuelson, Allison Rhea" />
 
 
 <title>Meteorological Measurements</title>
@@ -1404,7 +1405,6 @@ summary {
   border: none;
   display: inline-block;
   border-radius: 4px;
-  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -1433,12 +1433,6 @@ summary {
 }
 }
 
-@media print {
-.toc-content {
-  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
-  float: right;
-}
-}
 
 .toc-content {
   padding-left: 30px;
@@ -1510,7 +1504,7 @@ div.tocify {
 
 
 <h1 class="title toc-ignore">Meteorological Measurements</h1>
-<h4 class="author">Tim Covino, Karin Emanuelson</h4>
+<h4 class="author">Tim Covino, Karin Emanuelson, Allison Rhea</h4>
 <h4 class="date">8/24/2020</h4>
 
 </div>
@@ -1530,7 +1524,7 @@ div.tocify {
 <div id="supplemental-reading" class="section level3">
 <h3>Supplemental Reading:</h3>
 <p><a href="https://www.dropbox.com/s/bnedbckg7n66al1/Campbell%20Scientific%20weather%20station%20siting%20web%20link.docx?dl=0" target="_blank">Campbell weather station</a></p>
-<p><a href="https://www.dropbox.com/s/zjv9yc9i97sojmy/Instrement_shelters.pdf?dl=0" target="_blank">Shelters</a></p>
+<p><a href="https://www.dropbox.com/s/r7vzh08yhsmu2t9/Instrument_shelters.pdf?dl=0" target="_blank">Shelters</a></p>
 </div>
 </div>
 <div id="lecture" class="section level1">
@@ -1611,9 +1605,9 @@ div.tocify {
 </div>
 <div id="assessment" class="section level1">
 <h1>Assessment</h1>
-<div id="calculations-using-pre-collected-data-provided-here-30-pts" class="section level3">
-<h3>Calculations using pre-collected data provided here: (30 pts)</h3>
-<p>You will download some historical data (31 years, 1988 – 2019) from NOAA and evaluate some of the highs, lows, means, etc. You will also plot time series of the data to determine if there are noticeable trends. Historic weather data are readily available online from the National Oceanic and Atmospheric Administration (NOAA), but we will access these data using R.</p>
+<div id="calculations-using-pre-collected-data-30-pts" class="section level3">
+<h3>Calculations using pre-collected data: (30 pts)</h3>
+<p>We will give you R code that will download some historical data (31 years, 1988 – 2019) from NOAA and evaluate some of the highs, lows, means, etc. You will also plot time series of the data to determine if there are noticeable trends. Historic weather data are readily available online from the National Oceanic and Atmospheric Administration (NOAA), but we will access these data using R.</p>
 <p><strong>Note:</strong> Documentation for the data is listed below.</p>
 <p><strong>Stations:</strong> FORT COLLINS, CO US (GHCND:USC00053005)</p>
 <p><strong>Units:</strong> Standard</p>
@@ -1808,7 +1802,7 @@ $(document).ready(function ()  {
       theme: "bootstrap3",
       context: '.toc-content',
       hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
       },
       ignoreSelector: ".toc-ignore",
       scrollTo: 0
