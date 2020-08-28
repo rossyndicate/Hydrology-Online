@@ -1,0 +1,12 @@
+name: Public_WQ_Data
+title: Public_WQ_Data
+username:
+account: cuahsi
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 2721400
+bundleId: 3568645
+url: https://cuahsi.shinyapps.io/Public_WQ_Data/
+when: 1598653056.23297
+asMultiple: FALSE
+asStatic: FALSE

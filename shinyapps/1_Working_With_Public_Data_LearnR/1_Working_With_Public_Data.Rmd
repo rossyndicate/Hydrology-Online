@@ -1,0 +1,369 @@
+---
+title: "Public WQ Data"
+output: learnr::tutorial
+runtime: shiny_prerendered
+---
+
+
+## Setup
+
+The first thing we need to do to start looking at public datasets is to load important `packages` that will help us easily download the data,
+manipulate it's shape, and visualize it. For now we will be using specific packages that you should be aware exist, but you won't know their full functionality and that is totally fine. 
+
+```{r setup,message=F}
+library(learnr) #The package that makes this tutorial run
+library(tidyverse) #A meta-package,dplyr, readr, and more. All of which help shape and visualize data
+library(dataRetrieval) #A package for pulling USGS data from the internet
+library(sf) # A package for plotting spatial data (you won't use this here, but I do to show where the data is)
+library(mapview) #A package for making interactive maps
+```
+
+
+## Where is data available? 
+
+One major difference compared to downloading data from a website verses working with data from a coding environment like R is that it may
+seem initially more difficult to actually *see* where you data is coming from. This may be true early on, but we will build capacity so that
+before you ever download data you can actually see what you are downloading first. 
+
+To do this we will use the `dataRetrieval` package and `sf` and `mapview` to download site information, convert it to a spatial object, 
+and map it out. For now we will focus on looking at sites with discharge data. Later we will pair this data with water quality information.
+The USGS uses parameter codes with seemingly arbitrary numeric strings to indicate specific data types. Here, the parameter Code `00060` indicates 
+discharge data. We use this [website](https://help.waterdata.usgs.gov/code/county_query?fmt=html) to find out the county code for Larimer county.
+
+### Download the data
+```{r data-read}
+larimer <- whatNWISsites(parameterCd='00060',countyCd='08069')
+
+```
+
+### What does this data look like?
+
+There are many commands that help you look at your data these include: `str`,`View`,`head`,`names` and more. Run the code below to see what `head` returns. What about `str`? 
+
+```{r head-vs-structure,exercise=TRUE}
+larimer <- whatNWISsites(parameterCd='00060',countyCd='08069')
+head(larimer)
+```
+
+### Using spatial data
+
+We won't work with spatial data too much in this class, but the code below is at least a minimal example of how to plot your data so you can see
+what sites you are looking at. From the above code chunk we can see that there are two columns with spatial information `dec_lat_va` and
+`dec_long_va`. These indicate spatial data stored as decimal degrees. We can use this data to convert this `data.frame` into a `sf` object which
+acts a lot like a `.shp` file. The command we use to do this conversion is `st_as_sf`. 
+
+The function `st_as_sf` takes specific commands for this conversion to work this includes `x` which is our data.table `larimer`. 
+Next it needs to know the columns that hold coordinate information in x,y order so that is `dec_long_va` and then `dec_lat_va`. 
+Finally it needs to know the projection system used by our data. I happen to know that this system is WGS84 which has the shorthand `EPSG:4326`. 
+Once we have turned the data into a `Simple Feature` spatial object, we can plot it using `mapview`
+
+
+```{r mapview-example}
+larimer.spatial <- st_as_sf(larimer,coords=c('dec_long_va','dec_lat_va'),crs=4326)
+
+mapview(larimer.spatial)
+```
+
+
+### Reproduce the same map with data from Boulder county 
+
+Hint: the county code for Boulder is `08013`
+
+```{r boulder-county,exercise=TRUE, exercise.lines=15}
+
+#Start here
+
+
+
+```
+
+
+## Retrieving data
+
+
+Now that we can see the location of USGS gauging stations on our maps we can pull discharge data for any of those gauging stations in the map. You can see the station id by clicking on a point and looking at the `site_no` column. I'll use the station at Lincoln street (near Odell brewing co), with station id: `06752260`. Do get the data for this site we will once again use the `dataRetrieval` package but this time we are going to use a different function. First one called `whatNWISdata` that will return a dataset that summarizes available data for the gauge.
+
+### What and when is data available?
+
+```{r whatdata}
+available <- whatNWISdata(sites='06752260',
+                                  parameterCd='00060')
+
+str(available)
+```
+
+### Pick a different site from our map and answer the following questions:
+
+- How much data is available? 
+- When was the data recorded? 
+- What are some outputs you don't understanding? 
+
+
+```{r whatdata-exercise, exercise=T}
+#Your site analysis here
+
+```
+
+
+### Download the data
+
+Now that you know when data is available and what types you can download it. Here you need to know a key idea which is how
+often do you want to download the data. The column `data_type_cd` from our `whatNWISdata` function call should return a few choices. Things like `iv` for instantaneous values or `dv` for daily values. For today we will just use `dv` and the function `readNWISdata` to finally directly read in gauge discharge data
+
+```{r qread}
+
+q.data <- readNWISdata(sites='06752260',
+                               service='dv',
+                               parameterCd='00060',
+                               startDate='2015-02-01',
+                               endDate='2019-01-31')
+
+str(q.data)
+
+```
+
+### Download data for your site
+
+- Did the download work?
+- If not, why do you think? Was there data available for the times you entered?
+- Where do you think the Q (discharge) data lives? What column name?
+
+```{r your-q-read,exercise=T}
+#Download your data here
+
+```
+
+
+### Renaming and plotting data
+
+When retrieving data from a large database like the NWIS servers you may find that you download column names that are very
+verbose, confusing, long or unclear. That is because databases like NWIS need to make sure that every possible parameter has clear documentation and can be separated from other similar parameters. For example discharge data can be recorded in 
+cfs (cubic feet per second) or cms (cubic meters per second) and those different units will have different parameter codes. Here the column labeled : `00060_00003` indicates discharge data recorded in cfs. You can see this from the attribute table returned from the `str` call above. 
+
+Having opaque and confusing column names like `00060_00003` makes working with your data harder so we will rename the data and then plot it. You may notice `%>%` in my code. These so-called "Pipes" simply push the results of one command to the next line. It helps keep code clear and readable. I'm also going to filter out any data with discharge < 0 using the `filter` command
+
+```{r cleaning}
+clean.q <- q.data %>%
+  dplyr::rename(q.cfs=X_00060_00003) %>%
+  filter(q.cfs >= 0)
+
+```
+
+For this exercise we will use the `ggplot2` library to plot the data. `ggplot2` is an excellent plotting library with it's 
+own unique syntax that we won't dive deeply into, but there is a ton of help on the interwebs for learning ggplot. 
+
+```{r qplot}
+ggplot(clean.q,aes(x=dateTime,y=q.cfs)) + 
+  geom_point() + 
+  xlab('Date') + 
+  ylab('Discharge (cubic feet per second)')
+
+library(dygraphs)
+
+clean.q %>%
+  select(dateTime,q.cfs) %>%
+  xts::xts(.,order.by=.$dateTime) %>%
+  dygraph(.)
+```
+
+### Clean and plot your data
+
+Because of the way this tutorial works, none of your own objects are saved. So the data you downloaded above has not been saved. You will need to copy and paste your site download code here, use the cleaning code to change the column names, and finally plot the data. 
+
+```{r your-plot,exercise=TRUE, exercise.lines=15}
+
+
+
+
+
+```
+
+
+## What about water quality
+
+This is a water quality class after all. All of the same architecture we used for the above analysis can be used to reproduce water quality data. Here we'll focus on using the same commands from above but changing the `parameterCd` from `00060` for discharge to `00095` for specific conductance. Specific conductance (SC) is a measure of the total ion strength in water, or salinity. SC data is far less common than discharge data, so first let's check if it's available at the Lincoln bridge site. 
+
+
+
+
+```{r scdata}
+sc.available <- whatNWISdata(sites='06752260',
+                                  parameterCd='00095')
+
+
+head(sc.available)
+```
+
+We know data is available, but it ends in 2017. Let's download it all and see how much data we get back
+```{r scdownload}
+
+sc.data <- readNWISdata(sites='06752260',
+                               service='dv',
+                               parameterCd='00095',
+                               startDate='1990-02-01',
+                               endDate='2019-01-31')
+
+tail(sc.data)
+
+
+```
+
+
+From that data it doesn't look like we have daily values beyond 1999. What does the data time series look like? Here we will follow the same procedure from above, but the column we are renaming has changed
+
+```{r scplot}
+
+clean.sc <- sc.data %>%
+  dplyr::rename(sc.uscm=X_00095_00003) %>%
+  filter(sc.uscm >= 0)
+
+ggplot(clean.sc,aes(x=dateTime,y=sc.uscm)) + 
+  geom_point() + 
+  xlab('Date') +
+  ylab(expression(paste('SC (',mu,'s/cm)')))
+
+
+```
+
+There are some interesting seasonal patterns here, some questions you might ask when you see these patterns:
+
+- Does the water quality variation  relate to discharge? 
+- What season would have low SC? High? 
+- What drives patterns of SC on the landscape? 
+
+To start to explore these ideas we can join the discharge data to the SC data. Unfortunately our Q data doesn't cover the same time as the sc data. So we'll have to redownload it and then use a command called `inner_join` that will join the two datasets together when both Q and SC were recorded on the same day. 
+
+What do you think the functions `left_join`, `right_join`, and `outer_join` do? 
+
+```{r qsc-clean}
+
+q.data.90s <- readNWISdata(sites='06752260',
+                               service='dv',
+                               parameterCd='00060',
+                               startDate='1990-02-01',
+                               endDate='2000-01-31') %>%
+  dplyr::rename(q.cfs=X_00060_00003) %>%
+  filter(q.cfs >= 0)
+
+q.sc <- q.data.90s %>%
+  inner_join(clean.sc,by='dateTime')
+
+head(q.sc)
+```
+
+
+Now we have a dataset with both q and sc data and we can plot Q on the x axis and SC on the y axis to look if Q predicts Sc in anyway
+
+```{r qsc-plot}
+ggplot(q.sc,aes(x=q.cfs,y=sc.uscm)) + 
+  geom_point() + 
+  ggtitle('Q SC (Lincoln Bridge, FoCo)') + 
+  xlab('Discharge (cfs)') +
+  ylab(expression(paste('SC (',mu,'s/cm)')))
+
+```
+
+
+That doesn't show a lot of detail because Q varies so much in the time series. Let's plot both sc and Q as `log10` axes
+
+```{r qsc-log}
+ggplot(q.sc,aes(x=q.cfs,y=sc.uscm)) + 
+  geom_point() + 
+  scale_x_log10() + 
+  scale_y_log10() + 
+  xlab('Discharge (cfs)') +
+  ylab(expression(paste('SC (',mu,'s/cm)')))
+
+```
+
+- What describes this relationship?
+- What might drive this variation? When is Q highest? Why is SC lowest then?
+- Why is a low Q at the same time as high SC? 
+
+### Reproduce SC - Q analysis for another station that has both Q and SC
+
+```{r,include=F,eval=F}
+
+#This code finds sites with plenty of SC data
+sc.co <- whatNWISdata(parameterCd='00095',
+                      stateCd='CO',
+                      service='dv')
+
+
+sc.dv <- sc.co %>%
+  filter(data_type_cd=='dv') %>%
+  distinct(site_no,.keep_all=T) %>%
+  filter(count_nu > 1000)
+
+
+
+
+```
+
+
+```{r,echo=F}
+sc.sites <- c("06619400", "06711565", "06752260", "06764000", 
+"07079200", "07079300", "07083710", "07086000", "07087200", 
+"07091200", "07094500", "07097000", "07099400", "07099969", 
+"07099970", "07105530", "07106000", "07106500", "07109500", 
+"07119700", "07120480", "07123675", "07124000", "07126200", 
+"07126300", "07126485", "07130500", "08251500", "09014050", 
+"09041090", "09041400", "09071100", "09071750", "09085000", 
+"09085100", "09085150", "09092970", "09093000", "09093500", 
+"09095000", "09095500", "09105000", "09106200", "09128000", 
+"09136100", "09144250", "09149500", "09152500", "09152600", 
+"09152650", "09152900", "09153300", "09163050", "09163310", 
+"09163340", "09163490", "09169500", "09171100", "09179200", 
+"09243800", "09246200", "09250600", "09251000", "09260000", 
+"09260050", "09304200", "09304800", "09306007", "09306022", 
+"09306042", "09306058", "09306175", "09306200", "09306222", 
+"09306235", "09306255", "09359020", "09361500", "09370820", 
+"09371400", "09371492", "09371520")
+
+sc.sf <- whatNWISdata(sites=sc.sites,
+                       parameterCd='00095') %>%
+  st_as_sf(.,coords=c('dec_long_va','dec_lat_va'),crs=4326)
+
+
+mapview(sc.sf)
+```
+
+<br> 
+
+This may take some exploring, but find another station that has some Q and SC data (more than 500 observations of each) using sites in the map above. Check that the date for available data matches your downloading code, download no more than 5 years of Q and SC data. Pair these datasets together and plot the data with Q on x axis and SC on the Y axis.
+
+Grab a screenshot of this plot (with correctly labeled axes, see code above) and submit it with a paragraph (in a docx or gdoc or pdf) explaining:
+
+
+- Where the data came from (gauge number, and location)
+- How much data was available?
+- What time period was data available?
+- What is the relationship between Q and SC? Same as our analysis or different? 
+
+
+```{r filter, exercise=TRUE,exercise.lines=15}
+
+```
+
+```{r filter-hint-1}
+#Does the available data match your code for downloading the data?
+#Is that true for both the Q and SC data? 
+sc.available <- whatNWISdata(sites='06752260',
+                                  parameterCd='00095')
+
+head(sc.available %>%
+       select(begin_date,end_date,count_nu))
+```
+
+```{r filter-hint-2}
+#For most sites you will need to check for matching dates and then change the 
+#code that downloads the data to match those dates ()
+q.data <- readNWISdata(sites='06752260',
+                               service='dv',
+                               parameterCd='00060',
+                               startDate='1990-02-01', #CHANGE THE DATE IF NEEDED
+                               endDate='2000-01-31') 
+
+## You'll have to change the dat for both the Q and SC data.
+```
+
