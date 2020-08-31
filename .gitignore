@@ -3,3 +3,6 @@
 .RData
 .Ruserdata
 shinyapps/WR440.Lesson-master/data/
+*.csv
+*.shp
+*.RData

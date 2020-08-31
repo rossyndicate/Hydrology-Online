@@ -107,6 +107,10 @@ several shinyapps that could be used for interactive teaching.
 
 - [National water quality inventories and data](http://waterqualityexplorer.rc.duke.edu:3838/explorer/)
 
+## Stand Alone Assignments (interactive tutorials)
+
+- [Working with the WQP](https://cuahsi.shinyapps.io/Public_WQ_Data/)
+
 
 # Acknowledgements 
 
@@ -116,7 +120,7 @@ GitHub or directly contacting team members.
 
 The main contributors to the page so far are: 
 
-- [Tim Covino and his lab](https://covinocsuwatershed.weebly.com/people.html), specifically Karin Emanuelson and Alison Rhea
+- [Tim Covino and his lab](https://covinocsuwatershed.weebly.com/people.html), specifically Karin Emanuelson and Allie Rhea
 
 - [Anna Bergstrom](https://anna-bergstrom.weebly.com/), soon to be Asst. Prof at Boise State
 
