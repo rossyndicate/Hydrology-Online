@@ -18,14 +18,6 @@ This repository is undergoing rapid development, but right now it includes:
 
 - Fully developed lessons following the model of [hydrolearn](https://www.hydrolearn.org/). Lessons can be found [here]()
 
-- The code for a growing number of shiny applications that can be used for interactive classes 
-### Shiny Apps
+- The code for a growing number of shiny applications that can be used for interactive classes. See main page for links
 
- - [How mountaintop mining alters streamflow](https://cuahsi.shinyapps.io/mtm_baseflow/)
- 
- - [How mountaintop mining alters chemical weathering](https://cuahsi.shinyapps.io/mtm_weathering/)
- 
- - [How mountaintop mining alters the topography of Appalachia](https://cuahsi.shinyapps.io/mtm_geomorph/)
- 
- - [Variation in flow and ion/metals concentration in two colorado watersheds](https://cuahsi.shinyapps.io/blue_watershed/)
  
