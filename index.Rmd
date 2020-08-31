@@ -97,7 +97,8 @@ be easily included into class exercises or homeworks.
 
 We have spent considerably more time developing the hydrology portion of this work,
 but plan on developing more biogeochemistry modules soon. In the meantime we have
-several shinyapps that could be used for interactive teaching. 
+several shinyapps that could be used for interactive teaching. Lots more to come
+here before 2021.
 
 ## Stand Alone shiny applications
 
@@ -127,3 +128,13 @@ The main contributors to the page so far are:
 - Bryce Pulver, graduate student in Stephanie Kampf's lab
 
 - [Matt Ross](https://matthewrvross.com/)
+
+# Contribute? 
+
+Want to contribute? You can either directly fork our [GitHub repo](https://github.com/OpenEcoDataLab/Hydrology-Online) and add your
+own content with a pull request. 
+
+OR! 
+
+You can contact us and we can translate your course notes, rubric, and assignment
+into a web version to be hosted here, ideally with YouTube lectures already recorded! 
