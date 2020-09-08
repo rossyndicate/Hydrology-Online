@@ -132,7 +132,7 @@ Materials:
 
 ### 2.1: Cross Section and Gradient Measurements
 
-1.	Mark your cross section with rebar stakes beyond the bankfull width and extend 10 or 20 meeters into the flood-prone area (if possible), and tie a string between the stakes. Work with your team to make sure your string is level. Attach a field tape parallel to the level string and tie tightly to rebar. 
+1.	Mark your cross section with rebar stakes beyond the bankfull width and extend 10 or 20 meters into the flood-prone area (if possible), and tie a string between the stakes. Work with your team to make sure your string is level. Attach a field tape parallel to the level string and tie tightly to rebar. 
 
 2.	Survey your cross section using a stadia rod. You will want to record measurements at a consistent interval (~0.5 meters) as well as each key location (i.e. edges of flood-prone area, bankfull edges, wetted width edges, the thalweg and any other areas with a significant change in slope). At each location, you need to record 2-3 measurements. 1) record the distance of each measurement location on the field tape that is parallel to your level string; 2) record the height of the level string on your stadia rod for each location; 3) record the height of the water on your stadia rod for each location (*only applies to wetted channel). You may assign any arbitrary elevation value to the level string—it could be zero, or 10 feet, or 10 meters, or whatever.  
 
@@ -144,7 +144,7 @@ Materials:
 
 ### 2.2: Manning’s Roughness Coefficient
 
-1.	Estimate a value for Manning's "n" for the area immediately around your cross section.  Guidance for this should come from the picture books provided during lab.
+1. Use both the comparative and analytical methods to make two estimates of Manning's "n" for the area immediately around your cross section.  First, you will use the provided picture books to select the best match while keeping in mind substrate size and type, vegetation, and the width and depth of flow. Then you will use the analytical Cowan’s method to estimate a base n value and associated adjustments for your site. Be sure to reference the provided tables when making these estimates.
 
 ### 2.3: Wolman Pebble Count
 
@@ -207,7 +207,7 @@ b.	On the particle size plot, give the size of the D16, D50, and D84 particles t
 **3.	Manning’s Equation: calculate the following and include in the table outlined below (10 pts)**
 
 
-a.	Using the cross section data that you collected, use Manning’s Equation to estimate the following and include results in the table outlined below 
+a.	a.	Using the cross-section data that you collected and the roughness coefficient (n) you derived from the Cowan method, apply Manning’s Equation to estimate the following and include results in the table outlined below.
 
     i.	Q using the depth at the thalweg and channel area 
     ii.	Q at bankfull stage 
