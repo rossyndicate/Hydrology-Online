@@ -67,6 +67,12 @@ Manning’s roughness coefficient (n) is commonly determined in the field by the
 **See supplemental video here:**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/tOk4H15WYUk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+\n
+
+See supplemental reading [here](https://www.dropbox.com/s/z9j4isaf8smr9du/Milhous_paper.pdf?dl=0):
+
+Limerinos online [calculator](https://il.water.usgs.gov/proj/nvalues/equations.shtml?equation=08-limerinos). Can cal
+
 
 To use the comparative method, photographs of channel segments for which n values have been verified can be used as a comparison standard to aid in assigning n values to similar channels. Refer to the USGS and USFS guides for selecting roughness coefficients:
 
