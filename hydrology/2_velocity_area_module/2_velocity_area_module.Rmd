@@ -56,7 +56,7 @@ For example, when the stream is 2.5 feet (76.2 cm) deep or shallower, we can use
 
 ## 1.4: To use the top setting wading rod
 
-The depth of the water is read on the graduated hex main rod. Then the round setting rod is adjusted to the depth of the water, the current meter is automatically positioned for the 0.6-depth method (0.4-depth position up from the streambed). Setting the unit to half the water depth will place the meter at the 0.2-depth up from the streambed. Conversely, setting the unit to twice the water depth will place the meter at the 0.8-depth position up from the streambed. The latter two positions correspond to the conventional two-position method. 
+The depth of the water is read on the graduated hex main rod. Then the round setting rod is adjusted to the depth of the water, the current meter is automatically positioned for the 0.6-depth method (0.4-depth position up from the streambed). Setting the unit to half the water depth will place the meter at the 0.8-depth (0.2-depth position up from the streambed). Conversely, setting the unit to twice the water depth will place the meter at the 0.2-depth (0.8-depth position up from the streambed). The latter two positions correspond to the conventional two-position method. 
 
 ## 1.5: Steps to making velocity-area measurements
 
