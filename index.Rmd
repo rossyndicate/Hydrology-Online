@@ -80,7 +80,7 @@ module goals.
   
 ### Hydrographs & Rating Curves (Covino lab)
 
-[Hydrographs & Rating Curves lecture and text](hydrology/7_rating_curve/7_rating_curve.html)
+  - [Hydrographs & Rating Curves lecture and text](hydrology/7_rating_curve/7_rating_curve.html)
 
 
 ## Stand alone shiny apps
