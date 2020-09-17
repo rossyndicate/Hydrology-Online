@@ -1,0 +1,127 @@
+---
+title: "Hydrographs & Rating Curves"
+author: "Tim Covino, Karin Emanuelson, Allison Rhea"
+date: "9/17/2020"
+output: 
+  html_document:
+    toc: true
+    toc_depth: 3
+    toc_float: true
+---
+
+# Summary
+
+A stream’s volumetric flow rate, hereafter referred to as discharge, is a parameter of interest for scientists and practitioners in various areas of hydrology. However, producing a continuous record of discharge (i.e. hydrograph) involves obtaining a continuous record of stage (i.e. water depth), making discharge measurements over a range of stages, establishing and maintaining a relation between the stage and discharge, and applying the stage-discharge relation to the stage record.  A hydrograph can provide insight into the primary drivers of flow (i.e. rain vs snow) and can be tracked to ensure users have access to their water rights as well as be used in flooding risk assessments. 
+
+## Overall Learning Objectives
+
+At the end of this module, students should be able to describe hydrographs of rain vs snow dominated systems, create a stage-discharge relationship, and understand the different methods used to measure streamflow.
+
+# Lecture
+
+## 1.1: Hydrographs and Rating Curves
+
+A hydrograph is a time series of stream discharge at a specific point in a river. Hydrographs are constructed by continuously measuring stage (depth of water) and developing a rating curve (Figure 1), which is a relationship between stage (D) and discharge (Q) at a specific monitoring location. Discharge must be measured at stream gaging stations using the velocity-area or dilution gauging method across a variety of streamflows. The stage-discharge relationship typically takes the form of a power law equation (Equation 1). By using this mathematical relationship between stage and discharge we can convert a continuous stage record to a continuous discharge record (Figure 2).
+
+![](images/figure_1.jpg)
+
+![](images/figure_2.jpg)
+
+This stage-discharge relationship depends on the hydraulic characteristics of the stream channel. Therefore, if the channel geometry changes as a result of erosion or deposition, the rating curve needs to be updated. Because of this, it is best practice to take stage measurements at a control structure (i.e. weirs and flumes) or stable cross section (i.e. at bridges or where bedrock is confining the channel). Additionally, it is important not to extrapolate the stage-discharge relationship for data larger or smaller than discharges measured in the field that were used to create your rating curve. The stage-discharge relationship could break down at these high flows and lead you to inaccurately predict discharge from stage.
+
+## 1.2: Rain versus Snow dominated systems
+
+The shape of the hydrograph can tell you a lot about the system that you are working in. The most common conclusion that can be drawn from a hydrograph is whether a system is snow or rain dominated. Typically hydrologists prefer to conduct analyses based on the water year (October 1 - September 30) as opposed to the calendar year. This allows the comparison of incoming precipitation and outgoing streamflow, and specifically ensures that snow delivered in October- December is accounted for in the same time period that it is likely to melt, which may be in spring or summer of the following calendar year.
+
+A snow dominated hydrograph (Figure 3) typically has a prominent peak in discharge during the spring and summer months driven by snowmelt as temperatures warm. Alternatively, a rain dominated hydrograph is characterized by high magnitude, short duration increases in flow due to specific rain events (Figure 4). These temporal patterns of high and low flows are referred to collectively as a river’s flow regime. The flow regime plays a key role in regulating geomorphic processes that shape river channels and floodplains, ecological processes that govern the life history of aquatic organisms, and is a major determinant of the biodiversity found in river ecosystems.
+
+![](images/figure_3.jpg)
+
+![](images/figure_4.jpg)
+
+## 1.3: Making Stage Measurements
+
+Stage, or water depth, measurements can be continuously collected with either analog methods (a chart recorder with float gauge) or digital methods (pressure transducers or capacitance rods). These instruments are commonly placed in a stilling well to reduce noise induced by waves. This continuous measurement is usually accompanied with a staff gage which is used to take point measurements on site by a technician. Often control structures are utilized when routinely taking stage measurements at a specific cross section. Control structures such as flumes and weirs are advantageous as they slow stream water, create a smooth surface to measure stage and have a well-known, unchanging geometry. Flumes are self-cleaning whereas weirs are not. Weirs tend to create a pond upstream of the structure.
+
+**USGS Gaging Station Video:**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BaSgOHYhj_o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+**Montana DNRC Video:**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bxHagMo6nm0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## 1.4: Applications of streamflow and stream gage 
+
+Stage and streamflow is important for a variety of applications. Check out this USGS video describing applications of how the data collected at USGS stream gaging sites is used:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9H-0A3nJabM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+# Assessment: (20 pts)
+
+## Hands-on Activity (10 pts)
+
+Similar to a stage-discharge relationship you would make in a stream, you can make a volume-depth relationship with any cup or bowl at your house. 
+
+**Materials:**
+
+1. 2 different water vessels (i.e. cups, water bottles and bowls). Make sure they vary in size and shape.
+2. Measuring cup
+3. Ruler
+4. Notebook
+
+a.	Using the measuring cup, add a known amount of water into one of the water vessels.
+b.	Measure the height of the water with your ruler.
+c.	Record the total amount of water in the cup and depth of the water.
+d.	Repeat steps 1 – 3, 5 times. Be sure you have a large range of water depths ranging from almost empty to full.
+e.	Repeat the above steps with your second water vessel.
+f.	Plot your results for each water vessel separately. Put the depth of water on the x-axis and the volume on the y-axis. Add a best fit line to your plot. Include these two plots in your Assessment submission. (5 pts)
+g.	Reflect: What are the differences between your two plots? What is the primary factor controlling the difference between the two volume-stage relationships you developed in the hands on activity? (5 pts)
+
+**Activity Video:** 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/In-J9mHh6rU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+## Data Analysis Activity: Calculations using pre-collected USGS data. (10 pts)
+
+**1.	Create a Rating Curve from USGS Data (5 pts)**
+
+a.	Navigate to the USGS webpage for USGS 06752280 CACHE LA POUDRE RIV AB BOXELDER CRK NR TIMNATH, CO [here](https://waterdata.usgs.gov/nwis/inventory/?site_no=06752280&agency_cd=USGS){target="_blank"}: 
+b.	Select ‘Field Measurements’
+c.	Select Tab-separated data without channel data
+d.	Right Click and save as text document
+e.	Open this field measurement text document in Excel (note this is a tab separated file with headers)
+f.	Create Stage-Discharge graph for all measurements taken in years 2008 – 2020 that have a quality rating of Good. Include this graph in your submission.
+
+      i.	Ensure Stage is on the x-axis and Discharge is on the y-axis
+      ii.	Add a power trendline and display equation on the graph.
+
+**2.	Create a hydrograph for the 2019 water year (2018-10-01 to 2019-09-30). (5 pts)**
+
+a.	In a web browser search for USGS 06752280 CACHE LA POUDRE RIV AB BOXELDER CRK NR TIMNATH, CO
+b.	Navigate to the USGS webpage and Select ‘Daily Data’
+c.	Select Graph as Output format and enter Begin and End dates then press GO
+d.	Save the graph to submit with this assignment.
+
+# Synthesis Questions: Using the rating curve and hydrograph you developed above (35 pts)
+
+1.	Using the rating curve you created, answer the following questions:
+
+    a.	What is the discharge at this site for a stage of 3.35 ft? (5 pts)
+    b.	Is it appropriate to estimate discharge for a stage of 8.5 ft with this rating curve? If so, what is the discharge? If not, why? (5 pts)
+    
+2.	Looking at the hydrograph you created for USGS 06752280 CACHE LA POUDRE RIV AB BOXELDER CRK NR TINMATH, CO explain if this a snow melt or rain dominated system? Why? (5 pts)
+3.	Describe the process to create a rating curve at a stream site be sure to include information on (5 pts):
+
+    a.	The requirements of a good cross section to establish the site.
+    b.	When and how frequently you would make discharge measurements.
+    c.	What instrumentation would you use to collect continuous stage measurements.
+    
+4.	Give three examples of how stream gage data is used? (5 pts)
+5.	Rating curves often change over time. For example, see figure 5 below. Please describe why rating curves, such as the one below, can change through time. (10 pts) 
+
+
+![](images/figure_5.jpg)
+
+

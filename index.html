@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
 
 <meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
@@ -1404,7 +1405,6 @@ summary {
   border: none;
   display: inline-block;
   border-radius: 4px;
-  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -1433,12 +1433,6 @@ summary {
 }
 }
 
-@media print {
-.toc-content {
-  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
-  float: right;
-}
-}
 
 .toc-content {
   padding-left: 30px;
@@ -1578,6 +1572,12 @@ div.tocify {
 <li><p>Analysis assessment <a href="https://www.dropbox.com/s/x5ullpuu2lu33yd/Mannings_Assessment.xlsx?dl=0">here</a></p></li>
 </ul>
 </div>
+<div id="hydrographs-rating-curves-covino-lab" class="section level3">
+<h3>Hydrographs &amp; Rating Curves (Covino lab)</h3>
+<ul>
+<li><a href="hydrology/7_rating_curve/7_rating_curve.html">Hydrographs &amp; Rating Curves lecture and text</a></li>
+</ul>
+</div>
 </div>
 <div id="stand-alone-shiny-apps" class="section level2">
 <h2>Stand alone shiny apps</h2>
@@ -1676,7 +1676,7 @@ $(document).ready(function ()  {
       theme: "bootstrap3",
       context: '.toc-content',
       hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
       },
       ignoreSelector: ".toc-ignore",
       scrollTo: 0

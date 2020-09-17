@@ -77,6 +77,10 @@ module goals.
   - Rubric [here](hydrology/6_geomorph/6_geomorph_files/geomorph_rubric.pdf)
   
   - Analysis assessment [here](https://www.dropbox.com/s/x5ullpuu2lu33yd/Mannings_Assessment.xlsx?dl=0)
+  
+### Hydrographs & Rating Curves (Covino lab)
+
+  - [Hydrographs & Rating Curves lecture and text](hydrology/7_rating_curve/7_rating_curve.html)
 
 
 ## Stand alone shiny apps
