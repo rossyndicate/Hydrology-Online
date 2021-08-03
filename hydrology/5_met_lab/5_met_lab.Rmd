@@ -1,7 +1,7 @@
 ---
 title: "Meteorological Measurements"
 author: "Tim Covino, Karin Emanuelson, Allison Rhea"
-date: "8/24/2020"
+date: "8/3/21"
 output: 
   html_document:
     toc: true
@@ -11,7 +11,7 @@ output:
 
 # Summary
 
-In this module, you will gain familiarity and experience in: (1) operating a weather station; (2) downloading electronic data; and (3) interpreting, integrating, analyzing, and presenting weather station data. You will also compare data from 3 sources: (1) the WR417 weather station that you maintain; (2) the official Fort Collins weather station; and (3) historic Fort Collins meteorological data from NOAA. This will familiarize you with a variety of climate data sources and give you an idea of what range of values to expect for your monitoring period. 
+In this module, you will gain familiarity and experience in: (1) operating a weather station; (2) downloading electronic data; and (3) interpreting, integrating, analyzing, and presenting weather station data. You will also compare data from 3 sources: (1) the weather station that you maintain; (2) the official Fort Collins weather station; and (3) historic Fort Collins meteorological data from NOAA. This will familiarize you with a variety of climate data sources and give you an idea of what range of values to expect for your monitoring period. 
 
 ### Overall Learning Objectives: 
 
